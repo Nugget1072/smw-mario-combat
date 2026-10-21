@@ -5,7 +5,9 @@ This is Super Mario World with the Mario from the Flash game "Mario Combat":
 - his own sprites, animations, punches, kicks, combos, wall slides and sounds;
 - his movement, ported line by line from the original game's ActionScript and
   checked against the original;
-- inside the snesrev/smw C reimplementation of Super Mario World.
+- inside the snesrev/smw C reimplementation of Super Mario World;
+- plus Mario Combat's own story level (Esc > LEVEL SELECT > MARIO COMBAT) and,
+  as cheats, its Koopas and Bowser.
 The title screen says so: under the SUPER MARIO WORLD logo a "+" and Mario
 Combat's own logo (its fiery main-menu lettering).
 
@@ -126,146 +128,48 @@ Pages:
   - Stick deadzone (10% to 50%, normally 30%): how far the left stick has to
     be pushed before Mario moves. Lower it for a worn or light stick, raise
     it if Mario drifts on his own.
-- CHEATS (on/off, or a choice of value; saved with your settings). A gold star
-  marks the ones that are on; the CHEATS page shows how many are on and has ALL CHEATS OFF.
-  The line under the options explains the highlighted one.
-  - MARIO CHEATS:
-    - Infinite MC life, No damage (enemies can't hurt either Mario),
-      Invincible (star power without the music).
-    - No knockback (MC): hits still cost life, but Mario Combat Mario is not
-      knocked back or stunned (also not by a Koopa Kid's ground pound).
-    - Knockback (MC): how far hits knock Mario Combat Mario, from 1X
-      (normal) to 20X (twenty times as far; left / right picks the step).
-      A light hit (SMW's enemies) pushes him along the ground, a heavy one
-      (a Mario Combat enemy's strong attack) also throws him up, so at the
-      top steps he can be knocked a long way, even into a pit. No knockback
-      wins when both are on.
-    - One-hit mode: any hit is fatal (a challenge; No damage and Infinite MC
-      life still protect).
-    - Power-up lock (mushroom / feather / fire flower; the row shows the item).
-    - Always Yoshi: every level and room starts on Yoshi (except where SMW
-      itself leaves Yoshi outside, like castles and ghost houses).
-    - Flying Yoshi: Yoshi always has wings (as in SMW's wings bonus area):
-      tap jump while riding to fly.
-    - Life steal (MC): every punch or kick that lands on an enemy gives
-      Mario Combat Mario half a point of life back.
-  - MOVE CHEATS:
-    - Super punch (MC): every punch and kick is a strong hit. It knocks out
-      any ordinary enemy at once, even ones SMW makes immune to the cape and
-      stomps (Thwomps, Boos, Urchins, Hotheads...). Bosses are not affected.
-    - Double jump: both Marios can jump once more in the air (A: a spin jump).
-    - Infinite jumps: jump again in the air as often as you like.
-    - Ground pound: press Down in the air. Mario stops, spins once in the
-      air (Mario Combat Mario somersaults in his own curled-up tumble; SMW
-      Mario in his spin-jump spin), then drops straight down (curled up /
-      ducking); the landing shakes the screen, puffs smoke to both sides and
-      knocks out enemies standing on the ground (SMW's cape-dive pound).
-    - Wall jump (SMW Mario): hold toward a wall in the air to slide down it,
-      press jump to kick off (Mario Combat Mario already wall jumps).
-    - Moon jump (hold jump to keep rising), Always P-speed.
-    - Air dash: in the air, L dashes left and R dashes right (keyboard C / V,
-      gamepad triggers by default): Mario shoots about five blocks straight
-      across without falling, with the cape's swish and a puff of smoke.
-      Once per jump (landing gives it back); a jump, a ground pound, an
-      attack or a wall ends it early: Mario stops at the wall (a pipe's side
-      too) and goes on at normal running speed. Both Marios.
-    - Fire punch (MC): every punch and kick also throws SMW's fireball,
-      whatever the power-up (two at a time, as SMW allows).
-    - Instant hits (MC): every attack's hit box comes out on its first
-      frame, and a new press after a hit goes straight into the next move
-      of the combo (or, after a finisher, a new attack), so combos are as
-      fast as you press. Pressing a little later still picks Mario Combat's
-      later combo branches. While attacking, Mario's lunges don't add up
-      beyond his running speed.
-    - Block buster (MC): punches and kicks also shatter grey (cement) and
-      used blocks, one block per hit (never the floor Mario stands on).
-  - ENEMY CHEATS:
-    - Triple enemies: every ordinary enemy a level loads comes with two more.
-      Walkers get them beside them on the same floor, fliers and swimmers also
-      above / below, and enemies that live in terrain where the same terrain
-      is (moles in dirt, plants in another pipe or taking turns in their own,
-      net Koopas on the net, Podoboos in lava, line-guided enemies on the
-      line). Bosses, Koopa Kids, Magikoopa, Lakitu and Hammer Bros are left
-      alone. SMW only allows a few sprites at once per level: when the screen
-      is full, a copy waits for a free slot (up to 10 seconds), and one slot
-      always stays free so items, keys and P-switches still appear.
-    - MC Koopas: SMW's Koopa Troopas become Mario Combat's Koopas (its art,
-      animations, AI and punches; 10 life, Mario Combat's damage and
-      knockback per hit). Stomps hit them; a spin jump, shells, fire, the
-      cape, a slide, a star and Yoshi work on them as on any Koopa. The cape
-      hits them at most once every half second.
-    - King Koopas: SMW's Koopa Troopas become Bowser, Mario Combat's final
-      boss (50 life, half of Mario Combat's 100; fire breath, jump attacks
-      with shockwaves, his health bar). Mario Combat Mario's attacks do Mario Combat's damage; SMW Mario
-      hurts him with fireballs (light), the cape (medium, at most once every
-      half second), spin jumps, Yoshi, shells, a cape dive, a slide or the
-      star (strong). A plain jump only bounces off his spiked shell: land on
-      him with a spin jump.
-      Falling into a pit or lava teleports him back to the middle of the
-      screen. Defeating him gives a 1-UP. Can't be on with MC Koopas.
-    - MC hit reactions: SMW's ordinary enemies take Mario Combat Mario's
-      punches and kicks the way the MC Koopas do. Each has 10 life and loses
-      Mario Combat's damage per hit; jabs push it back, combo finishers and
-      kicks send it flying (it bounces off walls, tumbles and bounces when it
-      lands, slides until its push is spent, and can be knocked into pits or
-      off the screen). Then it carries on as before. Chargin' Chucks and
-      Monty Moles (once out of the ground) fly back too. Fliers are pushed
-      through the air; enemies that are in a pipe, the dirt, a net, lava or
-      on a line are stunned in place. The hit that empties its life knocks it
-      out the normal way (or knocks it over, for the ones Mario can pick up).
-      Bosses, the Wiggler and enemies a punch can't defeat (Thwomps, Boos...)
-      are not affected (with Punch anything on, they are).
-    - Coins from enemies: every defeated enemy pops out a coin.
-    - Stomp anything: any enemy can be stomped from above, even spiky ones
-      (Spinies, Spike Tops, Piranha Plants...); it reacts as SMW's stomped
-      enemies do (flipped, stunned or knocked out).
-    - Punch anything (MC): Mario Combat Mario's punches and kicks hurt the
-      enemies that nothing but a star can (Boos, Eeries, Big Boos, Fishin'
-      Boos, Wigglers, Thwomps, Thwimps, Urchins, Hotheads, Sparkies, Blarggs,
-      Grinders, Torpedo Teds, Fishbones, gas bubbles...): a hit knocks one out
-      like any other enemy, and with MC hit reactions on they take Mario
-      Combat's hits and fly. A Pokey loses the segment the punch lands on, as
-      when a shell hits it. Bosses, items and platforms are not affected.
-    - Fast enemies: ordinary enemies move and act twice as fast: they walk,
-      fly, jump, throw and come out of pipes at double speed (on double
-      time, so a throw still happens once).
-    - Chasing enemies: walking enemies (Koopas, Goombas, Spinies, Buzzy
-      Beetles, Bob-ombs, Dry Bones, Rex, Dino-Rhinos, Wigglers, Mega Moles,
-      Mechakoopas...) keep turning to walk toward Mario instead of walking
-      on.
-    - Jumping enemies: those walking enemies jump (about two blocks high)
-      every time Mario jumps off the ground (either Mario).
-    - Respawning enemies: a defeated enemy comes back when Mario goes on
-      and its spot scrolls back into view, as in the older Mario games
-      (SMW itself only brings back the ones that walked off the screen).
-      Items, keys and P-switches don't come back.
-    Bosses, Koopa Kids and Mario Combat's Koopas and Bowser are never changed
-    by these three.
-  - WORLD CHEATS:
-    - Infinite time, Infinite lives, All switch blocks.
-    - Replay castles (A/B enters a destroyed castle or fortress again; the
-      original game only allows L+R on a destroyed castle).
-    - Slow motion: levels run at half speed (the music keeps its speed).
-    - Mirror mode: levels are mirrored left <-> right and Left / Right swap.
-      The status bar, message boxes and life bar stay readable.
-    - Slippery levels: every level is as slippery as an ice level, for both
-      Marios (slow starts, long slides; standing still stays still). Mario
-      Combat Mario slides on the game's own ice levels too.
-    - Pit rescue: falling into a pit puts Mario back on the last ground he
-      stood on in that room, and costs a hit instead of a life (Mario Combat
-      Mario loses life, SMW Mario powers down; small SMW Mario still dies).
-    - Coin magnet: coins within 4 blocks of Mario fly out to him, one per
-      frame (Yoshi coins count as collected Yoshi coins). Off while a blue
-      P-switch runs, since coins are blocks then.
-    - Open map: on the map Mario can walk past levels he hasn't beaten and
-      along paths that aren't open yet (they are drawn), and play any level.
-      Your save's progress is not changed: with the cheat off, the next map
-      shows your own map again. (SMW still marks the way back from a level
-      Mario arrives at, as it always does.)
-    - Low gravity: both Marios fall with half of their gravity, so every
-      jump goes about twice as high and far (also on Yoshi). Swimming,
-      climbing and cape flight are unchanged.
-  - Pits, lava and being crushed still cost a life.
+- CHEATS: switch them on and off here (saved with your settings). A gold star
+  marks the ones that are on; ALL CHEATS OFF turns them all off. The line
+  under the list explains the highlighted cheat. (MC) = Mario Combat Mario only.
+  MARIO
+  - Infinite MC life / No damage / Invincible (star power, no star music)
+  - One-hit mode: any hit is fatal
+  - No knockback (MC), or Knockback (MC) 1X to 20X: how far hits throw him
+  - Power-up lock: always mushroom, feather or fire flower
+  - Always Yoshi / Flying Yoshi
+  - Life steal (MC): every punch that lands gives back half a point of life
+  MOVES
+  - Super punch (MC): every punch knocks out any normal enemy at once
+  - Double jump / Infinite jumps / Moon jump (hold jump to keep rising)
+  - Ground pound: Down in the air
+  - Wall jump for SMW Mario (MC Mario always has it)
+  - Air dash: L / R in the air (keyboard C / V)
+  - Always P-speed
+  - Fire punch (MC): punches also throw fireballs
+  - Instant hits (MC): attacks hit on their first frame, combos as fast as
+    you press
+  - Block buster (MC): punches break grey and used blocks
+  ENEMIES
+  - Triple enemies: every normal enemy comes with two more
+  - MC Koopas: Koopa Troopas become Mario Combat's Koopas
+  - King Koopas: Koopa Troopas become Mario Combat's Bowser (SMW Mario: spin
+    jump on him, a plain jump bounces off)
+  - MC hit reactions (MC): enemies take damage and fly from punches like the
+    MC Koopas
+  - Punch anything (MC): punches also hurt Boos, Thwomps, Wigglers...
+  - Stomp anything: even spiky enemies can be stomped
+  - Coins from enemies / Fast enemies / Chasing enemies / Jumping enemies
+    (they jump when Mario does) / Respawning enemies
+  Bosses are never changed by the enemy cheats.
+  WORLD
+  - Infinite time / Infinite lives / All switch blocks
+  - Replay castles: enter beaten castles and fortresses again
+  - Slow motion / Mirror mode / Slippery levels / Low gravity
+  - Pit rescue: a fall costs a hit instead of a life
+  - Coin magnet: nearby coins fly to Mario
+  - Open map: walk anywhere on the map and play any level (your save is not
+    changed)
+  Pits, lava and being crushed still cost a life.
 - LEVEL SELECT: play any level of the game from its beginning.
   - MARIO COMBAT (at the top of the page): Mario Combat's own level, all of
     its story mode, drawn with Mario Combat's own art (its stone, Bowser
@@ -455,5 +359,15 @@ CREDITS
 - snesrev/smw (MIT License, see LICENSE.txt): the C reimplementation, with PPU
   and DSP from LakeSnes.
 - SDL2 (zlib license), statically linked.
-This is a personal fan project. Please don't sell it, and don't share it with a
-ROM included.
+- Made almost entirely by an AI (Claude, via Claude Code) under a human's
+  direction: it's AI slop, and works as it is.
+
+LICENSE AND DISCLAIMER
+----------------------
+The work added by this project is public domain (The Unlicense): do whatever
+you want with it. That can't cover what belongs to others: snesrev/smw is MIT
+(LICENSE.txt), Mario Combat's art, sounds and music belong to its creators,
+and Super Mario World and Mario belong to Nintendo.
+This is an unofficial fan project, not affiliated with or endorsed by Nintendo
+or the makers of Mario Combat. No ROM is included: never share it with one.
+It comes as is, without any warranty.
