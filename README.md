@@ -39,8 +39,8 @@ repository: the only file you add is the ROM.
 ## Build (Windows, PowerShell)
 
 ```powershell
-git clone <this repository>
-cd <the clone>
+git clone https://github.com/Nugget1072/smw-mario-combat.git
+cd smw-mario-combat
 # your ROM, renamed:
 copy "path\to\Super Mario World.sfc" games\SuperMarioWorld\smw.sfc
 # where SDL2's MinGW files are (the folder that has include\ and lib\):
@@ -81,7 +81,8 @@ inputs; building and playing don't.
 **Do whatever you want with it.** The work added in this repository is released into the **public domain** under
 [The Unlicense](LICENSE): copy it, change it, sell it, no credit needed.
 
-That can only cover what this project made. Some things here belong to others and keep their own terms:
+That can only cover what this project made (the Mario Combat port, its tools, scripts, notes and docs). Some things
+here belong to others and keep their own terms:
 
 - **snesrev/smw** (`games/SuperMarioWorld`): MIT License, see
   [`games/SuperMarioWorld/LICENSE.txt`](games/SuperMarioWorld/LICENSE.txt) (also Opus' license); `third_party/`

@@ -22,18 +22,3 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>
-
----------------------------------------------------------------------------
-Scope: this dedication covers the work added in this repository (the Mario
-Combat port, its tools, scripts, notes and docs). It cannot cover material
-that belongs to others, which keeps its own terms:
-
-- games/SuperMarioWorld: the snesrev/smw reimplementation, MIT License
-  (games/SuperMarioWorld/LICENSE.txt, which also carries the Opus license),
-  with stb_image (public domain / MIT) and gl_core in third_party/.
-- Mario Combat's art, animations, sounds and music (exported into
-  games/SuperMarioWorld/src/mc/*_data.c, mc_sounds.c, mc_music.c,
-  mc_level_art.c and the icon) belong to the creators of the Flash game
-  "Mario Combat".
-- Super Mario World, Mario and related names and characters belong to
-  Nintendo. No ROM or ROM-derived data is included.
