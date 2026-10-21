@@ -1,0 +1,48 @@
+# Multi-hit enemies (Yoshi's Island 1), with the No-damage cheat on so contact can't cut the test short.
+# `attack <id> <reach> [air]` walks toward the sprite and punches (or jumps and spin-kicks) facing it.
+# 1) Rex: a jab shrinks it; a second jab knocks it out.
+# 2) Another Rex: one air spin kick (strong, hit level 6) knocks it out at once.
+# 3) Clappin' Chuck near the goal: three jabs (waiting out its hurt animation between them) knock it out.
+loadstate 9
+wait 5
+cheat 1 1
+glide 600 200
+wait 10
+log mh.csv
+attack AB 26
+wait 8
+shot h00_rex_first_jab
+sprites
+wait 30
+attack AB 22
+wait 8
+shot h01_rex_second_jab
+sprites
+wait 30
+shot h02_rex_gone
+glide 1180 200
+wait 10
+attack AB 40 air
+wait 4
+shot h03_air_kick_rex
+sprites
+wait 40
+glide 4700 200
+wait 20
+attack 95 26
+wait 8
+shot h04_chuck_hit1
+sprites
+wait 110
+attack 95 26
+wait 8
+shot h05_chuck_hit2
+sprites
+wait 110
+attack 95 26
+wait 8
+shot h06_chuck_hit3
+sprites
+wait 30
+shot h07_chuck_gone
+quit

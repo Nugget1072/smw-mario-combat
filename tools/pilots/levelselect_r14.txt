@@ -1,0 +1,61 @@
+# Level select (round 14): from the map (state 9, a death in YI1) choose Yoshi's Island 2, from inside it Donut Plains 1
+# (bank 0, main map), then Yoshi's Island 3 and its pipe room (bank 1), then a death: the map comes back as it was
+# (same progress hash, same tile). Through the menu once (LEVEL SELECT > DONUT PLAINS > DONUT SECRET HOUSE: the door scene,
+# then the house).
+loadstate 9
+wait 5
+kill
+wait 400
+whereami
+progress
+shot l00_map
+levelselect 106
+wait 240
+whereami
+shot l01_yi2
+levelselect 015
+wait 240
+whereami
+shot l02_dp1
+levelselect 103
+wait 240
+glide 1752 120
+wait 40
+hold DOWN
+wait 30
+hold
+wait 120
+whereami
+shot l03_yi3_room
+kill
+wait 450
+whereami
+progress
+shot l04_map_again
+menu
+wait 2
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+# (rounds 15 / 20: Down past BOSS RUSH and MARIO COMBAT, the page's first rows)
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Return
+wait 200
+whereami
+shot l05_secret_house_door
+hold RIGHT
+wait 120
+hold
+wait 200
+whereami
+shot l06_secret_house
+quit

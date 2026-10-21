@@ -1,0 +1,16 @@
+loadstate 9
+wait 5
+cheat 3 1
+cheat 1 1
+wait 10
+shot d0
+kill
+wait 330
+shot d1_map
+hold B
+wait 4
+hold
+wait 150
+shot d2_back_in_level
+quit
+

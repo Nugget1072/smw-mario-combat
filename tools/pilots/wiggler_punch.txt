@@ -1,0 +1,18 @@
+# Punch a Wiggler (Yoshi's House): SMW's cape spin knocks a Wiggler out, so a punch should too.
+loadstate 8
+wait 5
+clearsprites
+cheat 1 1
+glide 160 352
+wait 10
+spawn 86 48 0
+wait 2
+sprites
+attack 86 30
+wait 3
+shot g00_punch
+sprites
+wait 30
+shot g01_after
+sprites
+quit

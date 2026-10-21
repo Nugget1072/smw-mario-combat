@@ -1,0 +1,20 @@
+{
+ "shape": 90,
+ "scale": 0.4166666666666667,
+ "size": [
+  177,
+  45
+ ],
+ "crop_from": [
+  39,
+  39
+ ],
+ "raster_size": [
+  250,
+  125
+ ],
+ "back_alpha": 0.85,
+ "back_grow": 3,
+ "back_lit": 0.3,
+ "min_alpha": 12
+}

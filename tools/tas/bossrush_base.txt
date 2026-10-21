@@ -1,0 +1,31 @@
+# Boss rush speedrun (round 19): from Yoshi's Island 1 (save state 9), no cheats; the settings menu: LEVEL SELECT >
+# BOSS RUSH > BOSSES: EVERY BOSS > START BOSS RUSH. The recording starts at #REC.
+loadstate 9
+wait 5
+#REC
+wait 20
+menu
+wait 20
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Return
+wait 14
+menukey Return
+wait 14
+menukey Down
+wait 10
+menukey Right
+wait 14
+menukey Up
+wait 10
+menukey Return

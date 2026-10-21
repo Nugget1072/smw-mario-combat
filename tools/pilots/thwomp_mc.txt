@@ -1,0 +1,25 @@
+# Thwomp (Yoshi's House): a Thwomp hangs above MC Mario and drops on him; then a second one is punched with the
+# super punch cheat on.
+loadstate 8
+wait 5
+clearsprites
+glide 160 352
+wait 10
+log th.csv
+spawn 26 0 -72
+wait 80
+shot w00_thwomp_hit
+sprites
+clearsprites
+poke 1497 00
+cheat 11 1
+spawn 26 30 -40
+wait 40
+sprites
+attack 26 30
+wait 4
+shot w01_super_punch
+wait 30
+shot w02_after
+sprites
+quit

@@ -1,0 +1,21 @@
+﻿peek 00013: 58
+peek 00013: 59
+peek 00013: 76
+peek 00013: B3
+peek 00013: D1
+rumble 39300 52400 250 (frame 752)
+rumble 9825 32750 70 (frame 909)
+rumble 45850 9825 90 (frame 979)
+rumble 45850 9825 90 (frame 983)
+rumble 45850 9825 90 (frame 987)
+rumble 45850 9825 90 (frame 991)
+rumble 45850 9825 90 (frame 995)
+rumble 45850 9825 90 (frame 999)
+rumble 45850 9825 90 (frame 1003)
+rumble 15720 20960 250 (frame 1005)
+rumble 18340 3930 90 (frame 1007)
+rumble 18340 3930 90 (frame 1011)
+rumble 18340 3930 90 (frame 1015)
+rumble 18340 3930 90 (frame 1019)
+rumble 18340 3930 90 (frame 1023)
+rumble 65500 39300 500 (frame 1305)

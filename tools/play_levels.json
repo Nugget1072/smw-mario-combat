@@ -1,0 +1,470 @@
+[
+ {
+  "level": "101",
+  "translevel": "25",
+  "name": "#1 IGGY'S CASTLE",
+  "world": "1 Yoshi's Island"
+ },
+ {
+  "level": "014",
+  "translevel": "14",
+  "name": "YELLOW SWITCH PALACE",
+  "world": "1 Yoshi's Island"
+ },
+ {
+  "level": "104",
+  "translevel": "28",
+  "name": "YOSHI'S HOUSE",
+  "world": "1 Yoshi's Island"
+ },
+ {
+  "level": "105",
+  "translevel": "29",
+  "name": "YOSHI'S ISLAND 1",
+  "world": "1 Yoshi's Island"
+ },
+ {
+  "level": "106",
+  "translevel": "2A",
+  "name": "YOSHI'S ISLAND 2",
+  "world": "1 Yoshi's Island"
+ },
+ {
+  "level": "103",
+  "translevel": "27",
+  "name": "YOSHI'S ISLAND 3",
+  "world": "1 Yoshi's Island"
+ },
+ {
+  "level": "102",
+  "translevel": "26",
+  "name": "YOSHI'S ISLAND 4",
+  "world": "1 Yoshi's Island"
+ },
+ {
+  "level": "007",
+  "translevel": "07",
+  "name": "#2 MORTON'S CASTLE",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "017",
+  "translevel": "17",
+  "name": "#2 MORTON'S PLAINS 3 (name from the game table; may be an unused level)",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "019",
+  "translevel": "19",
+  "name": "#2 MORTON'S PLAINS 3 (name from the game table; may be an unused level)",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "004",
+  "translevel": "04",
+  "name": "DONUT GHOST HOUSE",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "015",
+  "translevel": "15",
+  "name": "DONUT PLAINS 1",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "009",
+  "translevel": "09",
+  "name": "DONUT PLAINS 2",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "005",
+  "translevel": "05",
+  "name": "DONUT PLAINS 3",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "006",
+  "translevel": "06",
+  "name": "DONUT PLAINS 4",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "00A",
+  "translevel": "0A",
+  "name": "DONUT SECRET 1",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "10B",
+  "translevel": "2F",
+  "name": "DONUT SECRET 2",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "013",
+  "translevel": "13",
+  "name": "DONUT SECRET HOUSE",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "008",
+  "translevel": "08",
+  "name": "GREEN SWITCH PALACE",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "003",
+  "translevel": "03",
+  "name": "TOP SECRET AREA",
+  "world": "2 Donut Plains"
+ },
+ {
+  "level": "11C",
+  "translevel": "40",
+  "name": "#3 LEMMY'S CASTLE",
+  "world": "3 Vanilla Dome"
+ },
+ {
+  "level": "11B",
+  "translevel": "3F",
+  "name": "RED SWITCH PALACE",
+  "world": "3 Vanilla Dome"
+ },
+ {
+  "level": "11A",
+  "translevel": "3E",
+  "name": "VANILLA DOME 1",
+  "world": "3 Vanilla Dome"
+ },
+ {
+  "level": "118",
+  "translevel": "3C",
+  "name": "VANILLA DOME 2",
+  "world": "3 Vanilla Dome"
+ },
+ {
+  "level": "10A",
+  "translevel": "2E",
+  "name": "VANILLA DOME 3",
+  "world": "3 Vanilla Dome"
+ },
+ {
+  "level": "119",
+  "translevel": "3D",
+  "name": "VANILLA DOME 4",
+  "world": "3 Vanilla Dome"
+ },
+ {
+  "level": "00B",
+  "translevel": "0B",
+  "name": "VANILLA FORTRESS",
+  "world": "3 Vanilla Dome"
+ },
+ {
+  "level": "107",
+  "translevel": "2B",
+  "name": "VANILLA GHOST HOUSE",
+  "world": "3 Vanilla Dome"
+ },
+ {
+  "level": "109",
+  "translevel": "2D",
+  "name": "VANILLA SECRET 1",
+  "world": "3 Vanilla Dome"
+ },
+ {
+  "level": "001",
+  "translevel": "01",
+  "name": "VANILLA SECRET 2",
+  "world": "3 Vanilla Dome"
+ },
+ {
+  "level": "002",
+  "translevel": "02",
+  "name": "VANILLA SECRET 3",
+  "world": "3 Vanilla Dome"
+ },
+ {
+  "level": "00E",
+  "translevel": "0E",
+  "name": "#4 LUDWIG'S CASTLE",
+  "world": "4 Twin Bridges"
+ },
+ {
+  "level": "00C",
+  "translevel": "0C",
+  "name": "BUTTER BRIDGE 1",
+  "world": "4 Twin Bridges"
+ },
+ {
+  "level": "00D",
+  "translevel": "0D",
+  "name": "BUTTER BRIDGE 2",
+  "world": "4 Twin Bridges"
+ },
+ {
+  "level": "00F",
+  "translevel": "0F",
+  "name": "CHEESE BRIDGE AREA",
+  "world": "4 Twin Bridges"
+ },
+ {
+  "level": "010",
+  "translevel": "10",
+  "name": "COOKIE MOUNTAIN",
+  "world": "4 Twin Bridges"
+ },
+ {
+  "level": "011",
+  "translevel": "11",
+  "name": "SODA LAKE",
+  "world": "4 Twin Bridges"
+ },
+ {
+  "level": "020",
+  "translevel": "20",
+  "name": "#5 ROY'S CASTLE",
+  "world": "5 Forest of Illusion"
+ },
+ {
+  "level": "121",
+  "translevel": "45",
+  "name": "BLUE SWITCH PALACE",
+  "world": "5 Forest of Illusion"
+ },
+ {
+  "level": "01F",
+  "translevel": "1F",
+  "name": "FOREST FORTRESS",
+  "world": "5 Forest of Illusion"
+ },
+ {
+  "level": "11D",
+  "translevel": "41",
+  "name": "FOREST GHOST HOUSE",
+  "world": "5 Forest of Illusion"
+ },
+ {
+  "level": "11E",
+  "translevel": "42",
+  "name": "FOREST OF ILLUSION 1",
+  "world": "5 Forest of Illusion"
+ },
+ {
+  "level": "120",
+  "translevel": "44",
+  "name": "FOREST OF ILLUSION 2",
+  "world": "5 Forest of Illusion"
+ },
+ {
+  "level": "123",
+  "translevel": "47",
+  "name": "FOREST OF ILLUSION 3",
+  "world": "5 Forest of Illusion"
+ },
+ {
+  "level": "11F",
+  "translevel": "43",
+  "name": "FOREST OF ILLUSION 4",
+  "world": "5 Forest of Illusion"
+ },
+ {
+  "level": "122",
+  "translevel": "46",
+  "name": "FOREST SECRET AREA",
+  "world": "5 Forest of Illusion"
+ },
+ {
+  "level": "01A",
+  "translevel": "1A",
+  "name": "#6 WENDY'S CASTLE",
+  "world": "6 Chocolate Island"
+ },
+ {
+  "level": "021",
+  "translevel": "21",
+  "name": "CHOCO-GHOST HOUSE",
+  "world": "6 Chocolate Island"
+ },
+ {
+  "level": "01B",
+  "translevel": "1B",
+  "name": "CHOCOLATE FORTRESS",
+  "world": "6 Chocolate Island"
+ },
+ {
+  "level": "022",
+  "translevel": "22",
+  "name": "CHOCOLATE ISLAND 1",
+  "world": "6 Chocolate Island"
+ },
+ {
+  "level": "024",
+  "translevel": "24",
+  "name": "CHOCOLATE ISLAND 2",
+  "world": "6 Chocolate Island"
+ },
+ {
+  "level": "023",
+  "translevel": "23",
+  "name": "CHOCOLATE ISLAND 3",
+  "world": "6 Chocolate Island"
+ },
+ {
+  "level": "01D",
+  "translevel": "1D",
+  "name": "CHOCOLATE ISLAND 4",
+  "world": "6 Chocolate Island"
+ },
+ {
+  "level": "01C",
+  "translevel": "1C",
+  "name": "CHOCOLATE ISLAND 5",
+  "world": "6 Chocolate Island"
+ },
+ {
+  "level": "117",
+  "translevel": "3B",
+  "name": "CHOCOLATE SECRET",
+  "world": "6 Chocolate Island"
+ },
+ {
+  "level": "018",
+  "translevel": "18",
+  "name": "SUNKEN GHOST SHIP",
+  "world": "6 Chocolate Island"
+ },
+ {
+  "level": "110",
+  "translevel": "34",
+  "name": "#7 LARRY'S CASTLE",
+  "world": "7 Valley of Bowser"
+ },
+ {
+  "level": "10E",
+  "translevel": "32",
+  "name": "BACK DOOR",
+  "world": "7 Valley of Bowser"
+ },
+ {
+  "level": "10D",
+  "translevel": "31",
+  "name": "FRONT DOOR",
+  "world": "7 Valley of Bowser"
+ },
+ {
+  "level": "111",
+  "translevel": "35",
+  "name": "VALLEY FORTRESS",
+  "world": "7 Valley of Bowser"
+ },
+ {
+  "level": "114",
+  "translevel": "38",
+  "name": "VALLEY GHOST HOUSE",
+  "world": "7 Valley of Bowser"
+ },
+ {
+  "level": "116",
+  "translevel": "3A",
+  "name": "VALLEY OF BOWSER 1",
+  "world": "7 Valley of Bowser"
+ },
+ {
+  "level": "115",
+  "translevel": "39",
+  "name": "VALLEY OF BOWSER 2",
+  "world": "7 Valley of Bowser"
+ },
+ {
+  "level": "113",
+  "translevel": "37",
+  "name": "VALLEY OF BOWSER 3",
+  "world": "7 Valley of Bowser"
+ },
+ {
+  "level": "10F",
+  "translevel": "33",
+  "name": "VALLEY OF BOWSER 4",
+  "world": "7 Valley of Bowser"
+ },
+ {
+  "level": "134",
+  "translevel": "58",
+  "name": "STAR WORLD 1",
+  "world": "8 Star World"
+ },
+ {
+  "level": "130",
+  "translevel": "54",
+  "name": "STAR WORLD 2",
+  "world": "8 Star World"
+ },
+ {
+  "level": "132",
+  "translevel": "56",
+  "name": "STAR WORLD 3",
+  "world": "8 Star World"
+ },
+ {
+  "level": "135",
+  "translevel": "59",
+  "name": "STAR WORLD 4",
+  "world": "8 Star World"
+ },
+ {
+  "level": "136",
+  "translevel": "5A",
+  "name": "STAR WORLD 5",
+  "world": "8 Star World"
+ },
+ {
+  "level": "12D",
+  "translevel": "51",
+  "name": "AWESOME",
+  "world": "9 Special Zone"
+ },
+ {
+  "level": "125",
+  "translevel": "49",
+  "name": "FUNKY",
+  "world": "9 Special Zone"
+ },
+ {
+  "level": "12A",
+  "translevel": "4E",
+  "name": "GNARLY",
+  "world": "9 Special Zone"
+ },
+ {
+  "level": "128",
+  "translevel": "4C",
+  "name": "GROOVY",
+  "world": "9 Special Zone"
+ },
+ {
+  "level": "127",
+  "translevel": "4B",
+  "name": "MONDO",
+  "world": "9 Special Zone"
+ },
+ {
+  "level": "126",
+  "translevel": "4A",
+  "name": "OUTRAGEOUS",
+  "world": "9 Special Zone"
+ },
+ {
+  "level": "12B",
+  "translevel": "4F",
+  "name": "TUBULAR",
+  "world": "9 Special Zone"
+ },
+ {
+  "level": "12C",
+  "translevel": "50",
+  "name": "WAY COOL",
+  "world": "9 Special Zone"
+ }
+]

@@ -1,0 +1,70 @@
+# Mario Combat Koopas and the rest of SMW (Yoshi's Island 1, SMW Mario so his own moves are used): a fireball, the
+# cape spin, the star, a kicked shell and Yoshi's tongue each meet a Mario Combat Koopa.
+loadstate 9
+wait 5
+cheat 14 1
+cheat 1 1
+toggle
+wait 10
+clearsprites
+glide 90 352
+wait 5
+# 1. fireball
+power 3
+hold RIGHT
+wait 2
+hold
+spawn 04 64 0
+wait 2
+hold X
+wait 2
+hold
+wait 14
+shot f00_fireball
+sprites
+wait 30
+clearsprites
+# 2. cape spin
+power 2
+spawn 04 26 0
+wait 2
+hold X
+wait 2
+hold
+wait 6
+shot f01_cape
+sprites
+wait 30
+clearsprites
+# 3. star
+poke 1490 F0
+spawn 04 30 0
+wait 70
+shot f02_star
+sprites
+poke 1490 00
+wait 30
+clearsprites
+# 4. a kicked shell (slot 1 made a sliding shell: status 0A, x speed 30) hits the Mario Combat Koopa in slot 0
+clearsprites
+spawn 04 60 0
+spawn 04 -40 0
+poke 14C9 0A
+poke B7 30
+wait 30
+shot f03_shell
+sprites
+wait 30
+clearsprites
+# 5. Yoshi's tongue
+yoshi
+wait 10
+spawn 04 40 0
+wait 2
+hold Y
+wait 3
+hold
+wait 20
+shot f04_yoshi
+sprites
+quit

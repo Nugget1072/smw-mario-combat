@@ -1,0 +1,36 @@
+﻿2F  springboard                          on it SMW  35/140 MC  27/140  drops SMW 4 MC 2  end SMW False MC False died SMW False MC False ok
+41  dolphin (long jump)                  on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW True  MC True  died SMW False MC False ok
+42  dolphin (jumps)                      on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW False MC True  died SMW False MC False ok
+43  dolphin (vertical)                   on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW False MC True  died SMW False MC False ok
+49  growing / shrinking pipe end         on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW True  MC True  died SMW False MC False ok
+55  checkerboard platform, horizontal    n/a (sprite slot SMW -1 MC -1)
+57  checkerboard platform, vertical      on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW False MC False died SMW False MC False ok
+59  turn block bridge, both ways         n/a (sprite slot SMW -1 MC -1)
+5A  turn block bridge, horizontal        n/a (sprite slot SMW -1 MC -1)
+5B  brown platform floating in water     on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW True  MC True  died SMW False MC False ok
+5D  orange platform floating in water    on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW False MC False died SMW True  MC True  ok
+5F  brown platform on a chain            on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW False MC False died SMW False MC True  FAIL
+61  skull raft on lava                   on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW False MC False died SMW True  MC True  ok
+62  brown platform, line-guided          on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW True  MC True  died SMW False MC False ok
+63  checker / brown platform, line-guided on it SMW 135/140 MC 135/140  drops SMW 1 MC 1  end SMW True  MC True  died SMW False MC False ok
+6B  wall springboard, left               on it SMW   0/140 MC   0/140  drops SMW 0 MC 0  end SMW False MC False died SMW True  MC True  ok
+6C  wall springboard, right              on it SMW   0/140 MC   0/140  drops SMW 0 MC 0  end SMW False MC False died SMW True  MC True  ok
+6D  invisible solid block                on it SMW   0/140 MC   0/140  drops SMW 0 MC 0  end SMW False MC False died SMW True  MC True  ok
+83  flying ? block, flies off            n/a (sprite slot SMW -1 MC -1)
+84  flying ? block, to and fro           n/a (sprite slot SMW -1 MC -1)
+8F  scale platforms                      on it SMW  12/140 MC  12/140  drops SMW 1 MC 1  end SMW False MC False died SMW True  MC True  ok
+9C  flying grey turn blocks              on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW False MC False died SMW False MC False ok
+A3  grey platform on a chain             on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW True  MC True  died SMW False MC False ok
+B1  creating / eating block              on it SMW   0/140 MC   0/140  drops SMW 0 MC 0  end SMW False MC False died SMW True  MC True  ok
+B7  carrot top lift, upper right         on it SMW   0/140 MC   0/140  drops SMW 0 MC 0  end SMW False MC False died SMW True  MC True  ok
+B8  carrot top lift, upper left          on it SMW   0/140 MC   0/140  drops SMW 0 MC 0  end SMW False MC False died SMW True  MC True  ok
+B9  message box                          on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW True  MC True  died SMW False MC False ok
+BA  timed lift                           on it SMW  85/140 MC  85/140  drops SMW 1 MC 1  end SMW False MC False died SMW False MC False ok
+BB  moving castle block                  n/a (sprite slot SMW -1 MC -1)
+BC  Bowser statue                        n/a (sprite slot SMW -1 MC -1)
+BF  Mega Mole                            n/a (sprite slot SMW -1 MC -1)
+C0  sinking lava platform                on it SMW  53/140 MC  53/140  drops SMW 1 MC 1  end SMW False MC False died SMW True  MC True  ok
+C1  flying grey platform with wings      on it SMW 140/140 MC 140/140  drops SMW 0 MC 0  end SMW True  MC False died SMW False MC False FAIL
+C4  falling grey platform                n/a (sprite slot SMW -1 MC -1)
+C8  light switch block                   on it SMW   0/140 MC   0/140  drops SMW 0 MC 0  end SMW False MC False died SMW True  MC True  ok
+kinds 35, failed 2

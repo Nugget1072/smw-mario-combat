@@ -1,0 +1,25 @@
+# Tiles (Yoshi's House, written into the level data on the row above the floor; collision only, not drawn):
+# coin (map16 02B) at x 144, midway bar (038) at x 176, Muncher (12F) at x 224. Mario walks right through them.
+loadstate 8
+wait 5
+clearsprites
+# toggle
+poke C979 2B
+poke 1C979 00
+poke C97B 38
+poke 1C97B 00
+poke C97E 2F
+poke 1C97E 01
+tileat 144 368
+tileat 176 368
+tileat 224 368
+log tl.csv
+hold RIGHT
+wait 45
+shot t00_coin_midway
+wait 40
+shot t01_muncher
+hold
+wait 40
+shot t02_after
+quit

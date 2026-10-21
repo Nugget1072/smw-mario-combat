@@ -1,0 +1,33 @@
+# Round 15: MC hit reactions on a Monty Mole: once it is out of the ground it is thrown back like a walker
+# (in the dirt it is only stunned).
+loadstate 8
+wait 5
+cheat 0 0
+cheat 1 1
+cheat 25 1
+spawn 4D 60 0
+wait 120
+shot m0
+sprites
+attack 4D 30
+hold Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 3
+shot m1
+sprites
+wait 8
+shot m2
+sprites
+wait 8
+shot m3
+sprites
+quit

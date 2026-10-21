@@ -1,0 +1,39 @@
+loadstate 9
+wait 5
+warp 06
+wait 150
+power 2
+poke 1490 ff
+log f.csv
+hold RIGHT X
+wait 70
+hold RIGHT X B
+wait 12
+shot f00_takeoff
+wait 30
+shot f01_rise
+hold RIGHT X B
+wait 14
+shot f02_glide
+wait 8
+shot f03_glide2
+hold LEFT X
+wait 8
+shot f04_pullup
+wait 8
+shot f05_pullup2
+hold RIGHT X
+wait 10
+shot f06_dive
+wait 10
+shot f07_dive2
+wait 10
+shot f08_dive3
+hold LEFT X
+wait 10
+shot f09_climb
+hold
+wait 60
+shot f10_landed
+quit
+

@@ -1,0 +1,130 @@
+﻿201 sprites compared
+exit code changes: 0
+new deaths: 0
+other changes: 126
+   00 smw t2: wstatus 3->0
+   01 smw t2: wstatus 3->0
+   06 mc t2: wstatus 9->10
+   06 smw t2: wstatus 10->9
+   07 mc t2: wstatus 9->10
+   07 smw t2: wstatus 10->9
+   08 mc t1: wid 8->4, wstatus 8->10
+   08 mc t2: bounce True->False, wid 4->8, wstatus 8->1
+   08 mc t3: wid 4->8, wstatus 9->1
+   08 smw t2: wstatus 8->10
+   08 smw t3: hurt False->True, wid 4->8, wstatus 9->8
+   09 mc t2: bounce True->False, wid 4->9, wstatus 8->0
+   09 smw t2: bounce True->False, wid 4->9, wstatus 8->0
+   0A mc t2: wstatus 8->9
+   0B mc t1: wstatus 8->10
+   0B mc t2: bounce True->False, wid 5->11, wstatus 8->1
+   0B mc t3: wid 5->11, wstatus 9->1
+   0B smw t2: wstatus 9->10
+   0C mc t2: hurt False->True, bounce True->False, wid 7->12
+   0C smw t2: wstatus 8->9
+   10 mc t2: hurt False->True, bounce True->False, wid 15->16
+   10 smw t2: wstatus 8->9
+   15 mc t2: wstatus 2->8
+   15 smw t1: wstatus 8->0
+   15 smw t3: wstatus 8->2
+   16 mc t2: wstatus 2->8
+   16 smw t1: wstatus 8->0
+   16 smw t3: wstatus 8->2
+   17 smw t2: bounce True->False
+   1C mc t1: wstatus 8->0
+   1C mc t2: wstatus 8->0
+   1C mc t3: hurt False->True, wstatus 2->0
+   1C smw t2: wstatus 8->0
+   1D mc t1: hurt False->True
+   1D smw t1: hurt False->True
+   1D smw t2: hurt True->False
+   22 mc t2: hurt False->True, bounce True->False, wstatus 0->8
+   22 mc t3: wstatus 2->8
+   23 mc t2: bounce True->False, wstatus 0->8
+   24 mc t2: bounce True->False, wstatus 0->8
+   25 smw t2: bounce True->False, wstatus 0->8
+   26 smw t2: hurt True->False, wstatus 8->0
+   2E mc t2: hurt True->False
+   39 smw t2: hurt True->False
+   3A mc t2: hurt True->False
+   3A smw t2: hurt True->False
+   3B mc t1: wstatus 8->0
+   3B mc t2: hurt True->False
+   3B smw t1: wstatus 8->0
+   3B smw t2: hurt True->False
+   3C smw t2: hurt True->False
+   3D mc t1: hurt False->True
+   3D smw t1: hurt False->True
+   3D smw t2: hurt True->False
+   3D smw t3: hurt False->True
+   3F mc t1: hurt False->True
+   3F mc t2: wstatus 8->9
+   3F smw t1: hurt False->True
+   3F smw t3: hurt False->True
+   40 mc t1: hurt False->True
+   40 mc t2: wstatus 8->9
+   40 smw t1: hurt False->True
+   40 smw t3: hurt False->True
+   46 mc t2: wid 70->145
+   46 mc t3: wid 70->145
+   46 smw t2: wid 70->145
+   47 mc t2: hurt False->True
+   47 smw t2: hurt False->True, bounce True->False, wstatus 0->8
+   47 smw t3: hurt True->False
+   4C mc t1: hurt False->True
+   4C smw t1: hurt False->True
+   4C smw t2: bounce True->False, wstatus 10->2
+   4C smw t3: hurt False->True
+   4D mc t2: hurt False->True
+   4D smw t2: hurt False->True
+   4E mc t2: hurt False->True
+   4E smw t2: hurt False->True
+   4F mc t3: wstatus 0->8
+   50 mc t3: wstatus 0->8
+   65 smw t2: hurt True->False
+   6E mc t2: hurt False->True
+   6E smw t2: wstatus 3->0
+   6F mc t2: bounce False->True, wstatus 8->0
+   71 mc t3: wstatus 2->0
+   72 mc t3: wstatus 2->0
+   73 mc t2: bounce True->False
+   86 mc t3: hurt False->True
+   90 mc t1: wstatus 8->0
+   90 mc t2: wstatus 8->0
+   90 smw t1: wstatus 8->0
+   90 smw t2: wstatus 8->0
+   92 mc t1: hurt False->True
+   92 smw t1: hurt False->True
+   92 smw t3: hurt False->True
+   94 smw t3: hurt False->True
+   95 mc t2: bounce True->False, wstatus 8->0
+   98 mc t2: hurt False->True, bounce True->False, wstatus 8->0
+   98 smw t2: bounce False->True, wstatus 2->8
+   9D mc t1: wstatus 2->8
+   9D smw t1: wstatus 2->8
+   AA mc t1: hurt False->True
+   AA smw t1: hurt False->True
+   AA smw t2: hurt True->False
+   AB mc t2: wstatus 8->0
+   AB mc t3: hurt False->True
+   AB smw t2: wstatus 8->0
+   AE mc t1: hurt False->True
+   AE smw t1: hurt False->True
+   AE smw t2: hurt True->False
+   B2 mc t1: wstatus 8->0
+   B2 mc t2: wstatus 8->0
+   B2 mc t3: wstatus 8->0
+   B2 smw t1: wstatus 8->0
+   B2 smw t3: wstatus 8->0
+   B4 mc t2: wstatus 8->0
+   B4 smw t2: hurt True->False, wstatus 8->0
+   B6 mc t2: hurt True->False
+   B6 smw t2: hurt True->False
+   BD mc t1: hurt False->True
+   BD mc t2: wid 189->2
+   BD smw t1: hurt False->True
+   BD smw t3: hurt False->True
+   BE mc t3: wstatus 2->0
+   BF mc t2: hurt False->True
+   BF smw t3: hurt True->False, wstatus 8->1
+   C2 mc t2: hurt True->False

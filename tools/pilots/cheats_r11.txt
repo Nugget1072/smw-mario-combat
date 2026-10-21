@@ -1,0 +1,55 @@
+# Round 11 cheats. 1) Infinite jumps (31): eight presses of B in the air keep Mario climbing (both Marios). 2) Stomp
+# anything (33): Mario drops onto a Spiny (13) in Yoshi's House and stomps it instead of being hurt (both Marios).
+loadstate 9
+wait 5
+cheat 31 1
+warp 105
+wait 120
+log jumps.csv
+hold B
+wait 12
+hold
+wait 4
+hold B
+wait 6
+hold
+wait 6
+hold B
+wait 6
+hold
+wait 6
+hold B
+wait 6
+hold
+wait 6
+hold B
+wait 6
+hold
+wait 6
+shot j00_high
+wait 120
+log off
+cheat 31 0
+loadstate 8
+wait 5
+cheat 33 1
+poke 1497 00
+poke 19 01
+glide 120 318
+log stomp_mc.csv
+spawn 13 0 34
+wait 60
+shot s00_mc_stomped
+log off
+clearsprites
+toggle
+wait 10
+poke 1497 00
+poke 19 01
+glide 120 318
+log stomp_smw.csv
+spawn 13 0 34
+wait 60
+shot s01_smw_stomped
+log off
+quit

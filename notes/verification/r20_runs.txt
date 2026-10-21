@@ -1,0 +1,22 @@
+﻿Round 20: the Mario Combat level runs (tas.py sessions in work\tas; tas_hits.py replays the kept moves)
+mcl  (MC Mario):  python -I tools\scripts\tas_hits.py mcl a1 --to won_a5   -> 0 hits in 9464 frames
+mcls (SMW Mario): python -I tools\scripts\tas_hits.py mcls a1 --to won_a5  -> 0 hits in 9043 frames (no power-down, no life lost)
+Both kept runs replayed by a plain pilot script (each 'shot' in place of a 'wait 1', so no frame is added): every area,
+Bowser down, "BOWSER DOWN!", "MARIO COMBAT CLEAR!", the map (r20_mc_mario_run.png, r20_smw_mario_run.png).
+Per-area searches (tas_backtrack.py ... mc_runner --mcl, failures = rewinds):
+MC Mario:  areas 3-5 rerun on the final tiles: 3 / 9 / 40 failures, 0 hits (areas 1-2 from the earlier search, unchanged tiles)
+SMW Mario: areas 2-5 rerun with the fixed runner: 0 / 8 / 0 / 0 failures, 0 hits (area 1 from the earlier search)
+
+After the follow-ups (area 3 two columns wider, chain ledges, lava kill, area 5's pillar), both runs re-searched from area 3:
+mcl  (MC Mario):  0 hits in 10650 frames (areas 3 / 4 / 5: 4 / 2 / 49 failures)
+mcls (SMW Mario): 0 hits in 9915 frames (areas 3 / 4 / 5: 34 / 3 / 0 failures)
+Both replayed by a plain pilot script to MARIO COMBAT CLEAR! and the map.
+
+After follow-up 4 (MC's end walls and camera limits, spin-only Bowser, MC Mario's stomp on Bowser removed), both runs
+re-searched from the old area-1 checkpoint (the new end wall made area 1 longer, so each later search finished the
+area before its label; the session's checkpoints are relabelled to the real area starts: a1 a2 a3 a4 a5 won):
+mcl  (MC Mario):  areas 1+2 / 3 / 4 / Bowser: 9 / 3 / 30 / 151 failures; 3 hits, all in the Bowser fight (life 8.5);
+                  BOWSER DOWN! at game frame 12745. (The first Bowser searches stalled 800+ rewinds at frame ~12740:
+                  the new plain-jump bounce held MC Mario on Bowser's head under his flames; MC Mario has no stomp now.)
+mcls (SMW Mario): areas 2-5: 0 / 30 / 0 / 0 failures, 0 hits; BOWSER DOWN! at game frame 9598.
+Both replayed by a plain pilot script on the final build to BOWSER DOWN! (r20_fix4_runs_end.png).

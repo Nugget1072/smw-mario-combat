@@ -1,0 +1,32 @@
+# Power-up heal (Yoshi's Island 1): a Goomba takes MC life down, then a mushroom (already big), a fire flower and a
+# feather each refill the life bar.
+loadstate 9
+wait 5
+log heal.csv
+spawn 0F 40 0
+wait 60
+shot h00_hurt
+clearsprites
+poke 1497 00
+spawn 0F 40 0
+wait 60
+clearsprites
+shot h01_hurt_twice
+spawn 74 0 -8
+wait 30
+shot h02_mushroom
+poke 1497 00
+spawn 0F 40 0
+wait 60
+clearsprites
+spawn 75 0 -8
+wait 60
+shot h03_flower
+poke 1497 00
+spawn 0F 40 0
+wait 60
+clearsprites
+spawn 77 0 -8
+wait 60
+shot h04_feather
+quit

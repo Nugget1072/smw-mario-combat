@@ -1,0 +1,41 @@
+# Running (Yoshi's Island 2, open ground at the start): walk vs. hold X (run) vs. P-speed, P-speed jump; then the
+# same with the cape: take-off and flight (SMW's own physics for that jump).
+loadstate 9
+wait 5
+warp 06
+wait 150
+log run.csv
+hold RIGHT
+wait 60
+shot r00_walk
+hold RIGHT X
+wait 30
+shot r01_run
+wait 50
+shot r02_pspeed
+hold RIGHT X B
+wait 10
+shot r03_pjump
+hold RIGHT X
+wait 50
+hold
+wait 60
+power 2
+hold LEFT X
+wait 100
+shot r04_cape_pspeed
+hold LEFT X B
+wait 20
+shot r05_takeoff
+wait 30
+shot r06_flying
+hold LEFT B
+wait 30
+shot r07_flying2
+hold RIGHT B
+wait 20
+shot r08_swoop
+hold
+wait 80
+shot r09_landed
+quit

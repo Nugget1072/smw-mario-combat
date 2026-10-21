@@ -1,0 +1,49 @@
+# 100% save in file 3: switch it on from the settings menu at the title screen, look at the file-select screen,
+# load file 3 (overworld with every path open), then switch it off again (the player's own file 3 comes back).
+wait 200
+menu
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot s00_option_on
+menukey Escape
+menukey Escape
+wait 100
+hold START
+wait 4
+hold
+wait 90
+shot s01_file_select
+hold DOWN
+wait 4
+hold
+wait 10
+hold DOWN
+wait 4
+hold
+wait 10
+shot s02_file3_cursor
+hold B
+wait 4
+hold
+wait 60
+shot s03_players
+hold B
+wait 4
+hold
+wait 200
+shot s04_map
+hold RIGHT
+wait 4
+hold
+wait 120
+shot s05_map_walk
+quit

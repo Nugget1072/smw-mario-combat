@@ -1,0 +1,27 @@
+# Vertical pipe down and back out (Yoshi's Island 3 = level 103 via warp 03; pipe tiles at x 1744-1775, top y 336).
+loadstate 9
+wait 5
+warp 03
+wait 150
+glide 1752 120
+wait 40
+log pipe.csv
+shot p00_on_pipe
+hold DOWN
+wait 6
+shot p01_entering
+wait 8
+shot p02_entering2
+wait 8
+shot p03_inside
+hold
+wait 100
+shot p04_sublevel
+wait 30
+shot p05_sublevel2
+hold RIGHT
+wait 60
+shot p06_walk
+wait 120
+shot p07_walk2
+quit

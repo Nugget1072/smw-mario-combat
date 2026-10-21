@@ -1,0 +1,58 @@
+# Replay-levels cheat: on the 100% file (every castle destroyed), stand on a destroyed castle (map tile 0x81):
+# B does nothing with the cheat off (as in SMW), and enters the castle with the cheat on. The 100% option is switched
+# off again at the end, which puts the player's own file 3 back.
+wait 200
+menu
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+menukey Escape
+menukey Escape
+wait 100
+hold START
+wait 4
+hold
+wait 90
+hold DOWN
+wait 4
+hold
+wait 10
+hold DOWN
+wait 4
+hold
+wait 10
+hold B
+wait 4
+hold
+wait 60
+hold B
+wait 4
+hold
+wait 200
+shot r00_map
+owgoto 81
+wait 20
+shot r01_on_destroyed_castle
+hold B
+wait 4
+hold
+wait 120
+shot r02_cheat_off_nothing
+cheat 8 1
+hold B
+wait 4
+hold
+wait 150
+shot r03_cheat_on_entering
+wait 120
+shot r04_in_castle
+log rc.csv
+wait 1
+quit

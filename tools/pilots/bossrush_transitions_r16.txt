@@ -1,0 +1,73 @@
+# Round 16: boss rush transitions (EVERY BOSS): Iggy and Big Boo won, then Morton starts like a fresh room (no castle
+# door walk, no Boos left from Big Boo's room, Mario on the left, Morton climbing); then on to Bowser, whose battle
+# must be upright (no tilt left from Iggy's platform or the Reznor wheels).
+loadstate 9
+wait 5
+cheat 1 1
+kill
+wait 400
+bossrush all
+waitmode 13
+waitmode 14
+wait 150
+shot b0_iggy
+poke 13C6 1
+waitmode 0F 400
+waitmode 14
+wait 150
+shot b1_bigboo
+poke 13C6 1
+waitmode 0F 400
+waitmode 14
+wait 30
+shot b2_morton
+wait 90
+shot b3_morton
+whereami
+wait 150
+poke 13C6 1
+waitmode 0F 400
+waitmode 14
+wait 150
+poke 13C6 1
+waitmode 0F 400
+waitmode 14
+wait 150
+poke 13C6 1
+waitmode 0F 400
+waitmode 14
+wait 150
+poke 13C6 1
+waitmode 0F 400
+waitmode 14
+wait 150
+poke 13C6 1
+waitmode 0F 400
+waitmode 14
+wait 150
+poke 13C6 1
+waitmode 0F 400
+waitmode 14
+wait 150
+poke 13C6 1
+waitmode 0F 400
+waitmode 14
+wait 150
+poke 13C6 1
+waitmode 0F 400
+waitmode 14
+wait 150
+poke 13C6 1
+waitmode 0F 400
+waitmode 14
+wait 150
+poke 13C6 1
+waitmode 0F 400
+waitmode 14
+wait 300
+shot b4_bowser
+wait 400
+shot b5_bowser
+peek 36 4
+whereami
+quit

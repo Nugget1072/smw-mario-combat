@@ -1,0 +1,22 @@
+# King Koopas with Mirror mode and Slow motion: Bowser, his flames, health bar and shockwave are mirrored with the level
+# (his art reads the right way round on the mirrored screen) and his script runs at half speed with the level.
+loadstate 9
+wait 5
+clearsprites
+cheat 18 1
+cheat 1 1
+cheat 15 1
+cheat 13 1
+glide 90 352
+wait 10
+spawn 04 110 0
+wait 120
+shot x00_mirror
+wait 200
+shot x01_mirror_flame
+wait 260
+shot x02_mirror_jump
+wait 40
+shot x03_mirror_wave
+sprites
+quit

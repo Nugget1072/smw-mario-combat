@@ -1,0 +1,30 @@
+# Round 18: Reznor's rotating platforms (Vanilla Fortress, room 0DF). Three Reznors are knocked off ($151C = 1), so
+# their platforms are solid (SolidSpriteBlock); MC Mario is put on one (pilot `ontop`) and rides it round the wheel,
+# rising and coming down, then walks off. He must stay on it, standing, the whole way round.
+loadstate 9
+wait 5
+cheat 1 1
+cheat 3 1
+warp 0DF
+wait 120
+poke 1520 1
+poke 1521 1
+poke 1522 1
+wait 60
+ontop 4
+wait 50
+shot z0
+wait 100
+shot z1_top
+wait 100
+shot z2_side
+wait 100
+shot z3_down
+wait 100
+shot z4_bottom
+hold RIGHT
+wait 30
+shot z5_off
+hold
+wait 30
+quit

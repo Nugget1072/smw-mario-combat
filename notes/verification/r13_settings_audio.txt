@@ -1,0 +1,6 @@
+﻿st_smw: 64080 frames, peak 12214, samples with left != right: 62292
+st_mc: 64080 frames, peak 0, samples with left != right: 0
+mono_smw: 64080 frames, peak 5248, samples with left != right: 0
+mono_mc: 64080 frames, peak 0, samples with left != right: 0
+muted_smw: 32040 frames, peak 0, samples with left != right: 0
+muted_mc: 32040 frames, peak 0, samples with left != right: 0

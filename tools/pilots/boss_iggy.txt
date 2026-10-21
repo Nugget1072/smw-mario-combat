@@ -1,0 +1,32 @@
+# Castle boss (Iggy's room = level 1F6, reached with warp F6): stand on the tilting platform, punch, jump on Iggy.
+loadstate 9
+wait 5
+warp F6
+wait 200
+log boss.csv
+shot b00_room
+hold RIGHT
+wait 20
+shot b01_walk
+hold Y
+wait 6
+shot b02_punch
+hold
+wait 30
+hold RIGHT B
+wait 14
+shot b03_jump
+hold
+wait 30
+shot b04_land
+hold LEFT
+wait 40
+shot b05_tilt
+hold RIGHT B
+wait 20
+hold
+wait 60
+shot b06_later
+wait 120
+shot b07_later2
+quit

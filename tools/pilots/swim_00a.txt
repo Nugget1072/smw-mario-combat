@@ -1,0 +1,42 @@
+# Swimming (underwater level 00A, reached with warp 00A; Yoshi's Island 4's "water" is only a background pit):
+# idle, swim strokes, swim right/left, Y in water.
+loadstate 9
+wait 5
+warp 00A
+wait 150
+log swim.csv
+shot s00_start
+wait 30
+shot s01_sink
+hold B
+wait 2
+hold
+wait 8
+shot s02_stroke
+hold B
+wait 2
+hold
+wait 12
+hold B
+wait 2
+hold
+wait 12
+shot s03_strokes
+hold RIGHT
+wait 30
+shot s04_swim_right
+hold RIGHT B
+wait 2
+hold RIGHT
+wait 20
+shot s05_swim_right2
+hold LEFT
+wait 30
+shot s06_swim_left
+hold Y
+wait 6
+shot s07_y_in_water
+hold
+wait 60
+shot s08_settle
+quit

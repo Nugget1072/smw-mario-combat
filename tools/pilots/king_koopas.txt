@@ -1,0 +1,60 @@
+# King Koopas cheat (Yoshi's Island 1): a Koopa spawned in front of MC Mario is Mario Combat's Bowser. He breathes
+# fire (the flames fly at Mario and wave up and down), then after his attack phase jumps at Mario five times, each
+# landing making a shockwave, then pants. No damage is on so the run keeps going.
+loadstate 9
+wait 5
+clearsprites
+cheat 18 1
+cheat 1 1
+glide 90 352
+wait 10
+spawn 04 110 0
+wait 10
+shot b00_spawned
+sprites
+wait 40
+shot b01_breath
+sprites
+wait 40
+shot b02_fire
+sprites
+wait 40
+shot b03_flame
+sprites
+wait 60
+shot b04
+sprites
+wait 120
+shot b05
+sprites
+wait 120
+shot b06
+sprites
+wait 120
+shot b07
+sprites
+wait 60
+shot b08_jump_phase
+sprites
+wait 20
+shot b09
+sprites
+wait 20
+shot b10
+sprites
+wait 20
+shot b11_wave
+sprites
+wait 20
+shot b12
+sprites
+wait 40
+shot b13
+sprites
+wait 60
+shot b14
+sprites
+wait 120
+shot b15_pant
+sprites
+quit

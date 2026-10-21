@@ -1,0 +1,27 @@
+# King Koopas + super punch: one MC punch defeats Bowser (a 1-up; he falls through the floor and is removed).
+loadstate 9
+wait 5
+clearsprites
+cheat 18 1
+cheat 1 1
+cheat 11 1
+hitboxes 1
+glide 40 352
+wait 10
+spawn 04 60 0
+wait 20
+sprites
+attack 04 30
+wait 1
+shot s00_punch
+sprites
+wait 6
+shot s01
+sprites
+wait 20
+shot s02_falls
+sprites
+wait 40
+shot s03_gone
+sprites
+quit

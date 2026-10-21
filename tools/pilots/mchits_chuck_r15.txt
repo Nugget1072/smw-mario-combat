@@ -1,0 +1,43 @@
+# Round 15: MC hit reactions on a Chargin' Chuck (Yoshi's House): jabs, then the combo's stronger hits throw it back;
+# it slides on until its push is spent before it charges again.
+loadstate 8
+wait 5
+cheat 0 0
+cheat 1 1
+cheat 25 1
+spawn 91 40 0
+wait 30
+attack 91 30
+hold Y
+wait 2
+hold
+wait 3
+shot a0
+hold Y
+wait 2
+hold
+wait 3
+shot a1
+hold Y
+wait 2
+hold
+wait 3
+shot a2
+hold Y
+wait 2
+hold
+wait 3
+shot a3
+wait 6
+shot c0
+sprites
+wait 6
+shot c1
+sprites
+wait 6
+shot c2
+sprites
+wait 12
+shot c3
+sprites
+quit

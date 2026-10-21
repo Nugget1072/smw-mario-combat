@@ -1,0 +1,43 @@
+# Round 15: small SMW Mario air-dashes off the grey pipe into the green pipe's top corner (Yoshi's Island 2), where
+# the dash used to crush him; then MC Mario dashes into the green pipe's side.
+loadstate 9
+wait 5
+cheat 3 1
+cheat 1 1
+cheat 38 1
+toggle
+wait 5
+warp 106
+wait 110
+power 0
+setpos 4298 352
+wait 30
+log d.csv
+hold B
+wait 7
+hold B R
+wait 1
+hold B
+wait 6
+shot p0_dash
+hold
+wait 30
+shot p1_stopped
+whereami
+toggle
+wait 5
+setpos 4298 352
+wait 30
+hold B
+wait 7
+hold B R
+wait 1
+hold B
+wait 6
+shot p2_mc_dash
+hold
+wait 30
+shot p3_mc_stopped
+whereami
+log off
+quit

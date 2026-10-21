@@ -1,0 +1,202 @@
+﻿00 * t1 H--- s 8 id00 | H--- s 8 id00   t2 --B- s 0 id00 | H-B- s 3 id00   t3 ---- s 2 id00  t2
+01 * t1 H--- s 8 id01 | H--- s 8 id01   t2 --B- s 0 id01 | H-B- s 3 id01   t3 ---- s 2 id01  t2
+02 * t1 H--- s 8 id02 | H--- s 8 id02   t2 --B- s 0 id02 | H-B- s 0 id02   t3 ---- s 2 id02  t2
+03 * t1 H--- s 8 id03 | H--- s 8 id03   t2 --B- s 0 id03 | H-B- s 0 id03   t3 ---- s 2 id03  t2
+04 * t1 H--- s 8 id04 | H--- s 8 id04   t2 --B- s10 id04 | H-B- s10 id04   t3 ---- s 9 id04  t2
+05 * t1 H--- s 8 id05 | H--- s 8 id05   t2 --B- s10 id05 | H-B- s10 id05   t3 ---- s 9 id05  t2
+06 * t1 H--- s 8 id06 | H--- s 8 id06   t2 --B- s 9 id06 | H-B- s10 id06   t3 ---- s 9 id06  t2
+07 * t1 H--- s 8 id07 | H--- s 8 id07   t2 --B- s 9 id07 | H-B- s10 id07   t3 ---- s 9 id07  t2
+08 * t1 H--- s 8 id08 | H--- s 8 id04   t2 --B- s 8 id04 | H-B- s 8 id04   t3 ---- s 9 id04  t2
+09 * t1 H--- s 8 id09 | H--- s 8 id09   t2 --B- s10 id04 | H-B- s 8 id04   t3 ---- s 9 id04  t2
+0A * t1 ---- s 8 id0A | ---- s 8 id0A   t2 H-B- s 8 id05 | --B- s10 id05   t3 ---- s 9 id05  t2
+0B * t1 H--- s 8 id05 | H--- s 8 id0B   t2 --B- s 8 id05 | H-B- s 9 id05   t3 ---- s 9 id05  t2
+0C * t1 H--- s 8 id0C | H--- s 8 id0C   t2 --B- s 8 id07 | H-B- s 8 id07   t3 ---- s 9 id07  t2
+0D * t1 H--- s 8 id0D | H--- s 8 id0D   t2 --B- s 9 id0D | H-B- s 9 id0D   t3 ---- s 9 id0D  t2
+0E   t1 ---- s 8 id0E | ---- s 8 id0E   t2 ---- s 8 id0E | ---- s 8 id0E   t3 ---- s 8 id0E  
+0F * t1 H--- s 8 id0F | H--- s 8 id0F   t2 --B- s 9 id0F | H-B- s 9 id0F   t3 ---- s 9 id0F  t2
+10 * t1 H--- s 8 id10 | H--- s 8 id10   t2 --B- s 8 id0F | H-B- s 8 id0F   t3 ---- s 9 id0F  t2
+11 * t1 H--- s 8 id11 | H--- s 8 id11   t2 --B- s10 id11 | H-B- s10 id11   t3 ---- s 9 id11  t2
+12   t1 ---- s 8 id12 | ---- s 8 id12   t2 ---- s 8 id12 | ---- s 8 id12   t3 ---- s 2 id12  
+13 * t1 H--- s 8 id13 | H--- s 8 id13   t2 ---- s 8 id13 | H--- s 8 id13   t3 ---- s 2 id13  t2
+14 * t1 H--- s 8 id13 | H--- s 8 id13   t2 ---- s 8 id13 | H--- s 8 id13   t3 ---- s 2 id14  t2
+15   t1 ---- s 8 id15 | ---- s 8 id15   t2 ---- s 2 id15 | ---- s 0 id15   t3 ---- s 2 id15  
+16   t1 ---- s 8 id16 | ---- s 8 id16   t2 ---- s 2 id16 | ---- s 0 id16   t3 ---- s 2 id16  
+17 * t1 ---- s 0 id17 | ---- s 0 id17   t2 ---- s 0 id17 | --B- s 0 id17   t3 ---- s 2 id17  t2
+18   t1 ---- s 0 id18 | ---- s 0 id18   t2 ---- s 0 id18 | ---- s 0 id18   t3 ---- s 2 id18  
+19   t1 ---- s 0 id19 | ---- s 0 id19   t2 ---- s 1 id19 | ---- s 1 id19   t3 ---- s 1 id19  
+1A   t1 ---- s 8 id1A | ---- s 8 id1A   t2 ---- s 8 id1A | ---- s 8 id1A   t3 ---- s 0 id1A  
+1B   t1 ---- s 8 id1B | ---- s 8 id1B   t2 --B- s 0 id1B | --B- s 0 id1B   t3 ---- s 2 id1B  
+1C   t1 H--- s 8 id1C | H--- s 8 id1C   t2 ---- s 8 id1C | ---- s 8 id1C   t3 ---- s 2 id1C  
+1D   t1 ---- s 8 id1D | ---- s 8 id1D   t2 H--- s 8 id1D | H--- s 8 id1D   t3 H--- s 0 id1D  
+1E * t1 ---- s 0 id1E | ---- s 2 id1E   t2 --B- s 0 id1E | ---- s 1 id1E   t3 ---- s 2 id1E  t2
+1F   t1 ---- s 8 id1F | ---- s 8 id1F   t2 ---- s 8 id1F | ---- s 8 id1F   t3 ---- s 8 id1F  
+20   t1 ---- s 8 id20 | ---- s 8 id20   t2 H--- s 8 id20 | H--- s 8 id20   t3 ---- s 0 id20  
+21   t1 ---- s 0 id21 | ---- s 0 id21   t2 ---- s 0 id21 | ---- s 0 id21   t3 ---- s 0 id21  
+22   t1 ---- s 8 id22 | ---- s 8 id22   t2 --B- s 0 id22 | --B- s 0 id22   t3 ---- s 2 id22  
+23   t1 ---- s 8 id23 | ---- s 8 id23   t2 --B- s 0 id23 | --B- s 0 id23   t3 ---- s 2 id23  
+24   t1 ---- s 8 id24 | ---- s 8 id24   t2 --B- s 0 id24 | --B- s 0 id24   t3 ---- s 2 id24  
+25 * t1 ---- s 8 id25 | ---- s 8 id25   t2 ---- s 8 id25 | --B- s 0 id25   t3 ---- s 2 id25  t2
+26 * t1 ---- s 8 id26 | ---- s 8 id26   t2 ---- s 0 id26 | H--- s 8 id26   t3 ---- s 0 id26  t2
+27   t1 ---- s 8 id27 | ---- s 8 id27   t2 H--- s 8 id27 | H--- s 8 id27   t3 ---- s 8 id27  
+28   t1 ---- s 8 id28 | ---- s 8 id28   t2 H--- s 8 id28 | H--- s 8 id28   t3 ---- s 8 id28  
+29 * t1 none | none   t2 none | none   t3 none  rc 3221225477/3221225477
+2A   t1 ---- s 8 id2A | ---- s 8 id2A   t2 ---- s 8 id2A | ---- s 8 id2A   t3 ---- s 0 id2A  
+2B   t1 ---- s 0 id2B | ---- s 0 id2B   t2 ---- s 8 id2B | ---- s 8 id2B   t3 H--- s 0 id2B  
+2C   t1 ---- s 8 id2C | ---- s 8 id2C   t2 ---- s 9 id2D | ---- s 9 id2D   t3 ---- s 9 id2D  
+2D   t1 ---- s 9 id2D | ---- s 9 id2D   t2 ---- s 9 id2D | ---- s 9 id2D   t3 ---- s 9 id2D  
+2E * t1 H--- s 8 id2E | H--- s 8 id2E   t2 ---- s 8 id2E | H--- s 8 id2E   t3 ---- s 2 id2E  t2
+2F * t1 ---- s 8 id2F | ---- s 8 id2F   t2 ---- s 8 id2F | --B- s 8 id2F   t3 ---- s 8 id2F  t2
+30 * t1 H--- s 8 id30 | H--- s 8 id30   t2 --B- s 8 id30 | H-B- s 8 id30   t3 ---- s 2 id30  t2
+31   t1 ---- s 8 id31 | ---- s 8 id31   t2 --B- s 8 id31 | --B- s 8 id31   t3 ---- s 2 id31  
+32 * t1 H--- s 8 id32 | H--- s 8 id32   t2 --B- s 8 id32 | H-B- s 8 id32   t3 ---- s 2 id32  t2
+33 * t1 none | none   t2 none | none   t3 none  rc timeout/timeout
+34   t1 ---- s 8 id34 | ---- s 8 id34   t2 H--- s 8 id34 | H--- s 8 id34   t3 ---- s 8 id34  
+35   t1 ---- s 0 id35 | ---- s 0 id35   t2 ---- s 0 id35 | ---- s 0 id35   t3 ---- s 0 id35  
+36 * t1 none | none   t2 none | none   t3 none  rc 3221225477/3221225477
+37   t1 ---- s 8 id37 | ---- s 8 id37   t2 H--- s 8 id37 | H--- s 8 id37   t3 ---- s 8 id37  
+38 * t1 H--- s 8 id38 | H--- s 8 id38   t2 ---- s 8 id38 | H--- s 8 id38   t3 H--- s 8 id38  t2
+39 * t1 ---- s 8 id39 | ---- s 8 id39   t2 ---- s 8 id39 | H--- s 8 id39   t3 H--- s 8 id39  t2
+3A   t1 ---- s 8 id3A | ---- s 8 id3A   t2 H--- s 8 id3A | H--- s 8 id3A   t3 ---- s 8 id3A  
+3B   t1 ---- s 8 id3B | ---- s 8 id3B   t2 H--- s 8 id3B | H--- s 8 id3B   t3 ---- s 8 id3B  
+3C * t1 ---- s 8 id3C | ---- s 8 id3C   t2 ---- s 8 id3C | H--- s 8 id3C   t3 ---- s 8 id3C  t2
+3D   t1 ---- s 8 id3D | ---- s 8 id3D   t2 H--- s 8 id3D | H--- s 8 id3D   t3 ---- s 2 id3D  
+3E   t1 ---- s 9 id3E | ---- s 9 id3E   t2 ---- s 4 id3E | ---- s 4 id3E   t3 ---- s 9 id3E  
+3F * t1 ---- s 8 id0F | ---- s 8 id0F   t2 H-B- s 8 id0F | --B- s 9 id0F   t3 ---- s 2 id0F  t2
+40 * t1 ---- s 8 id0D | ---- s 8 id0D   t2 H-B- s 8 id0D | --B- s 9 id0D   t3 ---- s 2 id0D  t2
+41   t1 ---- s 0 id41 | ---- s 0 id41   t2 ---- s 0 id41 | ---- s 0 id41   t3 ---- s 0 id41  
+42   t1 ---- s 0 id42 | ---- s 0 id42   t2 ---- s 0 id42 | ---- s 0 id42   t3 ---- s 0 id42  
+43   t1 ---- s 0 id43 | ---- s 0 id43   t2 ---- s 0 id43 | ---- s 0 id43   t3 ---- s 0 id43  
+44   t1 ---- s 8 id44 | ---- s 8 id44   t2 H--- s 8 id44 | H--- s 8 id44   t3 ---- s 8 id44  
+45   t1 ---- s 0 id45 | ---- s 0 id45   t2 ---- s 0 id45 | ---- s 0 id45   t3 ---- s 0 id45  
+46 * t1 ---- s 8 id46 | ---- s 8 id46   t2 H-B- s 8 id46 | --B- s 8 id46   t3 ---- s 8 id46  t2
+47 * t1 H--- s 8 id47 | H--- s 8 id47   t2 ---- s 8 id47 | --B- s 0 id47   t3 ---- s 2 id47  t2
+48   t1 ---- s 8 id48 | ---- s 8 id48   t2 H--- s 8 id48 | H--- s 8 id48   t3 ---- s 2 id48  
+49   t1 ---- s 8 id49 | ---- s 8 id49   t2 ---- s 8 id49 | ---- s 8 id49   t3 ---- s 8 id49  
+4A   t1 ---- s 8 id4A | ---- s 8 id4A   t2 ---- s 0 id4A | ---- s 0 id4A   t3 ---- s 0 id4A  
+4B   t1 ---- s 8 id4B | ---- s 8 id4B   t2 --B- s 0 id4B | --B- s 0 id4B   t3 ---- s 2 id4B  
+4C   t1 ---- s 8 id00 | ---- s 8 id00   t2 --B- s10 id04 | --B- s10 id04   t3 ---- s 9 id0F  
+4D   t1 ---- s 8 id4D | ---- s 8 id4D   t2 ---- s 8 id4D | ---- s 8 id4D   t3 ---- s 2 id4D  
+4E   t1 ---- s 8 id4E | ---- s 8 id4E   t2 ---- s 8 id4E | ---- s 8 id4E   t3 ---- s 2 id4E  
+4F   t1 ---- s 8 id4F | ---- s 8 id4F   t2 H--- s 8 id4F | H--- s 8 id4F   t3 ---- s 0 id4F  
+50   t1 ---- s 8 id50 | ---- s 8 id50   t2 H--- s 8 id50 | H--- s 8 id50   t3 ---- s 0 id50  
+51   t1 ---- s 8 id51 | ---- s 8 id51   t2 --B- s 0 id51 | --B- s 0 id51   t3 ---- s 2 id51  
+52   t1 ---- s 8 id52 | ---- s 8 id52   t2 HD-- s 8 id52 | HD-- s 8 id52   t3 HD-- s 8 id52  
+53   t1 ---- s 8 id53 | ---- s 8 id53   t2 ---- s 8 id53 | ---- s 8 id53   t3 ---- s 8 id53  
+54   t1 ---- s 8 id54 | ---- s 8 id54   t2 ---- s 8 id54 | ---- s 8 id54   t3 ---- s 8 id54  
+55   t1 ---- s 8 id55 | ---- s 8 id55   t2 ---- s 8 id55 | ---- s 8 id55   t3 ---- s 8 id55  
+56   t1 ---- s 8 id56 | ---- s 8 id56   t2 ---- s 8 id56 | ---- s 8 id56   t3 ---- s 8 id56  
+57   t1 ---- s 8 id57 | ---- s 8 id57   t2 ---- s 8 id57 | ---- s 8 id57   t3 ---- s 8 id57  
+58   t1 ---- s 8 id58 | ---- s 8 id58   t2 ---- s 8 id58 | ---- s 8 id58   t3 ---- s 8 id58  
+59   t1 ---- s 8 id59 | ---- s 8 id59   t2 ---- s 8 id59 | ---- s 8 id59   t3 ---- s 8 id59  
+5A   t1 ---- s 8 id5A | ---- s 8 id5A   t2 ---- s 8 id5A | ---- s 8 id5A   t3 ---- s 8 id5A  
+5B   t1 ---- s 0 id5B | ---- s 0 id5B   t2 ---- s 0 id5B | ---- s 0 id5B   t3 ---- s 0 id5B  
+5C   t1 ---- s 0 id5C | ---- s 0 id5C   t2 ---- s 0 id5C | ---- s 0 id5C   t3 ---- s 8 id5C  
+5D   t1 ---- s 0 id5D | ---- s 0 id5D   t2 ---- s 0 id5D | ---- s 0 id5D   t3 ---- s 0 id5D  
+5E   t1 ---- s 8 id5E | ---- s 8 id5E   t2 ---- s 8 id5E | ---- s 8 id5E   t3 ---- s 8 id5E  
+5F   t1 ---- s 0 id5F | ---- s 0 id5F   t2 ---- s 0 id5F | ---- s 0 id5F   t3 ---- s 0 id5F  
+60   t1 ---- s 8 id60 | ---- s 8 id60   t2 ---- s 8 id60 | ---- s 8 id60   t3 ---- s 8 id60  
+61   t1 ---- s 8 id61 | ---- s 8 id61   t2 ---- s 8 id61 | ---- s 8 id61   t3 ---- s 8 id61  
+62   t1 ---- s 0 id62 | ---- s 0 id62   t2 ---- s 0 id62 | ---- s 0 id62   t3 ---- s 0 id62  
+63   t1 ---- s 8 id63 | ---- s 8 id63   t2 ---- s 0 id63 | ---- s 0 id63   t3 ---- s 8 id63  
+64   t1 ---- s 8 id64 | ---- s 8 id64   t2 ---- s 8 id64 | ---- s 8 id64   t3 ---- s 8 id64  
+65 * t1 ---- s 0 id65 | ---- s 0 id65   t2 ---- s 0 id65 | H--- s 0 id65   t3 ---- s 0 id65  t2
+66   t1 ---- s 0 id66 | ---- s 0 id66   t2 ---- s 0 id66 | ---- s 0 id66   t3 ---- s 0 id66  
+67   t1 ---- s 0 id67 | ---- s 0 id67   t2 ---- s 0 id67 | ---- s 0 id67   t3 ---- s 0 id67  
+68   t1 ---- s 0 id68 | ---- s 0 id68   t2 ---- s 0 id68 | ---- s 0 id68   t3 ---- s 0 id68  
+69   t1 ---- s 8 id69 | ---- s 8 id69   t2 ---- s 8 id69 | ---- s 8 id69   t3 ---- s 8 id69  
+6A   t1 ---- s 8 id6A | ---- s 8 id6A   t2 ---- s 8 id6A | ---- s 8 id6A   t3 ---- s 8 id6A  
+6B   t1 ---- s 8 id6B | ---- s 8 id6B   t2 ---- s 8 id6B | ---- s 8 id6B   t3 ---- s 8 id6B  
+6C   t1 --B- s 8 id6C | --B- s 8 id6C   t2 ---- s 8 id6C | ---- s 1 id6C   t3 --B- s 8 id6C  
+6D   t1 ---- s 8 id6D | ---- s 8 id6D   t2 ---- s 8 id6D | ---- s 8 id6D   t3 ---- s 2 id6D  
+6E * t1 H--- s 8 id6E | H--- s 8 id6E   t2 --B- s 0 id6F | H-B- s 3 id6F   t3 ---- s 8 id6F  t2
+6F * t1 H--- s 8 id6F | H--- s 8 id6F   t2 ---- s 8 id6F | H-B- s 0 id6F   t3 ---- s 2 id6F  t2
+70   t1 ---- s 0 id70 | ---- s 0 id70   t2 ---- s 0 id70 | ---- s 0 id70   t3 ---- s 0 id70  
+71   t1 ---- s 0 id71 | ---- s 0 id71   t2 ---- s 0 id71 | ---- s 0 id71   t3 ---- s 2 id71  
+72   t1 ---- s 0 id72 | ---- s 0 id72   t2 ---- s 0 id72 | ---- s 0 id72   t3 ---- s 2 id72  
+73 * t1 H--- s 8 id73 | H--- s 8 id73   t2 --B- s 0 id73 | H-B- s 0 id73   t3 ---- s 2 id73  t2
+74   t1 ---- s 8 id74 | ---- s 8 id74   t2 ---- s 0 id74 | ---- s 0 id74   t3 ---- s 8 id74  
+75   t1 ---- s 8 id75 | ---- s 8 id75   t2 ---- s 0 id75 | ---- s 0 id75   t3 ---- s 8 id75  
+76   t1 ---- s 8 id76 | ---- s 8 id76   t2 ---- s 0 id76 | ---- s 0 id76   t3 ---- s 8 id76  
+77   t1 ---- s 8 id77 | ---- s 8 id77   t2 ---- s 0 id77 | ---- s 0 id77   t3 ---- s 8 id77  
+78   t1 ---- s 8 id78 | ---- s 8 id78   t2 ---- s 0 id78 | ---- s 0 id78   t3 ---- s 8 id78  
+79   t1 ---- s 8 id79 | ---- s 8 id79   t2 ---- s 8 id79 | ---- s 8 id79   t3 ---- s 8 id79  
+7A   t1 ---- s 8 id7A | ---- s 8 id7A   t2 ---- s 8 id7A | ---- s 8 id7A   t3 ---- s 8 id7A  
+7B   t1 ---- s 8 id7B | ---- s 8 id7B   t2 ---- s 0 id7B | ---- s 0 id7B   t3 ---- s 8 id7B  
+7C   t1 ---- s 8 id7C | ---- s 8 id7C   t2 ---- s 8 id7C | ---- s 8 id7C   t3 ---- s 8 id7C  
+7D   t1 ---- s 8 id7D | ---- s 8 id7D   t2 ---C s11 id7D | ---C s11 id7D   t3 ---- s 8 id7D  
+7E   t1 ---- s 8 id7E | ---- s 8 id7E   t2 ---- s 0 id7E | ---- s 0 id7E   t3 ---- s 8 id7E  
+7F   t1 ---- s 8 id7F | ---- s 8 id7F   t2 ---- s 0 id7F | ---- s 0 id7F   t3 ---- s 8 id7F  
+80   t1 ---- s 9 id80 | ---- s 9 id80   t2 ---- s 9 id80 | ---- s 9 id80   t3 ---- s 9 id80  
+81   t1 ---- s 8 id81 | ---- s 8 id81   t2 ---- s 0 id81 | ---- s 0 id81   t3 ---- s 8 id81  
+82   t1 ---- s 8 id82 | ---- s 8 id82   t2 ---- s 0 id82 | ---- s 0 id82   t3 ---- s 0 id82  
+83   t1 ---- s 8 id83 | ---- s 8 id83   t2 ---- s 8 id83 | ---- s 8 id83   t3 ---- s 8 id83  
+84   t1 ---- s 8 id84 | ---- s 8 id84   t2 ---- s 8 id84 | ---- s 8 id84   t3 ---- s 8 id84  
+85   t1 ---- s 8 id85 | ---- s 8 id85   t2 ---- s 8 id85 | ---- s 8 id85   t3 ---- s 8 id85  
+86 * t1 H--- s 8 id86 | H--- s 8 id86   t2 --B- s 8 id86 | H-B- s 8 id86   t3 ---- s 8 id86  t2
+87   t1 ---- s 8 id87 | ---- s 8 id87   t2 ---- s 8 id87 | ---- s 8 id87   t3 ---- s 8 id87  
+88   t1 ---- s 8 id88 | ---- s 8 id88   t2 ---- s 8 id88 | ---- s 8 id88   t3 ---- s 8 id88  
+89   t1 ---- s 8 id89 | ---- s 8 id89   t2 ---- s 8 id89 | ---- s 8 id89   t3 ---- s 8 id89  
+8A   t1 ---- s 8 id8A | ---- s 8 id8A   t2 ---- s 8 id8A | ---- s 8 id8A   t3 ---- s 8 id8A  
+8B   t1 ---- s 8 id8B | ---- s 8 id8B   t2 ---- s 8 id8B | ---- s 8 id8B   t3 ---- s 8 id8B  
+8C   t1 ---- s 8 id8C | ---- s 8 id8C   t2 ---- s 8 id8C | ---- s 8 id8C   t3 ---- s 8 id8C  
+8D   t1 ---- s 8 id8D | ---- s 8 id8D   t2 ---- s 8 id8D | ---- s 8 id8D   t3 ---- s 8 id8D  
+8E   t1 ---- s 8 id8E | ---- s 8 id8E   t2 ---- s 8 id8E | ---- s 8 id8E   t3 ---- s 8 id8E  
+8F   t1 ---- s 8 id8F | ---- s 8 id8F   t2 ---- s 8 id8F | ---- s 8 id8F   t3 ---- s 8 id8F  
+90   t1 ---- s 8 id90 | ---- s 8 id90   t2 ---- s 8 id90 | ---- s 8 id90   t3 ---- s 8 id90  
+91 * t1 H--- s 8 id91 | H--- s 8 id91   t2 --B- s 8 id91 | H-B- s 8 id91   t3 ---- s 8 id91  t2
+92 * t1 ---- s 8 id92 | ---- s 8 id92   t2 H-B- s 8 id92 | --B- s 8 id92   t3 ---- s 8 id92  t2
+93 * t1 ---- s 8 id93 | ---- s 8 id93   t2 H-B- s 8 id93 | --B- s 8 id93   t3 ---- s 8 id93  t2
+94 * t1 ---- s 8 id94 | ---- s 8 id94   t2 H-B- s 8 id94 | --B- s 8 id94   t3 ---- s 8 id94  t2
+95 * t1 ---- s 8 id95 | ---- s 8 id95   t2 H-B- s 8 id95 | --B- s 8 id95   t3 ---- s 8 id95  t2
+96 * t1 H--- s 8 id96 | H--- s 8 id96   t2 --B- s 8 id96 | H-B- s 8 id96   t3 ---- s 2 id96  t2
+97 * t1 ---- s 8 id97 | ---- s 8 id97   t2 H-B- s 8 id97 | --B- s 8 id97   t3 ---- s 8 id97  t2
+98 * t1 H--- s 8 id98 | H--- s 8 id98   t2 --B- s 8 id98 | H--- s 2 id98   t3 ---- s 8 id98  t2
+99   t1 ---- s 8 id99 | ---- s 8 id99   t2 H--- s 8 id99 | H--- s 8 id99   t3 ---- s 0 id99  
+9A   t1 ---- s 8 id9A | ---- s 8 id9A   t2 H--- s 8 id9A | H--- s 8 id9A   t3 ---- s 2 id9A  
+9B   t1 ---- s 8 id9B | ---- s 8 id9B   t2 ---- s 8 id9B | ---- s 8 id9B   t3 ---- s 2 id9B  
+9C   t1 ---- s 8 id9C | ---- s 8 id9C   t2 ---- s 8 id9C | ---- s 8 id9C   t3 ---- s 8 id9C  
+9D   t1 ---- s 2 id15 | ---- s 2 id15   t2 ---- s 0 id74 | ---- s 0 id74   t3 H--- s 8 id0D  
+9E   t1 ---- s 8 id9E | ---- s 8 id9E   t2 ---- s 8 id9E | ---- s 8 id9E   t3 ---- s 8 id9E  
+9F   t1 ---- s 0 id9F | ---- s 2 id9F   t2 ---- s 0 id9F | ---- s 1 id9F   t3 ---- s 2 id9F  
+A0   t1 ---- s 8 idA0 | ---- s 8 idA0   t2 ---- s 8 idA0 | ---- s 8 idA0   t3 ---- s 8 idA0  
+A1   t1 ---- s 0 idA1 | ---- s 0 idA1   t2 ---- s 0 idA1 | ---- s 0 idA1   t3 ---- s 0 idA1  
+A2 * t1 H--- s 8 idA2 | H--- s 8 idA2   t2 --B- s 9 idA2 | H-B- s 9 idA2   t3 ---- s 2 idA2  t2
+A3   t1 ---- s 8 idA3 | ---- s 8 idA3   t2 ---- s 8 idA3 | ---- s 8 idA3   t3 ---- s 8 idA3  
+A4   t1 ---- s 0 idA4 | ---- s 0 idA4   t2 ---- s 0 idA4 | ---- s 0 idA4   t3 ---- s 0 idA4  
+A5 * t1 H--- s 8 idA5 | H--- s 8 idA5   t2 ---- s 8 idA5 | H--- s 8 idA5   t3 ---- s 8 idA5  t2
+A6 * t1 H--- s 8 idA6 | H--- s 8 idA6   t2 ---- s 8 idA6 | H--- s 8 idA6   t3 ---- s 8 idA6  t2
+A7   t1 ---- s 4 idA7 | ---- s 4 idA7   t2 ---- s 4 idA7 | ---- s 4 idA7   t3 ---- s 8 idA7  
+A8   t1 ---- s 8 idA8 | ---- s 8 idA8   t2 H--- s 8 idA8 | H--- s 8 idA8   t3 ---- s 8 idA8  
+A9   t1 ---- s 8 idA9 | ---- s 8 idA9   t2 ---- s 8 idA9 | ---- s 8 idA9   t3 ---- s 8 idA9  
+AA   t1 ---- s 8 idAA | ---- s 8 idAA   t2 H--- s 8 idAA | H--- s 8 idAA   t3 H--- s 8 idAA  
+AB * t1 H--- s 8 idAB | H--- s 8 idAB   t2 --B- s 0 idAB | H-B- s 8 idAB   t3 H--- s 8 idAB  t2
+AC   t1 ---- s 8 idAC | ---- s 8 idAC   t2 H--- s 8 idAC | H--- s 8 idAC   t3 ---- s 8 idAC  
+AD   t1 ---- s 8 idAD | ---- s 8 idAD   t2 H--- s 8 idAD | H--- s 8 idAD   t3 ---- s 8 idAD  
+AE   t1 ---- s 8 idAE | ---- s 8 idAE   t2 H--- s 8 idAE | H--- s 8 idAE   t3 ---- s 8 idAE  
+AF   t1 ---- s 8 idAF | ---- s 8 idAF   t2 ---- s 8 idAF | ---- s 8 idAF   t3 ---- s 8 idAF  
+B0   t1 ---- s 8 idB0 | ---- s 8 idB0   t2 H--- s 8 idB0 | H--- s 8 idB0   t3 H--- s 8 idB0  
+B1   t1 ---- s 8 idB1 | ---- s 8 idB1   t2 ---- s 8 idB1 | ---- s 8 idB1   t3 ---- s 8 idB1  
+B2   t1 ---- s 8 idB2 | ---- s 8 idB2   t2 H--- s 8 idB2 | H--- s 8 idB2   t3 ---- s 8 idB2  
+B3 * t1 H--- s 8 idB3 | H--- s 8 idB3   t2 ---- s 8 idB3 | H--- s 8 idB3   t3 H--- s 8 idB3  t2
+B4   t1 H--- s 8 idB4 | H--- s 8 idB4   t2 ---- s 8 idB4 | ---- s 8 idB4   t3 H--- s 8 idB4  
+B5   t1 ---- s 0 idB5 | ---- s 0 idB5   t2 H--- s 0 idB5 | H--- s 8 idB5   t3 ---- s 2 idB5  
+B6   t1 ---- s 8 idB6 | ---- s 8 idB6   t2 H--- s 8 idB6 | H--- s 8 idB6   t3 ---- s 8 idB6  
+B7   t1 ---- s 8 idB7 | ---- s 8 idB7   t2 ---- s 8 idB7 | ---- s 8 idB7   t3 ---- s 8 idB7  
+B8   t1 ---- s 8 idB8 | ---- s 8 idB8   t2 ---- s 8 idB8 | ---- s 8 idB8   t3 ---- s 8 idB8  
+B9   t1 ---- s 8 idB9 | ---- s 8 idB9   t2 ---- s 8 idB9 | ---- s 8 idB9   t3 ---- s 8 idB9  
+BA   t1 ---- s 8 idBA | ---- s 8 idBA   t2 ---- s 8 idBA | ---- s 8 idBA   t3 ---- s 8 idBA  
+BB   t1 ---- s 8 idBB | ---- s 8 idBB   t2 ---- s 8 idBB | ---- s 8 idBB   t3 ---- s 8 idBB  
+BC   t1 ---- s 8 idBC | ---- s 8 idBC   t2 ---- s 8 idBC | ---- s 8 idBC   t3 H--- s 8 idBC  
+BD   t1 ---- s 8 id02 | ---- s 8 id02   t2 --B- s 0 idBD | --B- s 0 idBD   t3 ---- s 2 idBD  
+BE   t1 ---- s 0 idBE | ---- s 0 idBE   t2 ---- s 0 idBE | ---- s 0 idBE   t3 ---- s 2 idBE  
+BF * t1 H--- s 8 idBF | H--- s 8 idBF   t2 ---- s 8 idBF | H--- s 8 idBF   t3 ---- s 2 idBF  t2
+C0   t1 ---- s 8 idC0 | ---- s 8 idC0   t2 ---- s 8 idC0 | ---- s 8 idC0   t3 ---- s 8 idC0  
+C1   t1 ---- s 8 idC1 | ---- s 8 idC1   t2 ---- s 8 idC1 | ---- s 8 idC1   t3 ---- s 8 idC1  
+C2 * t1 H--- s 8 idC2 | H--- s 8 idC2   t2 ---- s 8 idC2 | H--- s 8 idC2   t3 ---- s 2 idC2  t2
+C3   t1 ---- s 8 idC3 | ---- s 8 idC3   t2 H--- s 8 idC3 | H--- s 8 idC3   t3 ---- s 2 idC3  
+C4   t1 ---- s 8 idC4 | ---- s 8 idC4   t2 ---- s 0 idC4 | ---- s 0 idC4   t3 ---- s 8 idC4  
+C5   t1 ---- s 8 idC5 | ---- s 8 idC5   t2 ---- s 8 idC5 | ---- s 8 idC5   t3 ---- s 8 idC5  
+C6   t1 ---- s 8 idC6 | ---- s 8 idC6   t2 ---- s 8 idC6 | ---- s 8 idC6   t3 ---- s 0 idC6  
+C7   t1 ---- s 8 idC7 | ---- s 8 idC7   t2 ---- s 8 id74 | ---- s 8 id74   t3 ---- s 8 idC7  
+C8   t1 ---- s 8 idC8 | ---- s 8 idC8   t2 ---- s 8 idC8 | ---- s 8 idC8   t3 ---- s 8 idC8  
+201 sprites, 57 with a difference

@@ -1,0 +1,80 @@
+# Mario Combat Koopas in Yoshi's Island 2 (warp 06): MC Mario walks into the level's Koopas punching; then fireballs;
+# then Yoshi's tongue. No damage is on so the run continues. Nothing may crash or get stuck.
+loadstate 9
+wait 5
+cheat 14 1
+cheat 1 1
+warp 06
+wait 150
+log yk.csv
+hold RIGHT
+wait 40
+shot y00_walk
+hold RIGHT Y
+wait 2
+hold RIGHT
+wait 30
+shot y01_koopas
+sprites
+hold Y
+wait 2
+hold
+wait 12
+hold Y
+wait 2
+hold
+wait 12
+hold Y
+wait 2
+hold
+wait 12
+shot y02_punching
+sprites
+hold Y
+wait 2
+hold
+wait 12
+hold Y
+wait 2
+hold
+wait 12
+hold Y
+wait 2
+hold
+wait 12
+hold Y
+wait 2
+hold
+wait 20
+shot y03_punching2
+sprites
+power 3
+hold RIGHT
+wait 30
+hold RIGHT X
+wait 2
+hold RIGHT
+wait 10
+hold RIGHT X
+wait 2
+hold
+wait 10
+shot y04_fireball
+sprites
+wait 30
+shot y05_after_fire
+yoshi
+wait 20
+hold RIGHT
+wait 40
+hold Y
+wait 3
+hold
+wait 20
+shot y06_yoshi_tongue
+sprites
+hold RIGHT
+wait 80
+shot y07_yoshi_walk
+sprites
+quit

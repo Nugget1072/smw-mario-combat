@@ -1,0 +1,71 @@
+# MC Koopas / King Koopas and Mario riding Yoshi (SMW Mario): an MC Koopa's punch or Bowser's flame throws Mario off
+# Yoshi (SMW's enemy fire rule); then a spin jump onto an MC Koopa is SMW's spin kill.
+loadstate 9
+wait 5
+clearsprites
+cheat 14 1
+toggle
+wait 10
+power 1
+glide 40 352
+wait 10
+yoshi
+wait 20
+spawn 04 50 0
+wait 20
+sprites
+wait 20
+shot y00
+sprites
+wait 20
+shot y01
+sprites
+wait 20
+shot y02
+sprites
+wait 20
+shot y03
+sprites
+wait 40
+shot y04
+sprites
+clearsprites
+wait 60
+cheat 14 0
+cheat 18 1
+glide 40 352
+wait 10
+yoshi
+wait 20
+spawn 04 90 0
+wait 60
+shot y05_bowser
+sprites
+wait 30
+shot y06
+sprites
+wait 30
+shot y07
+sprites
+wait 30
+shot y08
+sprites
+wait 30
+shot y09
+sprites
+cheat 18 0
+cheat 14 1
+clearsprites
+wait 60
+spawn 04 0 0
+wait 1
+poke 140D 01
+poke 97 01
+poke 96 10
+wait 20
+shot y10_spin
+sprites
+wait 10
+shot y11_spin
+sprites
+quit

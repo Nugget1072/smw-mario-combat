@@ -1,0 +1,67 @@
+# Open map cheat (32). From a new game's map (save state 9, lose a life in Yoshi's Island 1): with the cheat, every
+# path is drawn and Mario walks past the unbeaten Yoshi's Island levels and Iggy's Castle, up the ladder onto the Donut
+# Plains map, and enters Donut Plains 1. The event flags ($1F02) stay zero (peeks); with the cheat off again the next
+# map load shows the player's own map.
+loadstate 9
+wait 5
+kill
+wait 400
+shot o00_own_map
+peek 1F02 15
+cheat 32 1
+hold B
+wait 4
+hold
+wait 120
+kill
+wait 400
+shot o01_open_map
+hold RIGHT
+wait 4
+hold
+wait 90
+hold RIGHT
+wait 4
+hold
+wait 90
+hold UP
+wait 4
+hold
+wait 90
+hold RIGHT
+wait 4
+hold
+wait 90
+hold RIGHT
+wait 4
+hold
+wait 90
+hold UP
+wait 4
+hold
+wait 90
+hold LEFT
+wait 4
+hold
+wait 90
+hold UP
+wait 4
+hold
+wait 90
+shot o02_donut_plains
+hold UP
+wait 4
+hold
+wait 90
+peek 1F02 15
+hold B
+wait 4
+hold
+wait 200
+shot o03_dp1
+status
+cheat 32 0
+kill
+wait 400
+shot o04_own_map_again
+quit

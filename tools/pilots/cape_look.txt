@@ -1,0 +1,53 @@
+# SMW's cape on MC Mario (Yoshi's Island 2, feather): standing, walking, running, jumping, falling, turning, punching,
+# cape take-off and flight, landing, and the hurt blink.
+loadstate 9
+wait 5
+warp 06
+wait 150
+power 2
+wait 10
+log cl.csv
+shot k00_stand
+hold RIGHT
+wait 20
+shot k01_walk
+hold RIGHT X
+wait 60
+shot k02_pspeed
+hold RIGHT X B
+wait 6
+shot k03_takeoff
+wait 20
+shot k04_rise
+hold RIGHT X
+wait 20
+shot k05_fly
+hold LEFT X
+wait 10
+shot k06_fly_climb
+hold
+wait 60
+shot k07_landed
+hold LEFT
+wait 6
+shot k08_turn
+hold
+wait 30
+hold Y
+wait 4
+shot k09_punch
+hold
+wait 20
+hold B
+wait 8
+shot k10_jump
+wait 16
+shot k11_fall
+hold
+wait 40
+poke 1497 40
+wait 2
+shot k12_hurt_blink_a
+wait 3
+shot k13_hurt_blink_b
+quit

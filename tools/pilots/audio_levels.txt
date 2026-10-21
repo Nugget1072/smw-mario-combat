@@ -1,0 +1,30 @@
+# Audio levels (Yoshi's Island 1 start, the Banzai Bill test spot): record the SNES mix and MC's sounds separately
+# while MC Mario punches a Banzai Bill (MC hit sound + SMW's own kick sound), jumps, and runs, for loudness matching.
+loadstate 9
+wait 5
+glide 330 200
+wait 20
+audio lv
+waitnear 36 9F
+hold Y
+wait 3
+hold
+wait 40
+hold B
+wait 20
+hold
+wait 30
+hold Y
+wait 3
+hold
+wait 30
+hold RIGHT
+wait 40
+hold RIGHT Y
+wait 3
+hold RIGHT
+wait 30
+hold
+wait 30
+audio off
+quit

@@ -1,0 +1,115 @@
+# Round-8 cheats. 1. Slippery levels (Yoshi's House floor): SMW Mario, then MC Mario, run right 40 frames and let go,
+# cheat off then on; the log shows the slide. 2. Coin magnet (YI3, level 103): MC Mario walks under the first coin row
+# (48 px above the floor); the coins jump out to him. 3. Flying Yoshi (Yoshi's House): a running jump on Yoshi with
+# the jump button held takes off and keeps flying (SMW's winged-Yoshi flight).
+loadstate 8
+wait 5
+toggle
+wait 5
+log sl.csv
+hold RIGHT
+wait 40
+hold
+wait 60
+shot a00_smw_normal
+loadstate 8
+wait 5
+toggle
+wait 5
+cheat 22 1
+hold RIGHT
+wait 40
+hold
+wait 60
+shot a01_smw_ice
+loadstate 8
+wait 10
+hold RIGHT
+wait 40
+hold
+wait 60
+shot a02_mc_ice
+cheat 22 0
+loadstate 8
+wait 10
+hold RIGHT
+wait 40
+hold
+wait 60
+shot a03_mc_normal
+log off
+loadstate 9
+wait 5
+warp 106
+wait 120
+cheat 23 1
+glide 1150 352
+wait 20
+hold RIGHT
+wait 12
+shot c00_magnet
+wait 6
+shot c01_magnet
+wait 6
+shot c02_magnet
+hold
+wait 20
+status
+shot c03_magnet
+cheat 23 0
+loadstate 9
+wait 5
+warp 106
+wait 120
+toggle
+wait 5
+cheat 24 1
+yoshi
+wait 20
+log fy.csv
+hold RIGHT X
+wait 90
+hold RIGHT X B
+wait 10
+hold RIGHT X
+wait 6
+hold RIGHT X B
+wait 6
+shot f00_takeoff
+hold RIGHT X
+wait 6
+hold RIGHT X B
+wait 6
+hold RIGHT X
+wait 6
+hold RIGHT X B
+wait 6
+hold RIGHT X
+wait 6
+hold RIGHT X B
+wait 6
+shot f01_flapping
+hold RIGHT X
+wait 6
+hold RIGHT X B
+wait 6
+hold RIGHT X
+wait 6
+hold RIGHT X B
+wait 6
+hold RIGHT X
+wait 6
+hold RIGHT X B
+wait 6
+shot f02_flapping
+hold RIGHT X
+wait 6
+hold RIGHT X B
+wait 6
+hold RIGHT X
+wait 6
+hold RIGHT X B
+wait 6
+shot f03_flapping
+log off
+quit

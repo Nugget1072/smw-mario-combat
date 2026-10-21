@@ -1,0 +1,10 @@
+﻿chain_castles  PASS 
+chain_all      PASS 
+from_level     PASS 
+retry          PASS 
+end_on_death   PASS 
+abandon        PASS 
+bowser_after_all PASS 
+kids_move      PASS 
+real_fights music per room: 1F6 52/52, 0E4 43/43, 0E5 27/27, 0DF 138/138
+real_fights    PASS 

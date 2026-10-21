@@ -1,0 +1,52 @@
+# Objects that take over Mario's movement (Yoshi's House, away from the message block): springboard, P-balloon and
+# Lakitu's cloud. Each test starts from the snapshot again.
+loadstate 8
+wait 5
+cheat 1 1
+glide 160 318
+log sp.csv
+spawn 2F 0 34
+wait 30
+shot o00_spring_land
+hold B
+wait 30
+shot o01_spring_launch
+hold
+wait 40
+shot o02_spring_after
+log off
+loadstate 8
+wait 5
+glide 150 300
+wait 30
+log ba.csv
+spawn 7D 0 -4
+wait 40
+shot o03_balloon
+hold UP RIGHT
+wait 50
+shot o04_balloon_up
+hold LEFT
+wait 60
+shot o05_balloon_left
+hold
+wait 400
+shot o06_balloon_end
+log off
+loadstate 8
+wait 5
+glide 150 300
+wait 30
+log cl.csv
+spawn 87 0 -24
+wait 40
+shot o07_cloud
+hold RIGHT
+wait 40
+shot o08_cloud_right
+hold B
+wait 4
+hold
+wait 40
+shot o09_cloud_jump
+quit

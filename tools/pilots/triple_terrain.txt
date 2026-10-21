@@ -1,0 +1,33 @@
+# Triple enemies, terrain enemies: Jumping Piranha Plants sharing their pipe in Yoshi's Island 1 (they come out one
+# after another), and Monty Moles (ledge and ground) in level 106. No damage is on.
+loadstate 9
+wait 5
+cheat 1 1
+cheat 9 1
+warp 105
+wait 120
+glide 1700 200
+wait 30
+shot p00_pipe
+sprites
+wait 60
+shot p01_pipe2
+wait 60
+shot p02_pipe3
+sprites
+warp 106
+wait 140
+glide 3000 200
+wait 40
+shot m00_ledge_moles
+sprites
+wait 60
+shot m01_ledge_moles2
+glide 3700 300
+wait 40
+shot m02_ground_moles
+sprites
+wait 60
+shot m03_ground_moles2
+sprites
+quit

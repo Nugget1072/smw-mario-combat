@@ -1,0 +1,55 @@
+# Mario Combat Koopas cheat (Yoshi's Island 1): a Koopa spawned in front of MC Mario is Mario Combat's Koopa. It walks
+# up to Mario and punches him; Mario punches back until it is knocked out (it tumbles and falls out of the level).
+# Then SMW Mario stomps a second one.
+loadstate 9
+wait 5
+clearsprites
+cheat 14 1
+cheat 1 1
+glide 90 352
+wait 10
+spawn 04 90 0
+log kp.csv
+wait 10
+shot k00_spawned
+wait 30
+shot k01_walks
+wait 30
+shot k02_attack
+wait 20
+shot k03_attack2
+attack 04 30
+wait 3
+shot k04_jab
+attack 04 30
+attack 04 30
+attack 04 30
+attack 04 30
+attack 04 30
+attack 04 30
+attack 04 30
+attack 04 30
+sprites
+attack 04 30
+wait 3
+shot k05_last_hit
+sprites
+wait 12
+shot k06_dying
+sprites
+wait 30
+shot k07_falling
+sprites
+log off
+clearsprites
+toggle
+wait 10
+glide 90 300
+spawn 05 0 48
+wait 40
+shot k08_smw_stomp
+sprites
+wait 20
+shot k09_smw_after
+sprites
+quit

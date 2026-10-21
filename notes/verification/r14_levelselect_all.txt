@@ -1,0 +1,187 @@
+level select: every entry from the map and from inside a level (levelselect_test.py); level loaded, then after running, then back on the map
+0C5 INTRO                  from map  : started 0C5 (time 000) | after running 0C5 | after death mode 0E session 0 save buffer same
+0C5 INTRO                  from level: started 0C5 (time 000) | after running 0C5 | after death mode 0E session 0 
+104 YOSHI'S HOUSE          from map  : started 104 (time 000) | after running 104 | after death mode 0E session 0 save buffer same
+104 YOSHI'S HOUSE          from level: started 104 (time 000) | after running 104 | after death mode 0E session 0 
+105 YOSHI'S ISLAND 1       from map  : started 105 (time 296) | after running 105 | after death mode 0E session 0 save buffer same
+105 YOSHI'S ISLAND 1       from level: started 105 (time 296) | after running 105 | after death mode 0E session 0 
+014 YELLOW SWITCH PALACE   from map  : started 014 (time 196) | after running 014 | after death mode 0E session 0 save buffer same
+014 YELLOW SWITCH PALACE   from level: started 014 (time 196) | after running 014 | after death mode 0E session 0 
+106 YOSHI'S ISLAND 2       from map  : started 106 (time 396) | after running 106 | after death mode 0E session 0 save buffer same
+106 YOSHI'S ISLAND 2       from level: started 106 (time 396) | after running 106 | after death mode 0E session 0 
+103 YOSHI'S ISLAND 3       from map  : started 103 (time 296) | after running 103 | after death mode 0E session 0 save buffer same
+103 YOSHI'S ISLAND 3       from level: started 103 (time 296) | after running 103 | after death mode 0E session 0 
+102 YOSHI'S ISLAND 4       from map  : started 102 (time 296) | after running 102 | after death mode 0E session 0 save buffer same
+102 YOSHI'S ISLAND 4       from level: started 102 (time 296) | after running 102 | after death mode 0E session 0 
+101 IGGY'S CASTLE          from map  : started 101 (time 000) | after running 101 | after death mode 0E session 0 save buffer same
+101 IGGY'S CASTLE          from level: started 101 (time 000) | after running 101 | after death mode 0E session 0 
+015 DONUT PLAINS 1         from map  : started 015 (time 396) | after running 015 | after death mode 0E session 0 save buffer same
+015 DONUT PLAINS 1         from level: started 015 (time 396) | after running 015 | after death mode 0E session 0 
+00A DONUT SECRET 1         from map  : started 00A (time 296) | after running 00A | after death mode 0E session 0 save buffer same
+00A DONUT SECRET 1         from level: started 00A (time 296) | after running 00A | after death mode 0E session 0 
+013 DONUT SECRET HOUSE     from map  : started 013 (time 000) | after running 013 | after death mode 0E session 0 save buffer same
+013 DONUT SECRET HOUSE     from level: started 013 (time 000) | after running 013 | after death mode 0E session 0 
+10B DONUT SECRET 2         from map  : started 10B (time 296) | after running 10B | after death mode 0E session 0 save buffer same
+10B DONUT SECRET 2         from level: started 10B (time 296) | after running 10B | after death mode 0E session 0 
+009 DONUT PLAINS 2         from map  : started 009 (time 396) | after running 009 | after death mode 0E session 0 save buffer same
+009 DONUT PLAINS 2         from level: started 009 (time 396) | after running 009 | after death mode 0E session 0 
+008 GREEN SWITCH PALACE    from map  : started 008 (time 196) | after running 008 | after death mode 0E session 0 save buffer same
+008 GREEN SWITCH PALACE    from level: started 008 (time 196) | after running 008 | after death mode 0E session 0 
+004 DONUT GHOST HOUSE      from map  : started 004 (time 000) | after running 004 | after death mode 0E session 0 save buffer same
+004 DONUT GHOST HOUSE      from level: started 004 (time 000) | after running 004 | after death mode 0E session 0 
+003 TOP SECRET AREA        from map  : started 003 (time 000) | after running 003 | after death mode 0E session 0 save buffer same
+003 TOP SECRET AREA        from level: started 003 (time 000) | after running 003 | after death mode 0E session 0 
+005 DONUT PLAINS 3         from map  : started 005 (time 296) | after running 005 | after death mode 0E session 0 save buffer same
+005 DONUT PLAINS 3         from level: started 005 (time 296) | after running 005 | after death mode 0E session 0 
+006 DONUT PLAINS 4         from map  : started 006 (time 296) | after running 006 | after death mode 0E session 0 save buffer same
+006 DONUT PLAINS 4         from level: started 006 (time 296) | after running 006 | after death mode 0E session 0 
+007 MORTON'S CASTLE        from map  : started 007 (time 000) | after running 007 | after death mode 0E session 0 save buffer same
+007 MORTON'S CASTLE        from level: started 007 (time 000) | after running 007 | after death mode 0E session 0 
+11A VANILLA DOME 1         from map  : started 11A (time 396) | after running 11A | after death mode 0E session 0 save buffer same
+11A VANILLA DOME 1         from level: started 11A (time 396) | after running 11A | after death mode 0E session 0 
+109 VANILLA SECRET 1       from map  : started 109 (time 296) | after running 109 | after death mode 0E session 0 save buffer same
+109 VANILLA SECRET 1       from level: started 109 (time 296) | after running 109 | after death mode 0E session 0 
+001 VANILLA SECRET 2       from map  : started 001 (time 296) | after running 001 | after death mode 0E session 0 save buffer same
+001 VANILLA SECRET 2       from level: started 001 (time 296) | after running 001 | after death mode 0E session 0 
+002 VANILLA SECRET 3       from map  : started 002 (time 296) | after running 002 | after death mode 0E session 0 save buffer same
+002 VANILLA SECRET 3       from level: started 002 (time 296) | after running 002 | after death mode 0E session 0 
+00B VANILLA FORTRESS       from map  : started 00B (time 000) | after running 00B | after death mode 0E session 0 save buffer same
+00B VANILLA FORTRESS       from level: started 00B (time 000) | after running 00B | after death mode 0E session 0 
+118 VANILLA DOME 2         from map  : started 118 (time 296) | after running 118 | after death mode 0E session 0 save buffer same
+118 VANILLA DOME 2         from level: started 118 (time 296) | after running 118 | after death mode 0E session 0 
+11B RED SWITCH PALACE      from map  : started 11B (time 196) | after running 11B | after death mode 0E session 0 save buffer same
+11B RED SWITCH PALACE      from level: started 11B (time 196) | after running 11B | after death mode 0E session 0 
+107 VANILLA GHOST HOUSE    from map  : started 107 (time 000) | after running 107 | after death mode 0E session 0 save buffer same
+107 VANILLA GHOST HOUSE    from level: started 107 (time 000) | after running 107 | after death mode 0E session 0 
+10A VANILLA DOME 3         from map  : started 10A (time 396) | after running 10A | after death mode 0E session 0 save buffer same
+10A VANILLA DOME 3         from level: started 10A (time 396) | after running 10A | after death mode 0E session 0 
+119 VANILLA DOME 4         from map  : started 119 (time 296) | after running 119 | after death mode 0E session 0 save buffer same
+119 VANILLA DOME 4         from level: started 119 (time 296) | after running 119 | after death mode 0E session 0 
+11C LEMMY'S CASTLE         from map  : started 11C (time 000) | after running 11C | after death mode 0E session 0 save buffer same
+11C LEMMY'S CASTLE         from level: started 11C (time 000) | after running 11C | after death mode 0E session 0 
+00F CHEESE BRIDGE AREA     from map  : started 00F (time 296) | after running 00F | after death mode 0E session 0 save buffer same
+00F CHEESE BRIDGE AREA     from level: started 00F (time 296) | after running 00F | after death mode 0E session 0 
+011 SODA LAKE              from map  : started 011 (time 296) | after running 011 | after death mode 0E session 0 save buffer same
+011 SODA LAKE              from level: started 011 (time 296) | after running 011 | after death mode 0E session 0 
+010 COOKIE MOUNTAIN        from map  : started 010 (time 296) | after running 010 | after death mode 0E session 0 save buffer same
+010 COOKIE MOUNTAIN        from level: started 010 (time 296) | after running 010 | after death mode 0E session 0 
+00C BUTTER BRIDGE 1        from map  : started 00C (time 296) | after running 00C | after death mode 0E session 0 save buffer same
+00C BUTTER BRIDGE 1        from level: started 00C (time 296) | after running 00C | after death mode 0E session 0 
+00D BUTTER BRIDGE 2        from map  : started 00D (time 296) | after running 00D | after death mode 0E session 0 save buffer same
+00D BUTTER BRIDGE 2        from level: started 00D (time 296) | after running 00D | after death mode 0E session 0 
+00E LUDWIG'S CASTLE        from map  : started 00E (time 000) | after running 00E | after death mode 0E session 0 save buffer same
+00E LUDWIG'S CASTLE        from level: started 00E (time 000) | after running 00E | after death mode 0E session 0 
+11E FOREST OF ILLUSION 1   from map  : started 11E (time 296) | after running 11E | after death mode 0E session 0 save buffer same
+11E FOREST OF ILLUSION 1   from level: started 11E (time 296) | after running 11E | after death mode 0E session 0 
+120 FOREST OF ILLUSION 2   from map  : started 120 (time 296) | after running 120 | after death mode 0E session 0 save buffer same
+120 FOREST OF ILLUSION 2   from level: started 120 (time 296) | after running 120 | after death mode 0E session 0 
+121 BLUE SWITCH PALACE     from map  : started 121 (time 196) | after running 121 | after death mode 0E session 0 save buffer same
+121 BLUE SWITCH PALACE     from level: started 121 (time 196) | after running 121 | after death mode 0E session 0 
+123 FOREST OF ILLUSION 3   from map  : started 123 (time 296) | after running 123 | after death mode 0E session 0 save buffer same
+123 FOREST OF ILLUSION 3   from level: started 123 (time 296) | after running 123 | after death mode 0E session 0 
+11D FOREST GHOST HOUSE     from map  : started 11D (time 000) | after running 11D | after death mode 0E session 0 save buffer same
+11D FOREST GHOST HOUSE     from level: started 11D (time 000) | after running 11D | after death mode 0E session 0 
+11F FOREST OF ILLUSION 4   from map  : started 11F (time 296) | after running 11F | after death mode 0E session 0 save buffer same
+11F FOREST OF ILLUSION 4   from level: started 11F (time 296) | after running 11F | after death mode 0E session 0 
+122 FOREST SECRET AREA     from map  : started 122 (time 296) | after running 122 | after death mode 0E session 0 save buffer same
+122 FOREST SECRET AREA     from level: started 122 (time 296) | after running 122 | after death mode 0E session 0 
+01F FOREST FORTRESS        from map  : started 01F (time 000) | after running 01F | after death mode 0E session 0 save buffer same
+01F FOREST FORTRESS        from level: started 01F (time 000) | after running 01F | after death mode 0E session 0 
+020 ROY'S CASTLE           from map  : started 020 (time 000) | after running 020 | after death mode 0E session 0 save buffer same
+020 ROY'S CASTLE           from level: started 020 (time 000) | after running 020 | after death mode 0E session 0 
+022 CHOCOLATE ISLAND 1     from map  : started 022 (time 296) | after running 022 | after death mode 0E session 0 save buffer same
+022 CHOCOLATE ISLAND 1     from level: started 022 (time 296) | after running 022 | after death mode 0E session 0 
+021 CHOCO-GHOST HOUSE      from map  : started 021 (time 000) | after running 021 | after death mode 0E session 0 save buffer same
+021 CHOCO-GHOST HOUSE      from level: started 021 (time 000) | after running 021 | after death mode 0E session 0 
+024 CHOCOLATE ISLAND 2     from map  : started 024 (time 296) | after running 024 | after death mode 0E session 0 save buffer same
+024 CHOCOLATE ISLAND 2     from level: started 024 (time 296) | after running 024 | after death mode 0E session 0 
+117 CHOCOLATE SECRET       from map  : started 117 (time 296) | after running 117 | after death mode 0E session 0 save buffer same
+117 CHOCOLATE SECRET       from level: started 117 (time 296) | after running 117 | after death mode 0E session 0 
+023 CHOCOLATE ISLAND 3     from map  : started 023 (time 296) | after running 023 | after death mode 0E session 0 save buffer same
+023 CHOCOLATE ISLAND 3     from level: started 023 (time 296) | after running 023 | after death mode 0E session 0 
+01B CHOCOLATE FORTRESS     from map  : started 01B (time 000) | after running 01B | after death mode 0E session 0 save buffer same
+01B CHOCOLATE FORTRESS     from level: started 01B (time 000) | after running 01B | after death mode 0E session 0 
+01D CHOCOLATE ISLAND 4     from map  : started 01D (time 296) | after running 01D | after death mode 0E session 0 save buffer same
+01D CHOCOLATE ISLAND 4     from level: started 01D (time 296) | after running 01D | after death mode 0E session 0 
+01C CHOCOLATE ISLAND 5     from map  : started 01C (time 296) | after running 01C | after death mode 0E session 0 save buffer same
+01C CHOCOLATE ISLAND 5     from level: started 01C (time 296) | after running 01C | after death mode 0E session 0 
+01A WENDY'S CASTLE         from map  : started 01A (time 000) | after running 01A | after death mode 0E session 0 save buffer same
+01A WENDY'S CASTLE         from level: started 01A (time 000) | after running 01A | after death mode 0E session 0 
+018 SUNKEN GHOST SHIP      from map  : started 018 (time 396) | after running 018 | after death mode 0E session 0 save buffer same
+018 SUNKEN GHOST SHIP      from level: started 018 (time 396) | after running 018 | after death mode 0E session 0 
+116 VALLEY OF BOWSER 1     from map  : started 116 (time 396) | after running 116 | after death mode 0E session 0 save buffer same
+116 VALLEY OF BOWSER 1     from level: started 116 (time 396) | after running 116 | after death mode 0E session 0 
+115 VALLEY OF BOWSER 2     from map  : started 115 (time 396) | after running 115 | after death mode 0E session 0 save buffer same
+115 VALLEY OF BOWSER 2     from level: started 115 (time 396) | after running 115 | after death mode 0E session 0 
+114 VALLEY GHOST HOUSE     from map  : started 114 (time 000) | after running 114 | after death mode 0E session 0 save buffer same
+114 VALLEY GHOST HOUSE     from level: started 114 (time 000) | after running 114 | after death mode 0E session 0 
+113 VALLEY OF BOWSER 3     from map  : started 113 (time 296) | after running 113 | after death mode 0E session 0 save buffer same
+113 VALLEY OF BOWSER 3     from level: started 113 (time 296) | after running 113 | after death mode 0E session 0 
+10F VALLEY OF BOWSER 4     from map  : started 10F (time 296) | after running 10F | after death mode 0E session 0 save buffer same
+10F VALLEY OF BOWSER 4     from level: started 10F (time 296) | after running 10F | after death mode 0E session 0 
+111 VALLEY FORTRESS        from map  : started 111 (time 000) | after running 111 | after death mode 0E session 0 save buffer same
+111 VALLEY FORTRESS        from level: started 111 (time 000) | after running 111 | after death mode 0E session 0 
+110 LARRY'S CASTLE         from map  : started 110 (time 000) | after running 110 | after death mode 0E session 0 save buffer same
+110 LARRY'S CASTLE         from level: started 110 (time 000) | after running 110 | after death mode 0E session 0 
+10D FRONT DOOR             from map  : started 10D (time 000) | after running 10D | after death mode 0E session 0 save buffer same
+10D FRONT DOOR             from level: started 10D (time 000) | after running 10D | after death mode 0E session 0 
+10E BACK DOOR              from map  : started 10E (time 000) | after running 10E | after death mode 0E session 0 save buffer same
+10E BACK DOOR              from level: started 10E (time 000) | after running 10E | after death mode 0E session 0 
+134 STAR WORLD 1           from map  : started 134 (time 296) | after running 134 | after death mode 0E session 0 save buffer same
+134 STAR WORLD 1           from level: started 134 (time 296) | after running 134 | after death mode 0E session 0 
+130 STAR WORLD 2           from map  : started 130 (time 296) | after running 130 | after death mode 0E session 0 save buffer same
+130 STAR WORLD 2           from level: started 130 (time 296) | after running 130 | after death mode 0E session 0 
+132 STAR WORLD 3           from map  : started 132 (time 196) | after running 132 | after death mode 0E session 0 save buffer same
+132 STAR WORLD 3           from level: started 132 (time 196) | after running 132 | after death mode 0E session 0 
+135 STAR WORLD 4           from map  : started 135 (time 296) | after running 135 | after death mode 0E session 0 save buffer same
+135 STAR WORLD 4           from level: started 135 (time 296) | after running 135 | after death mode 0E session 0 
+136 STAR WORLD 5           from map  : started 136 (time 296) | after running 136 | after death mode 0E session 0 save buffer same
+136 STAR WORLD 5           from level: started 136 (time 296) | after running 136 | after death mode 0E session 0 
+12A GNARLY                 from map  : started 12A (time 296) | after running 12A | after death mode 0E session 0 save buffer same
+12A GNARLY                 from level: started 12A (time 296) | after running 12A | after death mode 0E session 0 
+12B TUBULAR                from map  : started 12B (time 296) | after running 12B | after death mode 0E session 0 save buffer same
+12B TUBULAR                from level: started 12B (time 296) | after running 12B | after death mode 0E session 0 
+12C WAY COOL               from map  : started 12C (time 296) | after running 12C | after death mode 0E session 0 save buffer same
+12C WAY COOL               from level: started 12C (time 296) | after running 12C | after death mode 0E session 0 
+12D AWESOME                from map  : started 12D (time 296) | after running 12D | after death mode 0E session 0 save buffer same
+12D AWESOME                from level: started 12D (time 296) | after running 12D | after death mode 0E session 0 
+128 GROOVY                 from map  : started 128 (time 296) | after running 128 | after death mode 0E session 0 save buffer same
+128 GROOVY                 from level: started 128 (time 296) | after running 128 | after death mode 0E session 0 
+127 MONDO                  from map  : started 127 (time 296) | after running 127 | after death mode 0E session 0 save buffer same
+127 MONDO                  from level: started 127 (time 296) | after running 127 | after death mode 0E session 0 
+126 OUTRAGEOUS             from map  : started 126 (time 296) | after running 126 | after death mode 0E session 0 save buffer same
+126 OUTRAGEOUS             from level: started 126 (time 296) | after running 126 | after death mode 0E session 0 
+125 FUNKY                  from map  : started 125 (time 196) | after running 125 | after death mode 0E session 0 save buffer same
+125 FUNKY                  from level: started 125 (time 196) | after running 125 | after death mode 0E session 0 
+000 1-UP BONUS GAME        from map  : started 000 (time 000) | after running 000 | after death mode 0E session 0 save buffer same
+000 1-UP BONUS GAME        from level: started 000 (time 000) | after running 000 | after death mode 0E session 0 
+0C8 YOSHI WINGS AREA       from map  : started 0C8 (time 294) | after running 0C8 | after death mode 0E session 0 save buffer same
+0C8 YOSHI WINGS AREA       from level: started 0C8 (time 294) | after running 0C8 | after death mode 0E session 0 
+1C8 YOSHI WINGS AREA 2     from map  : started 1C8 (time 294) | after running 1C8 | after death mode 0E session 0 save buffer same
+1C8 YOSHI WINGS AREA 2     from level: started 1C8 (time 294) | after running 1C8 | after death mode 0E session 0 
+0C7 TITLE SCREEN           from map  : started 0C7 (time 000) | after running 0C7 | after death mode 0E session 0 save buffer same
+0C7 TITLE SCREEN           from level: started 0C7 (time 000) | after running 0C7 | after death mode 0E session 0 
+019 TEST LEVEL             from map  : started 019 (time 196) | after running 019 | after death mode 0E session 0 save buffer same
+019 TEST LEVEL             from level: started 019 (time 196) | after running 019 | after death mode 0E session 0 
+017 DONUT P. 1 COPY        from map  : started 017 (time 396) | after running 017 | after death mode 0E session 0 save buffer same
+017 DONUT P. 1 COPY        from level: started 017 (time 396) | after running 017 | after death mode 0E session 0 
+108 LEVEL 108              from map  : started 108 (time 199) | after running 108 | after death mode 0E session 0 save buffer same
+108 LEVEL 108              from level: started 108 (time 199) | after running 108 | after death mode 0E session 0 
+095 REZNOR ROOM 095        from map  : started 095 (time 396) | after running 095 | after death mode 0E session 0 save buffer same
+095 REZNOR ROOM 095        from level: started 095 (time 395) | after running 095 | after death mode 0E session 0 
+098 BOSS ROOM 098          from map  : started 098 (time 396) | after running 098 | after death mode 0E session 0 save buffer same
+098 BOSS ROOM 098          from level: started 098 (time 395) | after running 098 | after death mode 0E session 0 
+099 BOSS ROOM 099          from map  : started 099 (time 399) | after running 099 | after death mode 0E session 0 save buffer same
+099 BOSS ROOM 099          from level: started 099 (time 399) | after running 099 | after death mode 0E session 0 
+09A BOSS ROOM 09A          from map  : started 09A (time 399) | after running 09A | after death mode 0E session 0 save buffer same
+09A BOSS ROOM 09A          from level: started 09A (time 399) | after running 09A | after death mode 0E session 0 
+093 BOSS ROOM 093          from map  : started 093 (time 396) | after running 093 | after death mode 0E session 0 save buffer same
+093 BOSS ROOM 093          from level: started 093 (time 396) | after running 093 | after death mode 0E session 0 
+094 BOSS ROOM 094          from map  : started 094 (time 396) | after running 094 | after death mode 0E session 0 save buffer same
+094 BOSS ROOM 094          from level: started 094 (time 396) | after running 094 | after death mode 0E session 0 
+096 BOSS ROOM 096          from map  : started 096 (time 396) | after running 096 | after death mode 0E session 0 save buffer same
+096 BOSS ROOM 096          from level: started 096 (time 395) | after running 096 | after death mode 0E session 0 
+097 BOSS ROOM 097          from map  : started 097 (time 396) | after running 097 | after death mode 0E session 0 save buffer same
+097 BOSS ROOM 097          from level: started 097 (time 395) | after running 097 | after death mode 0E session 0 
+09B BOWSER ROOM 09B        from map  : started 09B (time 400) | after running 09B | after death mode 0E session 0 save buffer same
+09B BOWSER ROOM 09B        from level: started 09B (time 400) | after running 09B | after death mode 0E session 0 

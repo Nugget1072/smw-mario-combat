@@ -1,0 +1,32 @@
+﻿2F  bump SMW above+on   MC bumped     <-   drop SMW landed     MC landed      FAIL
+49  bump SMW bumped     MC bumped       drop SMW landed     MC landed      ok
+55  bump SMW above+on   MC above+on     drop SMW landed     MC landed      ok
+56  bump SMW above+on   MC above+on     drop SMW landed     MC landed      ok
+57  bump SMW short      MC above+on     drop SMW landed     MC landed      ok
+58  bump SMW short      MC above+on     drop SMW landed     MC landed      ok
+59  bump SMW bumped     MC bumped       drop SMW landed     MC landed      ok
+5A  bump SMW bumped     MC bumped       drop SMW landed     MC landed      ok
+5C  bump SMW above+on   MC above      <-   drop SMW landed     MC landed      FAIL
+5E  bump SMW above+on   MC above+on     drop SMW landed     MC landed      ok
+5F  bump SMW above      MC above        drop SMW landed     MC landed      ok
+60  bump SMW above+on   MC above+on     drop SMW landed     MC landed      ok
+6B  bump SMW above+on   MC above+on     drop SMW landed     MC landed      ok
+6C  bump SMW short      MC above        drop SMW landed     MC landed      ok
+6D  bump SMW bumped     MC bumped       drop SMW landed     MC landed      ok
+83  bump SMW bumped     MC bumped       drop SMW missed     MC missed      ok
+84  bump SMW bumped     MC bumped       drop SMW landed     MC missed     <-  FAIL
+8F  bump SMW above+on   MC above+on     drop SMW landed     MC landed      ok
+9C  bump SMW bumped     MC bumped       drop SMW missed     MC missed      ok
+A3  bump SMW short      MC above        drop SMW landed     MC missed     <-  FAIL
+B1  bump SMW bumped     MC bumped       drop SMW landed     MC landed      ok
+B7  bump SMW above+on   MC above      <-   drop SMW landed     MC landed      FAIL
+B8  bump SMW short+on   MC short      <-   drop SMW landed     MC landed      FAIL
+B9  bump SMW bumped     MC bumped       drop SMW landed     MC landed      ok
+BA  bump SMW above+on   MC above+on     drop SMW landed     MC landed      ok
+BB  bump SMW short      MC short        drop SMW missed     MC missed      ok
+BC  bump SMW bumped     MC bumped       drop SMW landed     MC landed      ok
+C0  bump SMW above+on   MC above+on     drop SMW landed     MC landed      ok
+C1  bump SMW above+on   MC above+on     drop SMW landed     MC landed      ok
+C4  bump SMW above+on   MC above+on     drop SMW landed     MC landed      ok
+C8  bump SMW bumped     MC bumped       drop SMW landed     MC landed      ok
+sprites 31, failed 6

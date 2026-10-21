@@ -1,0 +1,23 @@
+# MC Mario and walls (level 004, the tall wall at x 1280): a jump held from the take-off carries him up along the
+# wall and he clings/slides without being kicked away; a fresh jump press while clinging is MC's wall kick.
+loadstate 9
+wait 5
+warp 004
+wait 150
+glide 1220 200
+wait 40
+log wall.csv
+hold RIGHT X
+wait 20
+hold RIGHT X B
+wait 60
+shot w00_held
+hold RIGHT
+wait 4
+hold RIGHT B
+wait 20
+shot w01_fresh_press_kick
+hold
+wait 30
+log off
+quit

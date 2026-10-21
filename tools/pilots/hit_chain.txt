@@ -1,0 +1,27 @@
+# Hit chain (Yoshi's Island 1): MC Mario punches a Koopa, then keeps punching its shell. Each hit on the same enemy
+# within 2 s scores the next step of SMW's stomp chain (200, 400, 800, ... 1-up).
+loadstate 9
+wait 5
+cheat 1 1
+clearsprites
+spawn 04 40 0
+wait 2
+attack 04 34
+wait 6
+shot c00_hit1
+sprites
+attack 04 34
+wait 6
+shot c01_hit2
+sprites
+attack 04 34
+wait 6
+shot c02_hit3
+sprites
+attack 04 34
+wait 6
+shot c03_hit4
+sprites
+wait 30
+shot c04_after
+quit

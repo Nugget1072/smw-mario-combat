@@ -1,0 +1,12 @@
+﻿light (SMW enemy)
+   1x:     5 px right (  1.0x),    0 px up (  0.0x), stopped after   7 frames, hurt clip 12 frames, life 10.0
+   2x:    10 px right (  2.0x),    0 px up (  0.0x), stopped after   8 frames, hurt clip 12 frames, life 10.0
+   5x:    27 px right (  5.4x),    0 px up (  0.0x), stopped after  14 frames, hurt clip 12 frames, life 10.0
+  10x:    57 px right ( 11.4x),    0 px up (  0.0x), stopped after  23 frames, hurt clip 12 frames, life 10.0
+  20x:   110 px right ( 22.0x),    0 px up (  0.0x), stopped after  26 frames, hurt clip 12 frames, life 10.0
+heavy (MC strong attack)
+   1x:    65 px right (  1.0x),   32 px up (  1.0x), stopped after  47 frames, hurt clip 29 frames, life 10.0
+   2x:   128 px right (  2.0x),   65 px up (  2.0x), stopped after  80 frames, hurt clip 29 frames, life 10.0
+   5x:   329 px right (  5.1x),  163 px up (  5.1x), stopped after 115 frames, hurt clip 42 frames, life 10.0
+  10x:   658 px right ( 10.1x),  288 px up (  9.0x), stopped after 161 frames, hurt clip 29 frames, life 10.0
+  20x:  1127 px right ( 17.3x),  288 px up (  9.0x), stopped after 190 frames, hurt clip 29 frames, life 10.0

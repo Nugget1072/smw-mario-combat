@@ -1,0 +1,81 @@
+# Round-7 move cheats (Yoshi's Island 1). Double jump: SMW Mario, then MC Mario, jump and jump again at the top (a
+# puff of smoke under the feet). Ground pound: Down in the air drops Mario straight down; the landing shakes the
+# screen and knocks out the Goombas walking nearby (SMW's cape-dive landing). Wall jump: SMW Mario slides down the
+# pipe's side and kicks off it. (Round 11: the pound has a 16-frame wind-up first, so the landing shots wait 30.)
+loadstate 9
+wait 5
+clearsprites
+cheat 19 1
+cheat 20 1
+cheat 21 1
+cheat 1 1
+toggle
+wait 10
+glide 60 352
+wait 10
+log mv.csv
+# 1. SMW Mario: double jump
+hold B
+wait 20
+hold
+wait 4
+shot j00_smw_top
+hold B
+wait 2
+shot j01_smw_second_jump
+wait 14
+hold
+wait 8
+shot j02_smw_higher
+wait 50
+# 2. SMW Mario: ground pound among Goombas
+spawn 0F 40 0
+spawn 0F -40 0
+wait 10
+hold B
+wait 16
+hold
+wait 6
+hold DOWN
+wait 2
+hold
+wait 3
+shot p00_smw_pound
+wait 30
+shot p01_smw_landing
+sprites
+wait 30
+clearsprites
+# 3. MC Mario: double jump and ground pound
+toggle
+wait 20
+hold B
+wait 14
+hold
+wait 6
+shot j03_mc_top
+hold B
+wait 3
+shot j04_mc_second_jump
+wait 12
+hold
+wait 6
+shot j05_mc_higher
+wait 50
+spawn 0F 40 0
+spawn 0F -40 0
+wait 10
+hold B
+wait 14
+hold
+wait 6
+hold DOWN
+wait 3
+hold
+wait 3
+shot p02_mc_pound
+wait 30
+shot p03_mc_landing
+sprites
+wait 30
+quit

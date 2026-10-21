@@ -1,0 +1,19 @@
+﻿55  on it SMW 140/140 MC 140/140  drops SMW  0 MC  0  on it at the end SMW True  MC True  ok
+56  on it SMW 140/140 MC 140/140  drops SMW  0 MC  0  on it at the end SMW False MC False ok
+57  on it SMW 140/140 MC 140/140  drops SMW  0 MC  0  on it at the end SMW True  MC True  ok
+58  on it SMW 140/140 MC 140/140  drops SMW  0 MC  0  on it at the end SMW True  MC True  ok
+59  on it SMW 140/140 MC 139/140  drops SMW  0 MC  0  on it at the end SMW True  MC True  ok
+5A  on it SMW 140/140 MC 139/140  drops SMW  0 MC  0  on it at the end SMW True  MC True  ok
+5C  on it SMW  70/140 MC  79/140  drops SMW  1 MC  1  on it at the end SMW False MC False ok
+5E  on it SMW 140/140 MC 140/140  drops SMW  0 MC  0  on it at the end SMW True  MC True  ok
+5F  on it SMW  98/140 MC 102/140  drops SMW  1 MC  1  on it at the end SMW False MC False ok
+A3  on it SMW 140/140 MC 140/140  drops SMW  0 MC  0  on it at the end SMW False MC False ok
+BB  on it SMW 140/140 MC 140/140  drops SMW  0 MC  0  on it at the end SMW True  MC True  ok
+C0  on it SMW  59/140 MC  62/140  drops SMW  1 MC  1  on it at the end SMW False MC False ok
+C1  on it SMW 140/140 MC 140/140  drops SMW  0 MC  0  on it at the end SMW False MC True  ok
+C4  on it SMW  64/140 MC  67/140  drops SMW  1 MC  1  on it at the end SMW False MC False ok
+BA  on it SMW  99/140 MC 102/140  drops SMW  1 MC  1  on it at the end SMW False MC True  ok
+83  on it SMW 140/140 MC 140/140  drops SMW  0 MC  0  on it at the end SMW False MC False ok
+84  on it SMW 140/140 MC 140/140  drops SMW  0 MC  0  on it at the end SMW False MC False ok
+B9  on it SMW 140/140 MC 140/140  drops SMW  0 MC  0  on it at the end SMW True  MC True  ok
+sprites 18, failed 0

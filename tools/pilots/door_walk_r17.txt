@@ -1,0 +1,47 @@
+# Round 17: the walk to a ghost house / castle door (player state 0A) as MC Mario: on the ground, in his walk / run
+# animation, into the door (before: the jump pose, gliding over the floor). Donut Ghost House, Iggy's Castle and
+# Bowser's Front Door from the level select.
+loadstate 9
+wait 5
+kill
+wait 400
+levelselect 004
+waitmode 0F 60
+waitmode 14 900
+wait 20
+shot w004_a
+wait 25
+shot w004_b
+wait 25
+shot w004_c
+wait 30
+shot w004_d
+whereami
+wait 200
+levelselect 101
+waitmode 0F 60
+waitmode 14 900
+wait 20
+shot w101_a
+wait 25
+shot w101_b
+wait 25
+shot w101_c
+wait 30
+shot w101_d
+whereami
+wait 200
+levelselect 10D
+waitmode 0F 60
+waitmode 14 900
+wait 20
+shot w10D_a
+wait 25
+shot w10D_b
+wait 25
+shot w10D_c
+wait 30
+shot w10D_d
+whereami
+wait 200
+quit

@@ -1,0 +1,16 @@
+# Round 16: the title screen: SUPER MARIO WORLD, a "+" and Mario Combat's own logo under it, fading in with the
+# screen, over the demo, and gone when the file menu opens (START).
+wait 110
+shot t0_fadein
+wait 30
+shot t1
+wait 120
+shot t2_demo
+wait 250
+shot t3_demo
+hold START
+wait 2
+hold
+wait 40
+shot t4_files
+quit

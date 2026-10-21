@@ -1,0 +1,32 @@
+# Boot to the first level and take screenshots along the way.
+log boot.csv
+wait 320
+shot 00_title
+hold START
+wait 4
+hold
+wait 90
+shot 01_filesel
+hold B
+wait 4
+hold
+wait 60
+shot 02_players
+hold B
+wait 4
+hold
+wait 240
+shot 03_overworld
+hold LEFT
+wait 6
+hold
+wait 90
+shot 04_overworld_moved
+hold B
+wait 4
+hold
+wait 240
+shot 05_level_start
+wait 60
+shot 06_level_idle
+quit

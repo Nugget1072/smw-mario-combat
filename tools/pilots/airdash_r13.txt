@@ -1,0 +1,171 @@
+# Round 13 air dash (38), Yoshi's Island 2 with Infinite MC life. Each segment: a jump with B and R (log *_a) or L
+# (log *_b) 10 frames in, then landing. SMW Mario (one level visit: without the cheat, then with it), MC Mario without and
+# with it (toggled back: state 9 is in a level, so the character carries over), MC Mario in Mirror mode (R dashes left in the level, right on screen), two presses in one jump (once per jump).
+loadstate 9
+wait 5
+cheat 0 1
+cheat 38 0
+cheat 15 0
+warp 106
+wait 120
+toggle
+wait 20
+hold RIGHT
+wait 60
+hold
+wait 20
+log smw_off_a.csv
+hold B
+wait 10
+hold B R
+wait 2
+hold B
+wait 4
+shot smw_off_a
+wait 26
+hold
+wait 40
+log off
+log smw_off_b.csv
+hold B
+wait 10
+hold B L
+wait 2
+hold B
+wait 4
+shot smw_off_b
+wait 26
+hold
+wait 40
+log off
+cheat 38 1
+log smw_a.csv
+hold B
+wait 10
+hold B R
+wait 2
+hold B
+wait 4
+shot smw_a
+wait 26
+hold
+wait 40
+log off
+log smw_b.csv
+hold B
+wait 10
+hold B L
+wait 2
+hold B
+wait 4
+shot smw_b
+wait 26
+hold
+wait 40
+log off
+loadstate 9
+wait 5
+cheat 38 0
+warp 106
+wait 120
+toggle
+wait 20
+hold RIGHT
+wait 40
+hold
+wait 20
+log mc_off_a.csv
+hold B
+wait 10
+hold B R
+wait 2
+hold B
+wait 4
+shot mc_off_a
+wait 26
+hold
+wait 40
+log off
+log mc_off_b.csv
+hold B
+wait 10
+hold B L
+wait 2
+hold B
+wait 4
+shot mc_off_b
+wait 26
+hold
+wait 40
+log off
+cheat 38 1
+log mc_a.csv
+hold B
+wait 10
+hold B R
+wait 2
+hold B
+wait 4
+shot mc_a
+wait 26
+hold
+wait 40
+log off
+log mc_b.csv
+hold B
+wait 10
+hold B L
+wait 2
+hold B
+wait 4
+shot mc_b
+wait 26
+hold
+wait 40
+log off
+cheat 15 1
+hold LEFT
+wait 40
+hold
+wait 20
+log mc_mirror_a.csv
+hold B
+wait 10
+hold B R
+wait 2
+hold B
+wait 4
+shot mc_mirror_a
+wait 26
+hold
+wait 40
+log off
+log mc_mirror_b.csv
+hold B
+wait 10
+hold B L
+wait 2
+hold B
+wait 4
+shot mc_mirror_b
+wait 26
+hold
+wait 40
+log off
+cheat 15 0
+log mc_twice.csv
+hold B
+wait 6
+hold B R
+wait 2
+hold B
+wait 14
+hold B R
+wait 2
+hold B
+wait 20
+hold
+wait 30
+log off
+cheat 38 0
+quit

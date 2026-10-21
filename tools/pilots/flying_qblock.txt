@@ -1,0 +1,18 @@
+# Flying ? block (Yoshi's Island 1): a winged ? block (sprite 84) flies at chest height; MC Mario punches it and it
+# gives its item like a head bump from below.
+loadstate 9
+wait 5
+cheat 1 1
+clearsprites
+glide 90 352
+wait 10
+spawn 84 40 -4
+wait 2
+sprites
+attack 84 30
+wait 4
+shot f00_punch
+wait 40
+shot f01_item
+sprites
+quit

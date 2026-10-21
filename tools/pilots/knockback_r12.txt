@@ -1,0 +1,134 @@
+# Round 12 knockback scale. From a new game's map (state 9) into Yoshi's Island 2 with Infinite MC life; a light
+# hit (an SMW enemy's) and a heavy hit (an MC enemy's strong attack) knock Mario right at 1x, 2x, 5x, 10x and 20x.
+# Each log runs from the hit until he has stopped (the distances are measured by tools/scripts/knockback_check.py).
+loadstate 9
+wait 5
+cheat 0 1
+cheat knockback 1
+warp 106
+wait 120
+log kb_1_l.csv
+hurt 0 1
+wait 20
+shot kb_1_l_a
+wait 280
+shot kb_1_l_b
+log off
+loadstate 9
+wait 5
+cheat 0 1
+cheat knockback 1
+warp 106
+wait 120
+log kb_1_h.csv
+hurt 1 1
+wait 20
+shot kb_1_h_a
+wait 280
+shot kb_1_h_b
+log off
+loadstate 9
+wait 5
+cheat 0 1
+cheat knockback 2
+warp 106
+wait 120
+log kb_2_l.csv
+hurt 0 1
+wait 20
+shot kb_2_l_a
+wait 280
+shot kb_2_l_b
+log off
+loadstate 9
+wait 5
+cheat 0 1
+cheat knockback 2
+warp 106
+wait 120
+log kb_2_h.csv
+hurt 1 1
+wait 20
+shot kb_2_h_a
+wait 280
+shot kb_2_h_b
+log off
+loadstate 9
+wait 5
+cheat 0 1
+cheat knockback 5
+warp 106
+wait 120
+log kb_5_l.csv
+hurt 0 1
+wait 20
+shot kb_5_l_a
+wait 280
+shot kb_5_l_b
+log off
+loadstate 9
+wait 5
+cheat 0 1
+cheat knockback 5
+warp 106
+wait 120
+log kb_5_h.csv
+hurt 1 1
+wait 20
+shot kb_5_h_a
+wait 280
+shot kb_5_h_b
+log off
+loadstate 9
+wait 5
+cheat 0 1
+cheat knockback 10
+warp 106
+wait 120
+log kb_10_l.csv
+hurt 0 1
+wait 20
+shot kb_10_l_a
+wait 280
+shot kb_10_l_b
+log off
+loadstate 9
+wait 5
+cheat 0 1
+cheat knockback 10
+warp 106
+wait 120
+log kb_10_h.csv
+hurt 1 1
+wait 20
+shot kb_10_h_a
+wait 280
+shot kb_10_h_b
+log off
+loadstate 9
+wait 5
+cheat 0 1
+cheat knockback 20
+warp 106
+wait 120
+log kb_20_l.csv
+hurt 0 1
+wait 20
+shot kb_20_l_a
+wait 280
+shot kb_20_l_b
+log off
+loadstate 9
+wait 5
+cheat 0 1
+cheat knockback 20
+warp 106
+wait 120
+log kb_20_h.csv
+hurt 1 1
+wait 20
+shot kb_20_h_a
+wait 280
+shot kb_20_h_b
+log off
+quit

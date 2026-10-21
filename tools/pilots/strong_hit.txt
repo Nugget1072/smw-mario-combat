@@ -1,0 +1,15 @@
+# Strong attack (Yoshi's Island 1): one air spin kick (hit level 6) knocks out a full-size Rex at once.
+loadstate 9
+wait 5
+cheat 1 1
+glide 600 200
+wait 10
+log sh.csv
+attack AB 66 air 1
+wait 2
+shot s00_air_kick
+sprites
+wait 30
+shot s01_after
+sprites
+quit

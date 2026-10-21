@@ -1,0 +1,130 @@
+# Round 12 cheats, all in Yoshi's Island 2 from a new game's map (state 9) with Infinite MC life.
+# 1) Low gravity (37): a jump with B held for 60 frames, without and with the cheat, for both Marios (heights in the
+#    logs). 2) Fast enemies (34): a Goomba (0F) spawned 150 px right of Mario walks toward him for 40 frames, without
+#    and with the cheat. 3) Chasing enemies (35): with No damage Mario walks right through a Goomba walking left;
+#    without the cheat it walks on, with it it turns back after him. 4) Jumping enemies (36): a Goomba, a Koopa, a
+#    Spiny and a Buzzy Beetle on the floor jump when Mario jumps (both Marios).
+loadstate 9
+wait 5
+cheat 0 1
+warp 106
+wait 120
+log lg_mc_off.csv
+hold B
+wait 60
+hold
+wait 100
+log off
+cheat 37 1
+log lg_mc_on.csv
+hold B
+wait 40
+shot g00_mc_low_gravity
+wait 20
+hold
+wait 120
+log off
+toggle
+wait 10
+cheat 37 0
+log lg_smw_off.csv
+hold B
+wait 60
+hold
+wait 100
+log off
+cheat 37 1
+log lg_smw_on.csv
+hold B
+wait 40
+shot g01_smw_low_gravity
+wait 20
+hold
+wait 120
+log off
+cheat 37 0
+loadstate 9
+wait 5
+cheat 0 1
+warp 106
+wait 120
+spawn 0F 150 0
+wait 1
+sprites
+wait 40
+sprites
+shot f00_goomba_normal
+clearsprites
+cheat 34 1
+spawn 0F 150 0
+wait 1
+sprites
+wait 40
+sprites
+shot f01_goomba_fast
+clearsprites
+cheat 34 0
+loadstate 9
+wait 5
+cheat 0 1
+cheat 1 1
+warp 106
+wait 120
+log chase_off.csv
+spawn 0F 60 0
+wait 2
+hold RIGHT
+wait 60
+hold
+wait 40
+sprites
+shot c00_goomba_walks_on
+log off
+clearsprites
+cheat 35 1
+log chase_on.csv
+spawn 0F 60 0
+wait 2
+hold RIGHT
+wait 60
+hold
+wait 40
+sprites
+shot c01_goomba_turns_back
+wait 60
+sprites
+shot c02_goomba_still_chasing
+log off
+clearsprites
+cheat 35 0
+cheat 1 0
+loadstate 9
+wait 5
+cheat 0 1
+cheat 36 1
+warp 106
+wait 120
+spawn 0F 40 0
+spawn 04 70 0
+spawn 13 100 0
+spawn 11 130 0
+wait 20
+sprites
+hold B
+wait 14
+sprites
+shot j00_enemies_jump_mc
+wait 60
+hold
+wait 40
+sprites
+toggle
+wait 30
+hold B
+wait 14
+sprites
+shot j01_enemies_jump_smw
+wait 60
+hold
+sprites
+quit

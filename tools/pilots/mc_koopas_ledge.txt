@@ -1,0 +1,31 @@
+# Mario Combat Koopas on YI2's raised ledge: Mario waits below the ledge; the Koopas walk to the edge and leap down at
+# him (the script's ledge jump: grav = jumpHeight * 2, xSpeed = +-4), then attack.
+loadstate 9
+wait 5
+cheat 14 1
+cheat 1 1
+warp 06
+wait 150
+glide 340 352
+wait 10
+log kl.csv
+shot l00
+wait 40
+shot l01
+sprites
+wait 40
+shot l02
+wait 40
+shot l03
+sprites
+wait 40
+shot l04
+wait 40
+shot l05
+sprites
+wait 60
+shot l06
+wait 60
+shot l07
+sprites
+quit

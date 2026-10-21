@@ -1,0 +1,39 @@
+# Character switch: MC -> SMW -> MC -> SMW, then die and re-enter the level (it must start as MC Mario again).
+loadstate 9
+wait 5
+log toggle.csv
+shot t0_mc
+toggle
+wait 10
+shot t1_smw
+hold RIGHT
+wait 30
+hold RIGHT B
+wait 12
+shot t2_smw_jump
+hold
+wait 30
+toggle
+wait 10
+shot t3_mc_back
+hold RIGHT
+wait 20
+hold Y
+wait 6
+shot t4_mc_punch
+hold
+wait 10
+toggle
+wait 10
+shot t5_smw_again
+kill
+wait 330
+shot t6_map
+hold B
+wait 2
+hold
+wait 120
+shot t7_level_start
+wait 60
+shot t8_level_start2
+quit

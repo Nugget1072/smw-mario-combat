@@ -1,0 +1,53 @@
+# Settings menu, round 9: the new rows LIFE STEAL (MC) on MARIO CHEATS, FIRE PUNCH (MC) on MOVE CHEATS and MC HIT
+# REACTIONS on ENEMY CHEATS, each switched on (gold star) with its description; the hub's "N ON" counts.
+loadstate 9
+wait 10
+menu
+wait 2
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot n00_mario_lifesteal
+menukey Escape
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot n01_moves_firepunch
+menukey Escape
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot n02_enemies_mchits
+menukey Escape
+wait 2
+shot n03_hub_counts
+menukey Escape
+menukey Escape
+wait 2
+quit

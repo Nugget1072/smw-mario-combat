@@ -1,0 +1,136 @@
+# King Koopas: every way the two Marios hit Mario Combat's Bowser (Yoshi's Island 1). No damage is on so the run keeps
+# going. 1. MC Mario's punches and air kicks (each costs MC's life for that hit level, the bar shrinks, he reels);
+# 2. the super punch cheat defeats him at once (a 1-up, he falls through the floor); 3. SMW Mario: fireball, cape spin,
+# stomp, spin jump, a kicked shell, the star and Yoshi's tongue (inedible).
+loadstate 9
+wait 5
+clearsprites
+cheat 18 1
+cheat 1 1
+glide 40 352
+wait 10
+spawn 04 60 0
+wait 20
+attack 04 30
+wait 3
+shot h00_punch
+sprites
+attack 04 30
+attack 04 30
+attack 04 30
+wait 3
+shot h01_combo
+sprites
+attack 04 30 air
+wait 3
+shot h02_air_kick
+sprites
+attack 04 30 air
+wait 40
+shot h03_after
+sprites
+cheat 11 1
+attack 04 30
+wait 3
+shot h04_super_punch
+sprites
+wait 20
+shot h05_defeated_falls
+sprites
+wait 40
+shot h06_gone
+sprites
+cheat 11 0
+clearsprites
+toggle
+wait 10
+glide 40 352
+wait 5
+# fireball
+power 3
+spawn 04 64 0
+hold RIGHT
+wait 2
+hold
+wait 2
+hold X
+wait 2
+hold
+wait 14
+shot h07_fireball
+sprites
+wait 30
+clearsprites
+# cape spin
+power 2
+spawn 04 26 0
+wait 2
+hold X
+wait 2
+hold
+wait 6
+shot h08_cape
+sprites
+wait 30
+clearsprites
+# stomp (Mario is put 50 px above Bowser)
+power 1
+spawn 04 0 0
+wait 5
+poke 97 01
+poke 96 30
+wait 30
+shot h09_stomp
+sprites
+wait 30
+clearsprites
+# a kicked shell (slot 1: a sliding shell, x speed 30) hits Bowser in slot 0
+spawn 04 60 0
+spawn 04 -40 0
+poke 14C9 0A
+poke B7 30
+wait 30
+shot h10_shell
+sprites
+wait 30
+clearsprites
+# star
+poke 1490 F0
+spawn 04 8 0
+wait 40
+shot h11_star
+sprites
+poke 1490 00
+wait 30
+clearsprites
+# Yoshi's tongue
+yoshi
+wait 10
+spawn 04 40 0
+wait 2
+hold Y
+wait 3
+hold
+wait 20
+shot h12_yoshi
+sprites
+# pit: Bowser is put below the level (as if he jumped into a pit); he teleports back to the middle of the screen
+clearsprites
+wait 10
+spawn 04 60 0
+wait 5
+poke 14D4 01
+poke D8 D0
+wait 2
+shot h13_pit
+sprites
+wait 12
+shot h14_teleport
+sprites
+wait 12
+shot h15_teleport2
+sprites
+wait 40
+shot h16_back
+sprites
+quit

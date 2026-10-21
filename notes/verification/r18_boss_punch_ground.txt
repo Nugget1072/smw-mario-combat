@@ -1,0 +1,8 @@
+﻿morton          rc=0 attacks=17 punches that hurt 3 beaten=True modes=0E 14
+roy             rc=0 attacks=17 punches that hurt 3 beaten=True modes=0E 14
+ludwig          rc=0 attacks=41 punches that hurt 3 beaten=True modes=0E 14
+iggy            rc=0 attacks=5 punches that hurt 2 beaten=True modes=0E 14
+larry           rc=0 attacks=5 punches that hurt 2 beaten=True modes=0E 14
+lemmy           rc=0 attacks=58 punches that hurt 9 beaten=True modes=0E 14
+wendy           rc=0 attacks=60 punches that hurt 10 beaten=False modes=14
+bigboo          rc=0 attacks=60 punches that hurt 0 beaten=False modes=14

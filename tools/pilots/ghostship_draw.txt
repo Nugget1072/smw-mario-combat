@@ -1,0 +1,15 @@
+# Sunken Ghost Ship (018): is MC Mario drawn? Then SMW Mario.
+loadstate 9
+wait 5
+warp 018
+wait 150
+shot g00_mc
+hold RIGHT
+wait 60
+hold
+shot g01_mc_walk
+toggle
+wait 10
+shot g02_smw
+quit
+

@@ -1,0 +1,6 @@
+# Mario Combat level (round 20): from Yoshi's Island 1 (save state 9), LEVEL SELECT > MARIO COMBAT (pilot mclevel).
+loadstate 9
+wait 5
+#REC
+mclevel
+wait 100

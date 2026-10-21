@@ -1,0 +1,22 @@
+# Goal tape (Yoshi's Island 1, tape at x 4832): walk through the goal, end-of-level walk, score tally, back to the map.
+loadstate 9
+wait 5
+glide 4805 200
+wait 20
+log goal.csv
+shot g00_before
+hold RIGHT
+wait 40
+shot g01_goal
+hold
+wait 30
+shot g02_walk
+wait 60
+shot g03_walk2
+wait 120
+shot g04_tally
+wait 200
+shot g05_end
+wait 200
+shot g06_map
+quit

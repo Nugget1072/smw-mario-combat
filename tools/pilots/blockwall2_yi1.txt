@@ -1,0 +1,42 @@
+# Wall slide and no-clip check against the U's left cement column (x 1904..1919, top y 320) in Yoshi's Island 1.
+loadstate 9
+wait 5
+glide 1872 240
+wait 50
+log blockwall2.csv
+shot w00_ready
+hold RIGHT
+wait 30
+shot w01_push_ground
+hold RIGHT B
+wait 6
+shot w02_jump
+wait 6
+shot w03_wall
+wait 6
+shot w04_slide
+wait 6
+shot w05_slide
+wait 12
+shot w06_slide
+hold RIGHT
+wait 20
+hold RIGHT B
+wait 8
+hold RIGHT
+wait 6
+hold RIGHT B
+wait 8
+hold RIGHT
+wait 6
+hold RIGHT B
+wait 8
+hold RIGHT
+wait 30
+shot w07_after_spam
+hold LEFT B
+wait 30
+shot w08_left
+hold
+wait 30
+quit

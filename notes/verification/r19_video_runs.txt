@@ -1,0 +1,14 @@
+﻿# Round 19 video runs: hits counted by tas_hits.py (a replay of each kept run; MC life read every few move lines,
+# no frames of its own)
+final level (session final2, checkpoint hall .. Bowser beaten, won_pre3): 0 hits in 11894 frames
+boss rush fights 1-9 (session rush_snap, fight01 .. fight10): 0 hits in 12779 frames (BOSS 10/10  3:36.01)
+boss rush whole run (session rush3b, fight01 .. won_now): 0 hits in 25796 frames; HUD at the end: BOSS RUSH CLEAR! 7:10.07
+boss rush alternative (session rush3a, fight01 .. won_now): 0 hits in 25924 frames (not used: 128 frames slower)
+combo (session combo, tas_combo2.py --reach 18 --stopsub 6 --target 21): combo 21 (Bowser never out of his hurt
+  clip for more than 2 frames between jabs), Bowser life 24.0 at the end, Mario life 10.0 throughout; the ending stomp
+  (jump onto his head) leaves Mario's life at 10.0
+videos (video_sheet.py on the mp4s in finished\):
+  MarioCombat_21_hit_combo.mp4          19.58 s,  1173 frames, 1024x896, AAC 32 kHz stereo
+  MarioCombat_final_level_speedrun.mp4 224.00 s, 13423 frames, 1024x896, AAC 32 kHz stereo
+  MarioCombat_boss_rush_speedrun.mp4   438.23 s, 26261 frames, 1024x896, AAC 32 kHz stereo
+  (frames in = frames out: the record dumps hold 1173 / 13423 / 26261 frames of 256x224)

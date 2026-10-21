@@ -1,0 +1,25 @@
+﻿map: 92
+room: 132
+special: 6
+  000 bonus game, 0C5 intro, 0C7 title screen, 0C8 wings area, 100 bonus game, 1C8 wings area
+test level: 264
+unused: 18
+  093 l1   42 l2  901 sprites  2 tileset  1 exits []; same content: 194 1F2 (a copy of used 1F2)
+  094 l1   42 l2  901 sprites  3 tileset  1 exits []; same content: 0D3 193 (a copy of used 0D3)
+  095 l1    6 l2  901 sprites  4 tileset  0 exits []; same content: 195
+  096 l1    6 l2  901 sprites  4 tileset  0 exits []; same content: 196 1EB (a copy of used 1EB)
+  097 l1    6 l2  901 sprites  1 tileset  0 exits []; same content: 197 1F6 (a copy of used 1F6)
+  098 l1    6 l2  901 sprites  1 tileset  0 exits []; same content: 198
+  099 l1    6 l2  901 sprites  1 tileset  0 exits []; same content: 199
+  09A l1    6 l2  901 sprites  1 tileset  0 exits []; same content: 19A
+  09B l1    6 l2  901 sprites  1 tileset  0 exits []; same content: 19B 1C7 (a copy of used 1C7)
+  193 l1   42 l2  901 sprites  3 tileset  1 exits []; same content: 094 0D3 (a copy of used 0D3)
+  194 l1   42 l2  901 sprites  2 tileset  1 exits []; same content: 093 1F2 (a copy of used 1F2)
+  195 l1    6 l2  901 sprites  4 tileset  0 exits []; same content: 095
+  196 l1    6 l2  901 sprites  4 tileset  0 exits []; same content: 096 1EB (a copy of used 1EB)
+  197 l1    6 l2  901 sprites  1 tileset  0 exits []; same content: 097 1F6 (a copy of used 1F6)
+  198 l1    6 l2  901 sprites  1 tileset  0 exits []; same content: 098
+  199 l1    6 l2  901 sprites  1 tileset  0 exits []; same content: 099
+  19A l1    6 l2  901 sprites  1 tileset  0 exits []; same content: 09A
+  19B l1    6 l2  901 sprites  1 tileset  0 exits []; same content: 09B 1C7 (a copy of used 1C7)
+empty: 0

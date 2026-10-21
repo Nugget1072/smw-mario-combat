@@ -1,0 +1,29 @@
+# Round 15: MC Mario on ice (Slippery levels cheat, Yoshi's Island 1) stands still when nothing is held, slides on
+# after a run, and stops; then in Donut Secret 2 (room 10B, an ice level of the game).
+loadstate 9
+wait 5
+cheat 22 1
+log ice.csv
+wait 60
+shot i0_still
+hold RIGHT
+wait 20
+hold
+wait 60
+shot i1_after_run
+wait 60
+shot i2_still
+cheat 22 0
+warp 10B
+wait 120
+wait 60
+shot i3_10b_still
+hold RIGHT
+wait 40
+hold
+wait 20
+shot i4_10b_slide
+wait 100
+shot i5_10b_stopped
+log off
+quit

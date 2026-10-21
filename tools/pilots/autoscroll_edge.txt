@@ -1,0 +1,29 @@
+# Butter Bridge 1 (00C) scrolls by itself. MC Mario walking ahead of the screen is held at its right edge like SMW Mario
+# (no wall cling on the edge, no crush death past it); waiting there for the scroll, he jumps onto both mushroom scales.
+loadstate 9
+wait 5
+warp 00C
+wait 150
+log edge.csv
+hold RIGHT
+wait 108
+shot e00_held_at_edge
+hold
+wait 150
+hold RIGHT B
+wait 14
+hold RIGHT
+wait 10
+hold
+wait 40
+shot e01_jump_to_cap1
+hold RIGHT B
+wait 16
+hold RIGHT
+wait 16
+hold
+wait 80
+shot e02_on_cap2
+status
+log off
+quit

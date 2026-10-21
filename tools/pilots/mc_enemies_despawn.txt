@@ -1,0 +1,29 @@
+# MC Koopas and King Koopas left behind off-screen are despawned by SMW's SubOffscreen like any sprite (and come back
+# when the screen returns to where they were placed).
+loadstate 9
+wait 5
+clearsprites
+cheat 14 1
+cheat 1 1
+glide 90 352
+wait 10
+spawn 04 40 0
+wait 10
+sprites
+glide 700 352
+wait 30
+sprites
+shot d00_mc_koopa_gone
+cheat 14 0
+cheat 18 1
+glide 90 352
+wait 10
+clearsprites
+spawn 04 60 0
+wait 10
+sprites
+glide 700 352
+wait 30
+sprites
+shot d01_bowser_gone
+quit

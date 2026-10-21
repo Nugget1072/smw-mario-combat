@@ -1,0 +1,54 @@
+# Cheats (Yoshi's Island 1): turn on No damage, Moon jump and the Fire-flower power-up lock (MARIO CHEATS) and
+# Infinite time and Infinite lives (WORLD CHEATS) in the menu, then walk into the enemies near the start, moon-jump,
+# and watch the timer and lives.
+loadstate 9
+wait 10
+log cheats.csv
+menu
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+menukey Return
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Right
+menukey Right
+menukey Right
+wait 2
+shot c00_mario_cheats_on
+menukey Escape
+menukey Down
+menukey Return
+menukey Return
+menukey Down
+menukey Return
+wait 2
+shot c01_world_cheats_on
+menukey Escape
+menukey Escape
+menukey Escape
+wait 30
+shot c02_fire
+hold RIGHT
+wait 120
+shot c03_walked_into_enemies
+hold B
+wait 60
+shot c04_moon_jump
+wait 60
+shot c05_moon_jump2
+hold
+wait 200
+shot c06_timer_lives
+quit

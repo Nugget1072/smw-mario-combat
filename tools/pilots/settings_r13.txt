@@ -1,0 +1,82 @@
+# Round 13 settings, Iggy's Castle (warp 101: a level whose music is loaded fresh, so the SNES mix has music; after a
+# save state the song only starts with a level that brings its own), MC Mario with Infinite MC life.
+# 1) OUTPUT: 2 s of sound as stereo (st_*.wav), then MONO (mono_*.wav): settings_check.py compares left and right.
+# 2) IN BACKGROUND = PAUSE: the window "loses the focus" (pilot `focus 0`) for 60 frames: the frame counter ($13) and
+#    Mario stand still; with the focus back they run on. = MUTE: 60 frames unfocused keep running, the sound is
+#    silent (muted_*.wav). = KEEP PLAYING: unchanged.
+# 3) RUMBLE (FULL, LIGHT, OFF): a hit, a hit that lands, a ground pound's quake and a lost life print "rumble" lines.
+loadstate 9
+wait 5
+cheat 0 1
+setting rumble 0
+warp 101
+wait 200
+audio st
+wait 120
+audio off
+setting mono 1
+audio mono
+wait 120
+audio off
+setting mono 0
+peek 13
+setting background 2
+focus 0
+hold RIGHT
+wait 60
+peek 13
+shot b00_paused
+focus 1
+wait 30
+hold
+peek 13
+shot b01_running_again
+setting background 1
+focus 0
+audio muted
+hold RIGHT
+wait 60
+hold
+audio off
+peek 13
+focus 1
+setting background 0
+focus 0
+wait 30
+peek 13
+focus 1
+# rumble (Yoshi's Island 2): FULL
+loadstate 9
+wait 5
+warp 106
+wait 120
+setting rumble 2
+hurt 0 1
+wait 150
+spawn 0F 30 0
+wait 2
+hold Y
+wait 2
+hold
+wait 30
+cheat 20 1
+hold B
+wait 16
+hold
+hold DOWN
+wait 3
+hold
+wait 50
+cheat 20 0
+# rumble: LIGHT, then OFF
+setting rumble 1
+hurt 0 1
+wait 150
+setting rumble 0
+hurt 0 1
+wait 150
+setting rumble 2
+kill
+wait 60
+setting rumble 2
+quit

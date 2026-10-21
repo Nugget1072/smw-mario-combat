@@ -1,0 +1,40 @@
+# King Koopas: a kicked shell (slot 1, sliding at x speed 30) meets Bowser (slot 0): a strong hit, one per shell.
+loadstate 9
+wait 5
+clearsprites
+cheat 18 1
+cheat 1 1
+toggle
+wait 10
+glide 40 352
+wait 5
+spawn 04 60 0
+spawn 04 -40 0
+poke 14C9 0A
+poke B7 30
+sprites
+wait 4
+sprites
+wait 4
+sprites
+wait 4
+sprites
+wait 4
+shot c00
+sprites
+wait 4
+sprites
+wait 4
+sprites
+wait 4
+shot c01
+sprites
+wait 8
+sprites
+wait 8
+shot c02
+sprites
+wait 30
+shot c03
+sprites
+quit

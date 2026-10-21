@@ -1,0 +1,36 @@
+# Settings menu, round 5: main page, CHEATS hub, MARIO CHEATS and WORLD CHEATS pages (two cheats on), in a level.
+loadstate 9
+wait 10
+cheat 10 1
+cheat 4 1
+menu
+wait 2
+shot m00_main
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot m01_cheats
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+wait 2
+shot m02_mario
+menukey Escape
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+wait 2
+shot m03_world
+menukey Escape
+menukey Escape
+menukey Escape
+wait 2
+quit

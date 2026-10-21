@@ -1,0 +1,76 @@
+# Round 17: an air attack while clinging to a block: MC Mario hops beside Yoshi's Island 1's cement column holding
+# toward it, clings in his wall pose and slides; Y starts the air kick there and it plays out (before: no attack at
+# all while clinging or falling against the block).
+loadstate 9
+wait 5
+cheat 1 1
+glide 1872 240
+wait 50
+hold RIGHT
+wait 20
+log c.csv
+hold RIGHT B
+wait 1
+hold RIGHT B
+wait 1
+hold RIGHT B
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+shot c0_cling
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT
+wait 1
+hold RIGHT Y
+wait 1
+hold RIGHT Y
+wait 1
+hold RIGHT
+wait 3
+shot c1_kick
+wait 6
+shot c2_kick
+wait 8
+shot c3_kick
+hold
+wait 20
+shot c4_after
+log off
+quit

@@ -1,0 +1,83 @@
+{
+ "areas": [
+  {
+   "area": 1,
+   "w": 1536,
+   "h": 432,
+   "runs": 12907,
+   "props": 1,
+   "sky": true
+  },
+  {
+   "area": 2,
+   "w": 1536,
+   "h": 432,
+   "runs": 7074,
+   "props": 8,
+   "sky": false
+  },
+  {
+   "area": 3,
+   "w": 1536,
+   "h": 432,
+   "runs": 15872,
+   "props": 17,
+   "sky": false
+  },
+  {
+   "area": 4,
+   "w": 1024,
+   "h": 432,
+   "runs": 4407,
+   "props": 5,
+   "sky": false
+  },
+  {
+   "area": 5,
+   "w": 768,
+   "h": 432,
+   "runs": 4346,
+   "props": 0,
+   "sky": true
+  }
+ ],
+ "wall": [
+  256,
+  147
+ ],
+ "wall_period": 145.24822695035462,
+ "props": [
+  "area 1 prop at 1195,128 158x174: stands, moved +3",
+  "area 2 prop at 1244,22 21x52: stands, moved +6",
+  "area 2 prop at 1320,22 21x52: stands, moved +6",
+  "area 2 prop at 338,123 20x50: stands, moved +3",
+  "area 2 prop at 444,123 21x50: stands, moved +3",
+  "area 2 prop at 558,123 20x50: stands, moved +3",
+  "area 2 prop at 4,347 20x51: stands, moved +2",
+  "area 2 prop at 111,347 20x51: stands, moved +2",
+  "area 2 prop at 214,347 20x51: stands, moved +2",
+  "area 3 prop at 298,167 12x57: hangs, moved +0",
+  "area 3 prop at 405,169 12x55: hangs, moved +0",
+  "area 3 prop at 886,195 12x58: stands, moved +0",
+  "area 3 prop at 967,195 12x58: stands, moved +0",
+  "area 3 prop at 687,198 14x67: free, moved +7",
+  "area 3 prop at 1101,215 16x57: stands, moved +0",
+  "area 3 prop at 1163,215 16x57: stands, moved +0",
+  "area 3 prop at 1226,215 16x57: stands, moved +0",
+  "area 3 prop at 1288,215 16x57: stands, moved +0",
+  "area 3 prop at 1342,215 16x57: stands, moved +0",
+  "area 3 prop at 638,217 14x48: free, moved +7",
+  "area 3 prop at 735,217 14x48: free, moved +7",
+  "area 3 prop at 16,252 16x67: stands, moved +1",
+  "area 3 prop at 96,252 16x4: stands, moved +0",
+  "area 3 prop at 186,252 15x4: stands, moved +0",
+  "area 3 prop at 96,273 16x46: stands, moved +1",
+  "area 3 prop at 186,273 16x46: stands, moved +1",
+  "area 4 prop at 444,264 21x52: stands, moved +4",
+  "area 4 prop at 464,264 21x52: stands, moved +4",
+  "area 4 prop at 99,344 20x52: stands, moved +4",
+  "area 4 prop at 159,344 20x52: stands, moved +4",
+  "area 4 prop at 219,344 20x52: stands, moved +4"
+ ],
+ "bytes": 89212
+}

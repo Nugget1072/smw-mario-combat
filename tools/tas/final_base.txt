@@ -1,0 +1,56 @@
+# Final level speedrun (round 19): Bowser's castle by the BACK DOOR (the speedrun route), from Yoshi's Island 1 (save
+# state 9), no cheats; the settings menu: LEVEL SELECT > VALLEY OF BOWSER > BACK DOOR. The recording starts at #REC.
+loadstate 9
+wait 5
+#REC
+wait 20
+menu
+wait 20
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Return
+wait 14
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Return
+wait 14
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+menukey Down
+wait 6
+wait 10
+menukey Return

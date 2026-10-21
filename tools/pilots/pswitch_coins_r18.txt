@@ -1,0 +1,36 @@
+# Round 18: coins a blue P-switch turned into blocks: MC Mario jumps into them (Yoshi's Island 2, the coin arc at
+# x 1232-1296). They stay brown used blocks while the switch runs (before: a P-switch block, then a yellow block for
+# good) and are coins again when it ends.
+loadstate 9
+wait 5
+cheat 1 1
+warp 106
+waitmode 0F 60
+waitmode 14 900
+glide 1200 240
+wait 50
+poke 14AD 120
+wait 2
+shot p0_switch_on
+tileat 1248 304
+tileat 1232 320
+hold RIGHT
+wait 8
+hold RIGHT B
+wait 14
+shot p1_touch
+hold
+wait 4
+shot p2_touch
+tileat 1248 304
+tileat 1232 320
+wait 30
+shot p3_still_on
+tileat 1248 304
+tileat 1232 320
+wait 600
+shot p4_switch_off
+peek 14AD
+tileat 1248 304
+tileat 1232 320
+quit

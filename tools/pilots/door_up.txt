@@ -1,0 +1,18 @@
+# Doors with MC Mario (Donut Ghost House, door at x 1232): standing in front of the door, UP should enter it (SMW's
+# door check), not jump. Then the same with SMW Mario.
+loadstate 9
+wait 5
+warp 004
+wait 120
+setpos 1232 352
+wait 30
+log door.csv
+shot d00_front
+hold UP
+wait 4
+hold
+wait 6
+shot d01_up
+wait 60
+shot d02_after
+quit

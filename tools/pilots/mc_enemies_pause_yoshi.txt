@@ -1,0 +1,60 @@
+# MC Koopas / King Koopas: 1. pausing (START) keeps a hurt enemy's life and state (SMW doesn't run sprites while
+# paused); 2. an MC Koopa's punch or Bowser's fire on Mario riding Yoshi throws Mario off Yoshi as SMW's enemy fire does
+# (no power-down); 3. a spin jump on an MC Koopa is SMW's spin kill (smoke puff).
+loadstate 9
+wait 5
+clearsprites
+cheat 18 1
+cheat 1 1
+glide 40 352
+wait 10
+spawn 04 60 0
+wait 20
+attack 04 30
+attack 04 30
+wait 10
+sprites
+hold START
+wait 2
+hold
+wait 120
+hold START
+wait 2
+hold
+wait 10
+shot p00_after_pause
+sprites
+cheat 1 0
+clearsprites
+toggle
+wait 10
+power 1
+yoshi
+wait 10
+spawn 04 90 0
+wait 160
+shot p01_yoshi_bowser_fire
+sprites
+wait 60
+shot p02_yoshi_bowser_fire2
+cheat 18 0
+cheat 14 1
+clearsprites
+wait 30
+yoshi
+wait 20
+spawn 04 50 0
+wait 120
+shot p03_yoshi_koopa_punch
+sprites
+clearsprites
+wait 30
+spawn 04 30 0
+wait 2
+poke 140D 01
+poke 97 01
+poke 96 20
+wait 30
+shot p04_spin_jump
+sprites
+quit

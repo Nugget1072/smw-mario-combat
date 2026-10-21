@@ -1,0 +1,50 @@
+# Settings menu, round 11: INFINITE JUMPS on MOVE CHEATS (after DOUBLE JUMP), STOMP ANYTHING on ENEMY CHEATS, COIN
+# MAGNET (moved here) and OPEN MAP on WORLD CHEATS; each page fits without scrolling.
+loadstate 9
+wait 10
+menu
+wait 2
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot q00_moves_infinite
+menukey Escape
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot q01_enemies_stomp
+menukey Escape
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot q02_world_openmap
+menukey Escape
+menukey Escape
+menukey Escape
+wait 2
+quit

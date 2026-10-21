@@ -1,0 +1,9 @@
+# Mario Combat level as SMW Mario (round 20): from Yoshi's Island 1 (save state 9), LEVEL SELECT > MARIO COMBAT,
+# then SWITCH MARIO (pilot toggle).
+loadstate 9
+wait 5
+#REC
+mclevel
+wait 100
+toggle
+wait 10

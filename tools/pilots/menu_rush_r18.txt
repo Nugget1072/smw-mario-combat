@@ -1,0 +1,30 @@
+loadstate 9
+wait 10
+menu
+wait 4
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+# (round 20: Down past MARIO COMBAT, the page's first row)
+menukey Down
+wait 2
+menukey Return
+wait 2
+shot r1_rush
+menukey Down
+wait 2
+shot r2_rush_row
+menukey Right
+wait 2
+shot r3_rush_every
+menukey Left
+wait 2
+menukey Escape
+menukey Escape
+menukey Escape
+wait 4
+quit

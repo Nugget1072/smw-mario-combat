@@ -1,0 +1,37 @@
+# Cape (Yoshi's Island 1): cape spin on X, then take off with a full P-meter (poked, MC's top speed is below SMW's
+# P-speed) and fly: rise, swoop, land.
+loadstate 9
+wait 5
+power 2
+wait 10
+log cape.csv
+shot k00_cape
+hold X
+wait 2
+hold
+wait 6
+shot k01_spin
+hold RIGHT
+wait 30
+poke 13e4 70
+hold RIGHT B
+wait 2
+poke 13e4 70
+wait 10
+shot k02_takeoff
+wait 20
+shot k03_rise
+hold LEFT B
+wait 10
+shot k04_float
+hold RIGHT B
+wait 20
+shot k05_swoop
+wait 30
+shot k06_fly
+hold
+wait 60
+shot k07_landed
+wait 30
+shot k08_after
+quit

@@ -1,0 +1,67 @@
+# Ground pound animation (cheat 20), Yoshi's Island 1. MC Mario: Mario Combat's curled tumble somersaults once in
+# mid-air (the wind-up), then drops curled; SMW Mario: SMW's spin-jump spin, then his ducking pose for the drop. Both
+# land with the screen shake and a cloud of smoke on either side.
+loadstate 9
+wait 5
+cheat 20 1
+warp 105
+wait 120
+log mc.csv
+hold B
+wait 20
+hold DOWN
+wait 2
+hold
+shot a00
+wait 3
+shot a01
+wait 3
+shot a02
+wait 3
+shot a03
+wait 3
+shot a04
+wait 3
+shot a05
+wait 3
+shot a06
+wait 3
+shot a07
+wait 3
+shot a08
+wait 3
+shot a09
+wait 6
+shot a10_landed
+wait 20
+log off
+toggle
+wait 10
+log smw.csv
+hold B
+wait 20
+hold DOWN
+wait 2
+hold
+shot b00
+wait 3
+shot b01
+wait 3
+shot b02
+wait 3
+shot b03
+wait 3
+shot b04
+wait 3
+shot b05
+wait 3
+shot b06
+wait 3
+shot b07
+wait 3
+shot b08
+wait 6
+shot b09_landed
+wait 20
+log off
+quit

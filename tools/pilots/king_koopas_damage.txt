@@ -1,0 +1,38 @@
+# King Koopas: Bowser's flames and shockwaves hurt both Marios (no protection cheats). MC Mario stands still: the
+# flames knock him back and cost life; then SMW Mario (big) is powered down by one.
+loadstate 9
+wait 5
+clearsprites
+cheat 18 1
+glide 40 352
+wait 10
+spawn 04 100 0
+log kd.csv
+wait 60
+shot d00
+wait 60
+shot d01
+wait 60
+shot d02
+wait 60
+shot d03
+wait 60
+shot d04
+sprites
+clearsprites
+toggle
+wait 10
+power 1
+glide 40 352
+wait 10
+spawn 04 100 0
+wait 60
+shot d05_smw
+wait 60
+shot d06_smw
+wait 60
+shot d07_smw
+wait 60
+shot d08_smw
+sprites
+quit

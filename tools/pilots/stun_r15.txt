@@ -1,0 +1,32 @@
+# Round 15: a punch leaves the enemies SMW Mario can carry after a stomp stunned (a Mechakoopa, a Goomba, a Koopa
+# whose shell stays and who walks out of it); a punch on a stunned one kicks it.
+loadstate 8
+wait 5
+cheat 0 0
+cheat 1 1
+spawn A2 40 0
+wait 30
+attack A2 30
+wait 12
+shot s0_mecha
+sprites
+wait 20
+attack A2 30
+wait 6
+shot s1_kicked
+sprites
+wait 60
+clearsprites
+spawn 04 40 0
+wait 30
+attack 04 30
+wait 12
+shot s2_koopa
+sprites
+wait 30
+shot s3_shell
+sprites
+hold Y
+wait 30
+hold
+quit

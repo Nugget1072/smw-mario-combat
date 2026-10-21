@@ -1,0 +1,33 @@
+loadstate 9
+wait 10
+menu
+wait 4
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+menukey Down
+menukey Down
+menukey Return
+wait 2
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+wait 2
+shot e1_enemy_cheats
+menukey Escape
+menukey Escape
+menukey Down
+menukey Return
+wait 2
+shot e2_hub
+menukey Escape
+menukey Escape
+wait 4
+quit

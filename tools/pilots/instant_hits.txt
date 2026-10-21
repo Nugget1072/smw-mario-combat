@@ -1,0 +1,145 @@
+# Instant hits cheat (28) in Yoshi's Island 1: every kind of attack (punch combo, punch while walking, the low sweep,
+# the air kick) with the cheat on. tools/scripts/instant_hits_check.py reads moves.csv: each move must show its hit
+# box on the first frame it is seen, and the punch combo must chain every few frames.
+loadstate 9
+wait 5
+cheat 28 1
+warp 105
+wait 120
+log moves.csv
+hold Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 3
+shot i00_punch_combo
+hold
+wait 30
+hold RIGHT Y
+wait 2
+hold RIGHT
+wait 3
+hold RIGHT Y
+wait 2
+hold RIGHT
+wait 3
+hold RIGHT Y
+wait 2
+hold RIGHT
+wait 3
+hold RIGHT Y
+wait 2
+hold
+wait 3
+shot i01_walking_punches
+hold
+wait 30
+hold DOWN Y
+wait 3
+hold
+wait 6
+hold DOWN Y
+wait 3
+hold
+wait 6
+shot i02_low_sweeps
+wait 30
+hold B
+wait 8
+hold B Y
+wait 2
+hold B
+wait 4
+hold Y
+wait 2
+hold
+wait 4
+hold Y
+wait 2
+hold
+wait 30
+shot i03_air_kicks
+hold
+wait 40
+# timed presses reach the later branches of Mario Combat's combo tree, as without the cheat: a press after attack1's
+# attack2 window -> attack4; Punch + Right -> attack10 -> attack102 -> 103 -> 104 -> 105
+hold Y
+wait 2
+hold
+wait 12
+hold Y
+wait 2
+hold
+wait 3
+hold RIGHT Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 40
+# attack1 -> attack2, then a later press -> attack5 -> attack6
+hold Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 12
+hold Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 50
+# Punch + Right from idle -> attack7, a later Punch + Right -> attack9, Punch -> attack6
+hold RIGHT Y
+wait 2
+hold
+wait 10
+hold RIGHT Y
+wait 2
+hold
+wait 3
+hold Y
+wait 2
+hold
+wait 40
+shot i04_combo_tree
+log off
+quit

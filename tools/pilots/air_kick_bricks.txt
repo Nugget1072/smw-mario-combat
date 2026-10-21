@@ -1,0 +1,44 @@
+# Air attack against a wall of bricks (Yoshi's House): a cement block on the floor at x 208 with six turn blocks on
+# top (collision only, not drawn). MC Mario jumps at the column and kicks in the air; the kick plays out against the
+# wall and breaks the turn blocks its boxes cover.
+loadstate 8
+wait 5
+clearsprites
+poke C97D 30
+poke 1C97D 01
+poke C96D 1E
+poke 1C96D 01
+poke C95D 1E
+poke 1C95D 01
+poke C94D 1E
+poke 1C94D 01
+poke C93D 1E
+poke 1C93D 01
+poke C92D 1E
+poke 1C92D 01
+poke C91D 1E
+poke 1C91D 01
+glide 176 352
+wait 10
+log ak.csv
+hold RIGHT B
+wait 8
+hold RIGHT B Y
+wait 2
+hold RIGHT B
+wait 3
+shot k00_kick
+wait 6
+shot k01_kick2
+wait 8
+shot k02_kick3
+hold
+wait 40
+shot k03_after
+tileat 208 352
+tileat 208 336
+tileat 208 320
+tileat 208 304
+tileat 208 288
+tileat 208 272
+quit

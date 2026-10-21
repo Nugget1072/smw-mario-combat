@@ -1,0 +1,95 @@
+blockwall_yi1        shots 13  frames 967 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+blockwall2_yi1       shots  9  frames 222 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+msgblock_yh          shots  7  frames 294 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+toggle_yi1           shots  9  frames 660 states ['0', '9'] modes ['11', '12', '13', '14', '15', '16', '17', '18', '19', '20'] min life 10.0 puppet frames 0
+yoshi_yi2            shots 11  frames 210 states ['0'] modes ['20'] min life 10.0 puppet frames 154
+pipe_yi3             shots  8  frames 341 states ['0', '6'] modes ['15', '16', '17', '18', '19', '20'] min life 10.0 puppet frames 124
+swim_00a             shots  9  frames 226 states ['0'] modes ['20'] min life 10.0 puppet frames 226
+climb_iggy           shots  8  frames 225 states ['0'] modes ['20'] min life 10.0 puppet frames 79
+cape_yi1             shots  9  frames 230 states ['0'] modes ['20'] min life 7.5 puppet frames 0
+goal_yi1             shots  7  frames 658 states ['0'] modes ['12', '13', '14', '20'] min life 10.0 puppet frames 641
+boss_iggy            shots  8  frames 349 states ['0'] modes ['20'] min life 5.0 puppet frames 0
+hpipe_1cb_mc         shots  6  frames 367 states ['0', '5', '7'] modes ['15', '16', '17', '18', '19', '20'] min life 10.0 puppet frames 155
+hpipe_1cb_smw        shots  6  frames 367 states ['0', '5', '7'] modes ['15', '16', '17', '18', '19', '20'] min life 10.0 puppet frames 0
+run_yi1              shots 10  frames 551 states ['0'] modes ['20'] min life 7.5 puppet frames 185
+cape_flight_yi2      shots  9  frames 276 states ['0'] modes ['20'] min life 10.0 puppet frames 158
+carry_yi1            shots  7  frames 156 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+powerup_colors       shots  8  (no csv)
+multihit             shots  8  frames 1409 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+strong_hit           shots  2  frames 75 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+replay_castle        shots  5  frames 2 states ['10'] modes ['20'] min life 10.0 puppet frames 0
+cape_look            shots 14  frames 340 states ['0'] modes ['20'] min life 10.0 puppet frames 127
+cheats_yi1           shots  7  frames 482 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+cape_flight_poses    shots 11  frames 262 states ['0'] modes ['20'] min life 10.0 puppet frames 187
+cheat_lives_death    shots  3  (no csv)
+save100              shots  6  (no csv)
+triple_enemies       shots  4  (no csv)
+cheats_r5            shots  5  frames 61 states ['0'] modes ['20'] min life 7.5 puppet frames 0
+powerup_heal         shots  5  frames 396 states ['0', '3', '4'] modes ['20'] min life 7.5 puppet frames 56
+menu_r5              shots  4  (no csv)
+objects_r5           shots 10  frames 554 states ['0'] modes ['20'] min life 10.0 puppet frames 551
+noteblock            shots  1  frames 92 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+tiles_mc             shots  3  frames 129 states ['0'] modes ['20'] min life 7.5 puppet frames 0
+cape_spin            shots  6  frames 84 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+air_kick_bricks      shots  4  frames 72 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+hit_chain            shots  5  (no csv)
+excl_blocks          shots  3  frames 52 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+flying_qblock        shots  2  (no csv)
+wiggler_punch        shots  2  (no csv)
+mc_koopas            shots 10  frames 452 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+mc_koopas_yi2        shots  8  frames 434 states ['0'] modes ['20'] min life 10.0 puppet frames 166
+mc_koopas_ledge      shots  8  frames 329 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+cheats_r6            shots  7  (no csv)
+menu_r6              shots  4  (no csv)
+rerender_test        shots  4  (no csv)
+king_koopas          shots 16  (no csv)
+king_koopas_hits     shots 17  (no csv)
+king_koopas_yi2      shots  8  frames 434 states ['0'] modes ['20'] min life 10.0 puppet frames 166
+king_koopas_damage   shots  9  frames 572 states ['0', '1'] modes ['20'] min life 7.5 puppet frames 0
+king_koopas_mirror   shots  4  (no csv)
+mc_enemies_despawn   shots  2  (no csv)
+mc_enemies_yoshi     shots 12  (no csv)
+mc_enemies_pause_yoshi shots  5  (no csv)
+cheats_r7_moves      shots 10  frames 413 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+cheats_r7_walljump   shots  5  frames 65 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+menu_r7              shots  9  (no csv)
+cheats_r8            shots 12  frames 212 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+menu_r8              shots  9  (no csv)
+jump_distance        shots  0  frames 180 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+jump_swim_cam        shots  2  frames 80 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+door_up              shots  3  frames 74 states ['0', '13'] modes ['15', '16', '17', '18', '19', '20'] min life 10.0 puppet frames 0
+hud_yi4              shots  2  (no csv)
+ghostship_draw       shots  3  (no csv)
+mc_wall_held_jump    shots  2  frames 136 states ['0'] modes ['20'] min life 7.5 puppet frames 0
+autoscroll_edge      shots  3  frames 437 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+layer2_pillar        shots  2  frames 133 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+cheats_r9            shots  6  frames 143 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+menu_r9              shots  4  (no csv)
+instant_hits         shots  5  frames 471 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+cheats_r10           shots  4  frames 140 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+menu_r10             shots  3  (no csv)
+pound_anim           shots 21  frames 86 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+open_map             shots  5  (no csv)
+cheats_r11           shots  3  frames 185 states ['0'] modes ['20'] min life 7.5 puppet frames 0
+menu_r11             shots  3  (no csv)
+knockback_r12        shots 20  frames 302 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+cheats_r12           shots  9  frames 103 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+menu_r12             shots 11  (no csv)
+airdash_r13          shots 10  frames 83 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+settings_r13         shots  2  (no csv)
+menu_r13             shots 12  (no csv)
+levelselect_r14      shots  7  (no csv)
+menu_r14             shots 14  (no csv)
+mchits_chuck_r15     shots  8  (no csv)
+mchits_mole_r15      shots  4  (no csv)
+stun_r15             shots  4  (no csv)
+ice_r15              shots  6  frames 546 states ['0'] modes ['15', '16', '17', '18', '19', '20'] min life 7.5 puppet frames 0
+jumpenemies_r15      shots  4  (no csv)
+dash_pipe_r15        shots  4  frames 127 states ['0'] modes ['20'] min life 10.0 puppet frames 0
+bossrush_r15         shots 14  (no csv)
+bossrush_death_r15   shots  3  (no csv)
+title_r16            shots  5  (no csv)
+bossrush_transitions_r16 shots  6  (no csv)
+levelselect_subroom_r16 shots  3  (no csv)
+door_walk_r17        shots 12  (no csv)
+air_attack_cling_r17 shots  5  frames 68 states ['0'] modes ['20'] min life 10.0 puppet frames 0

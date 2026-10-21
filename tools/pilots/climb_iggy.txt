@@ -1,0 +1,35 @@
+# Climbing nets (Iggy's Castle = level 101, reached with warp 01): jump up to the fence, climb, move, punch, jump off.
+loadstate 9
+wait 5
+warp 01
+wait 150
+log climb.csv
+shot c00_start
+hold RIGHT
+wait 50
+hold
+wait 10
+hold UP B
+wait 16
+shot c01_grab
+hold UP
+wait 20
+shot c02_climb_up
+hold RIGHT
+wait 20
+shot c03_climb_right
+hold
+wait 10
+shot c04_hang
+hold Y
+wait 4
+shot c05_punch
+hold
+wait 20
+hold B
+wait 6
+shot c06_jump_off
+hold
+wait 60
+shot c07_landed
+quit

@@ -1,0 +1,21 @@
+# Triple enemies cheat (Yoshi's Island 1): enter the level again with the cheat on. Each Rex / Koopa the level loads
+# comes with two more beside it (where there is room). No damage is on so Mario can walk through them.
+loadstate 9
+wait 5
+cheat 1 1
+cheat 9 1
+warp 105
+wait 160
+sprites
+shot t00_start
+hold RIGHT
+wait 80
+shot t01_walk
+sprites
+wait 80
+shot t02_walk
+sprites
+wait 80
+shot t03_walk
+sprites
+quit

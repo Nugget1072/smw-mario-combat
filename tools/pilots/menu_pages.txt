@@ -1,0 +1,73 @@
+# Settings menu: every page, an option change, and a key rebind (Yoshi's Island 1, snapshot 9).
+loadstate 9
+wait 30
+menu
+wait 2
+shot m00_main
+menukey Down
+menukey Return
+wait 2
+shot m01_video
+menukey Down
+menukey Right
+wait 2
+shot m02_video_window
+menukey Escape
+menukey Down
+menukey Return
+wait 2
+shot m03_sound
+menukey Escape
+menukey Down
+menukey Return
+wait 2
+shot m04_gameplay
+menukey Escape
+menukey Down
+menukey Return
+wait 2
+shot m05_controls
+menukey Return
+wait 2
+shot m06_keyboard
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot m07_capture
+menukey F
+wait 2
+shot m08_rebound
+menukey Escape
+menukey Down
+menukey Return
+wait 2
+shot m09_gamepad
+menukey Escape
+menukey Escape
+menukey Down
+menukey Return
+wait 2
+shot m10_reset_confirm
+menukey Escape
+menukey Escape
+wait 30
+shot m11_closed_notice
+toggle
+wait 10
+shot m12_smw_mario
+hold RIGHT
+wait 30
+shot m13_smw_mario_run
+hold
+toggle
+wait 10
+shot m14_back_to_mc
+quit

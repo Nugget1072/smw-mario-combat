@@ -1,0 +1,7 @@
+loadstate 9
+wait 10
+shotre r00_yi1
+cheat 15 1
+wait 5
+shotre r01_mirror
+quit

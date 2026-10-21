@@ -1,0 +1,36 @@
+# Round 15: Jumping enemies: a Goomba jumps on every jump of MC Mario, then of SMW Mario (Yoshi's Island 1).
+loadstate 9
+wait 5
+cheat 0 0
+cheat 1 1
+cheat 36 1
+clearsprites
+spawn 0F 110 0
+wait 30
+hold B
+wait 6
+shot j0
+hold
+wait 60
+hold B
+wait 6
+shot j1
+hold
+wait 60
+toggle
+wait 5
+clearsprites
+spawn 0F 110 0
+wait 30
+hold B
+wait 6
+shot j2
+hold
+wait 60
+hold B
+wait 6
+shot j3
+hold
+wait 60
+toggle
+quit

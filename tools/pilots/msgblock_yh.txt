@@ -1,0 +1,31 @@
+# Message block single hit (Yoshi's House): jump straight up into the message box, close the message while still
+# holding jump, and count how many times the message opens. One jump = one message.
+loadstate 8
+wait 10
+log msgblock.csv
+shot m00_start
+hold B
+wait 8
+shot m01_bump
+wait 50
+shot m02_message
+hold B A
+wait 4
+hold B
+wait 4
+shot m03_closed
+wait 6
+shot m04_after
+wait 60
+hold
+wait 30
+shot m05_landed
+# second jump: should open the message once more
+hold B
+wait 60
+hold A
+wait 4
+hold
+wait 60
+shot m06_second
+quit

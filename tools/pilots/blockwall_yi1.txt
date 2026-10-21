@@ -1,0 +1,60 @@
+# Block walls (video 0:36-0:44): the cement-block U next to the diagonal pipe in Yoshi's Island 1.
+loadstate 9
+wait 5
+log blockwall.csv
+# S1: run right and jump into the U's left column (x=1904) -> wall slide, then wall jump away
+glide 1830 240
+wait 60
+shot s1_00_start
+hold RIGHT
+wait 22
+hold RIGHT B
+wait 10
+shot s1_01_jump
+wait 10
+shot s1_02_wall
+wait 10
+shot s1_03_slide
+hold B
+wait 4
+shot s1_04_walljump
+hold
+wait 60
+shot s1_05_after
+# S2: from the right side, jump left into the right column (x=1952)
+glide 2010 240
+wait 60
+hold LEFT
+wait 10
+hold LEFT B
+wait 14
+shot s2_01_wall
+wait 16
+shot s2_02_slide
+hold
+wait 60
+shot s2_03_after
+# S3: drop into the gap between the U and the diagonal pipe and fight the walls
+glide 1975 240
+wait 60
+shot s3_00_gap
+hold LEFT B
+wait 20
+hold RIGHT B
+wait 20
+hold LEFT
+wait 15
+hold RIGHT
+wait 15
+shot s3_01_mash
+hold LEFT B
+wait 25
+hold RIGHT B
+wait 25
+hold LEFT B
+wait 25
+shot s3_02_mash
+hold
+wait 60
+shot s3_03_end
+quit

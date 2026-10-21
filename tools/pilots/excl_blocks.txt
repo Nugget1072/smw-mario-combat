@@ -1,0 +1,24 @@
+# ! blocks with items (Yoshi's Island 1, a tileset that has them): a yellow ! block (map16 16A, the single
+# switch-palace block that holds an item) is written beside Mario at chest height (x 112, y 352; collision only, not
+# drawn). A standing jab (no jump) hits it: it turns into a used block and its item comes out, as from a head bump.
+loadstate 9
+wait 5
+cheat 1 1
+clearsprites
+poke C967 6A
+poke 1C967 01
+tileat 112 352
+glide 90 352
+wait 20
+log ex.csv
+shot e00_beside
+hold Y
+wait 2
+hold
+wait 6
+shot e01_punch
+wait 40
+shot e02_item
+tileat 112 352
+sprites
+quit

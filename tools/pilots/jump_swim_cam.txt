@@ -1,0 +1,117 @@
+# 1. Standing jump height, MC vs SMW Mario (YI2 start, jump held 40 frames). 2. Soda Lake (011): swimming up by tapping
+# B; does the camera follow upward? MC Mario, then SMW Mario.
+loadstate 9
+wait 5
+warp 106
+wait 120
+log jmc.csv
+hold B
+wait 40
+hold
+wait 40
+log off
+toggle
+wait 5
+log jsmw.csv
+hold B
+wait 40
+hold
+wait 40
+log off
+loadstate 9
+wait 5
+warp 011
+wait 150
+log swmc.csv
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+shot s00_mc
+log off
+loadstate 9
+wait 5
+warp 011
+wait 150
+toggle
+wait 5
+log swsmw.csv
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+hold B
+wait 4
+hold
+wait 6
+shot s01_smw
+log off
+quit

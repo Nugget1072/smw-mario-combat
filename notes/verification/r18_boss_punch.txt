@@ -1,0 +1,13 @@
+﻿iggy            rc=0 attacks=10 punches that hurt 3 beaten=True modes=0E 14
+morton          rc=0 attacks=21 punches that hurt 3 beaten=True modes=0E 14
+bigboo          rc=0 attacks=37 punches that hurt 3 beaten=True modes=0E 14
+reznor_vanilla  rc=0 attacks=22 punches that hurt 2 beaten=False modes=0E 14
+lemmy           rc=0 attacks=55 punches that hurt 5 beaten=True modes=0E 14
+ludwig          rc=0 attacks=24 punches that hurt 2 beaten=True modes=0E 14
+reznor_forest   rc=0 attacks=22 punches that hurt 2 beaten=False modes=0E 14
+roy             rc=0 attacks=18 punches that hurt 1 beaten=True modes=0E 14
+reznor_choco    rc=0 attacks=22 punches that hurt 2 beaten=False modes=0E 14
+wendy           rc=0 attacks=60 punches that hurt 4 beaten=True modes=14
+reznor_valley   rc=0 attacks=22 punches that hurt 2 beaten=False modes=0E 14
+larry           rc=0 attacks=10 punches that hurt 3 beaten=True modes=0E 14
+bowser          rc=0 attacks=59 punches that hurt 6 beaten=False modes=14 bowser hurt in 5 checks

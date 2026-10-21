@@ -1,0 +1,35 @@
+# Cape take-off at P-speed (Yoshi's Island 2): run holding X until the P-meter is full, press B -> SMW's take-off and
+# flight (hold X/Y to stay in flight as in SMW; Left/Right climb/dive), then land and keep playing as MC Mario.
+loadstate 9
+wait 5
+warp 06
+wait 150
+power 2
+poke 1490 ff
+log cape.csv
+hold RIGHT X
+wait 70
+shot k00_pspeed
+hold RIGHT X B
+wait 12
+shot k01_takeoff
+wait 20
+shot k02_rise
+hold RIGHT X B
+wait 20
+shot k03_fly
+hold LEFT X
+wait 14
+shot k04_climb
+hold RIGHT X
+wait 20
+shot k05_dive
+wait 20
+shot k06_fly2
+hold
+wait 60
+shot k07_landed
+hold RIGHT
+wait 30
+shot k08_walk_again
+quit

@@ -1,0 +1,48 @@
+# Settings menu, round 10: INSTANT HITS (MC) and BLOCK BUSTER (MC) on MOVE CHEATS (12 rows, still no scrolling), PIT
+# RESCUE on WORLD CHEATS, each switched on with its description.
+loadstate 9
+wait 10
+menu
+wait 2
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot r00_moves_instant
+menukey Down
+menukey Return
+wait 2
+shot r01_moves_buster
+menukey Escape
+menukey Down
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot r02_world_pitrescue
+menukey Escape
+menukey Escape
+menukey Escape
+wait 2
+quit

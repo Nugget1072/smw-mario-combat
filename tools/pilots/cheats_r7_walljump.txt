@@ -1,0 +1,31 @@
+# Wall-jump cheat (SMW Mario, level 004's tall wall at x=1280): Mario jumps at the wall holding Right, slides down it
+# (smoke puffs), then kicks off to the left with B.
+loadstate 9
+wait 5
+cheat 21 1
+cheat 1 1
+toggle
+wait 10
+warp 004
+wait 150
+glide 1230 200
+wait 40
+shot w00_start
+log wj.csv
+hold RIGHT
+wait 8
+hold RIGHT B
+wait 12
+hold RIGHT
+wait 16
+shot w01_against_wall
+wait 8
+shot w02_sliding
+hold RIGHT B
+wait 2
+hold
+wait 4
+shot w03_kick
+wait 10
+shot w04_after_kick
+quit

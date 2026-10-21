@@ -1,0 +1,29 @@
+# Longest running jump, MC Mario vs SMW Mario (YI2's long flat start, level 106): run right holding X for 100 frames,
+# then jump holding B until landing. The log gives take-off x and landing x.
+loadstate 9
+wait 5
+warp 106
+wait 120
+log mc.csv
+hold RIGHT X
+wait 100
+hold RIGHT X B
+wait 60
+hold RIGHT X
+wait 20
+log off
+loadstate 9
+wait 5
+warp 106
+wait 120
+toggle
+wait 5
+log smw.csv
+hold RIGHT X
+wait 100
+hold RIGHT X B
+wait 60
+hold RIGHT X
+wait 20
+log off
+quit

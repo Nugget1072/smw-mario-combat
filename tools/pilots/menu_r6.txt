@@ -1,0 +1,49 @@
+# Settings menu, round 6: CHEATS hub, MARIO CHEATS (with the fire-flower lock: SMW's own item icon) and WORLD CHEATS
+# (Mirror mode, MC Koopas, Coins from enemies on), in a level.
+loadstate 9
+wait 10
+cheat powerup 3
+cheat 15 1
+cheat 14 1
+cheat 17 1
+menu
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot m00_cheats
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+wait 2
+shot m01_mario
+menukey Up
+wait 2
+shot m02_mario_one_hit
+menukey Escape
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+wait 2
+shot m03_world
+menukey Escape
+menukey Escape
+menukey Escape
+wait 2
+quit

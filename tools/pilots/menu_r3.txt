@@ -1,0 +1,47 @@
+# Round-3 menu pages (Yoshi's Island 1): CHEATS (set two), GAMEPLAY with the 100% file-3 option, the end of the
+# keyboard bindings (FPS COUNTER / FULLSCREEN rows), then back in the game with the cheats on.
+loadstate 9
+wait 20
+menu
+wait 2
+shot m00_main
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+wait 2
+shot m01_cheats
+menukey Down
+menukey Down
+menukey Return
+menukey Up
+menukey Up
+menukey Return
+menukey Up
+menukey Right
+menukey Right
+wait 2
+shot m02_cheats_set
+menukey Escape
+menukey Up
+menukey Up
+menukey Return
+wait 2
+shot m03_gameplay
+menukey Escape
+menukey Down
+menukey Return
+menukey Return
+menukey Up
+menukey Up
+menukey Up
+wait 2
+shot m04_keyboard_end
+menukey Escape
+menukey Escape
+menukey Escape
+wait 40
+shot m05_in_game
+quit

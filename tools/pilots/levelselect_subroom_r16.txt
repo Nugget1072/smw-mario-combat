@@ -1,0 +1,29 @@
+# Round 16: the level select from the room behind Yoshi's Island 3's pipe (entered the game's way): Yoshi's Island 2
+# starts at its start and the camera follows Mario (before: the room's secondary-entrance flag and scroll state came
+# along: wrong start, camera stuck at the left edge, Mario fell to his death).
+loadstate 9
+wait 5
+cheat 1 1
+warp 03
+wait 150
+glide 1752 120
+wait 40
+hold DOWN
+wait 40
+hold
+waitmode 14
+wait 120
+shot s0_pipe_room
+levelselect 106
+waitmode 0F 60
+waitmode 14 1200
+wait 30
+shot s1_yi2_start
+peek 1A 4
+hold RIGHT
+wait 150
+hold
+shot s2_yi2_walk
+peek 1A 4
+whereami
+quit

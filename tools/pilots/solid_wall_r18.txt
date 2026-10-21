@@ -1,0 +1,27 @@
+# Round 18: solid sprites are walls for MC Mario. Three message boxes (sprite B9) stacked ahead of him make a wall in
+# the air (Yoshi's Island 1, flat ground at x 260); he hops into it, clings to it in MC's wall pose and kicks off it
+# with a new jump press. (SMW pushes the player out of a solid sprite's side without a blocked flag: before, no cling.)
+loadstate 9
+wait 5
+cheat 1 1
+glide 260 240
+wait 50
+clearsprites
+spawn B9 40 -16
+spawn B9 40 -32
+spawn B9 40 -48
+wait 2
+hold RIGHT B
+wait 3
+hold RIGHT
+wait 30
+shot w0_cling
+wait 4
+hold RIGHT B
+wait 6
+shot w1_kick
+wait 14
+shot w2_away
+hold
+wait 30
+quit

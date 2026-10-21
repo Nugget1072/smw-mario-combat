@@ -1,0 +1,38 @@
+# Round 5 cheats (Yoshi's Island 1).
+# 1. No knockback: a Goomba walks into MC Mario: life goes down, but no hurt animation and no knockback.
+# 2. Super punch: a jab knocks out an Urchin (immune to the cape, fire and stomps).
+# 3. Always Yoshi: entering the level again starts on Yoshi.
+# 4. Slow motion: the pilot only checks that the game keeps running (pilot frames are game frames).
+loadstate 9
+wait 5
+cheat 10 1
+log nk.csv
+spawn 0F 40 0
+wait 60
+shot k00_no_knockback
+log off
+clearsprites
+cheat 10 0
+cheat 11 1
+poke 1497 00
+wait 10
+spawn 3A 44 -4
+wait 2
+sprites
+attack 3A 34
+wait 3
+shot k01_super_punch
+wait 20
+shot k02_super_punch_after
+sprites
+clearsprites
+cheat 11 0
+cheat 12 1
+cheat 13 1
+warp 105
+wait 160
+shot k03_always_yoshi
+hold RIGHT
+wait 60
+shot k04_yoshi_slowmo
+quit

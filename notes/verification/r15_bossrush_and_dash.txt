@@ -1,0 +1,23 @@
+Round 15, final build (2026-10-19)
+
+tools/scripts/bossrush_test.py (7 scenarios)
+chain_castles  PASS   8 rooms 1F6 0E5 1F2 0D9 0CC 0D3 1EB 1C7 in order, HUD BOSS 1/8 .. 8/8, map back, save bytes, lives, power same
+chain_all      PASS   13 rooms 1F6 0E4 0E5 0DF 1F2 0D9 0D5 0CC 0E2 0D3 1DE 1EB 1C7 in order, same checks
+from_level     PASS   started inside YI1; same checks (save bytes except the map pose $1F13-$1F16, set when the map loads)
+retry          PASS   death in fight 2 -> fight 2 again, lives same, HUD 2/8, clock running on
+end_on_death   PASS   death in fight 2 -> map, lives / power / progress as at the start, run over
+abandon        PASS   a level-select level during a run starts that level (106) and ends the run; progress kept
+real_fights    PASS   every boss, MC punches only (pilot `attack boss`), 260 tries: 1F6 -> 0E4 -> 0E5 -> 0DF -> 1F2 -> 0D9
+                      (Iggy, Big Boo, Morton, Vanilla Reznor x4, Lemmy beaten; Ludwig in progress at the end)
+
+tools/scripts/dash_pipe_test.py --delays 20 (MC Mario, big SMW Mario, small SMW Mario; two walls with corners in YI2
+room 106 (tileset 0: map16 133/134 = dirt ledge); both sides; dash 1-20 frames after take-off)
+before the fix: 1 death (small SMW Mario, dash landing on the lower ledge, then running into the higher one's top
+corner at 6.5 px/frame: blocked flags 0x1D, crushed)
+after the fix:  runs 240, failed 0
+
+Side-pipe exit (room 024, tile 13F at x 976): MC and SMW Mario dashing into it from the air (jump + 2 / + 5 frames):
+no pipe state during the dash; walking in afterwards enters it (to room 0CF), both Marios.
+
+Jumping enemies (YI1, Goomba 110 px away, 4 jumps each): MC Mario and SMW Mario, the Goomba jumps on every jump.
+Ice (Slippery cheat in YI1, and room 10B): MC Mario stands still with nothing held, slides on after a run, stops.

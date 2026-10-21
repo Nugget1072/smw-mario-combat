@@ -1,0 +1,71 @@
+# Settings menu, round 7: the selected option's description in SMW's message-box font at the bottom of the panel;
+# the cheats split into MARIO / MOVE / ENEMY / WORLD pages; King Koopas switching MC Koopas off (the notice shows in the
+# panel). In a level, with a few cheats on.
+loadstate 9
+wait 10
+cheat powerup 3
+cheat 15 1
+cheat 14 1
+cheat 19 1
+menu
+wait 2
+shot m00_main
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+wait 2
+shot m01_main_cheats
+menukey Return
+wait 2
+shot m02_cheats_hub
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+wait 2
+shot m03_mario_powerup
+menukey Escape
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+wait 2
+shot m04_moves_pound
+menukey Escape
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+wait 2
+shot m05_enemies_king
+menukey Return
+wait 2
+shot m06_king_on_notice
+menukey Escape
+menukey Down
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+wait 2
+shot m07_world_mirror
+menukey Escape
+menukey Escape
+menukey Up
+menukey Up
+menukey Return
+menukey Down
+menukey Down
+menukey Down
+wait 2
+shot m08_gameplay_damage
+menukey Escape
+menukey Escape
+wait 2
+quit

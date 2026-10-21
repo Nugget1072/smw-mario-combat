@@ -1,0 +1,92 @@
+bigboo     -> 004   ok   
+bigboo     -> 011   FAIL start state 10 vs 0; walk state 10 vs 0
+bigboo     -> 101   ok   
+bigboo     -> 106   FAIL start state 10 vs 0; start mario 43,368 vs 16,352; walk state 10 vs 0; walk mario 275,368 vs 391,352; walk camera 135,192 vs 283,192
+bigboo     -> 109   FAIL start state 10 vs 0; start mario 155,1648 vs 128,1680; walk state 10 vs 0; walk mario 387,1648 vs 482,1712
+bigboo     -> 115   FAIL start state 10 vs 0; start mario 43,368 vs 16,352; walk state 10 vs 0; walk camera 134,192 vs 184,192
+bigboo     -> rush  ok   
+bowser     -> 004   ok   
+bowser     -> 011   ok   
+bowser     -> 101   ok   
+bowser     -> 106   ok   
+bowser     -> 109   ok   
+bowser     -> 115   ok   
+bowser     -> rush  ok   
+ghost      -> 004   ok   
+ghost      -> 011   FAIL start state 10 vs 0; walk state 10 vs 0
+ghost      -> 101   ok   
+ghost      -> 106   FAIL start state 10 vs 0; start mario 43,368 vs 16,352; walk state 10 vs 0; walk mario 275,368 vs 391,352; walk camera 135,192 vs 283,192
+ghost      -> 109   FAIL start state 10 vs 0; start mario 155,1648 vs 128,1680; walk state 10 vs 0; walk mario 387,1648 vs 482,1712
+ghost      -> 115   FAIL start state 10 vs 0; start mario 43,368 vs 16,352; walk state 10 vs 0; walk camera 134,192 vs 184,192
+ghost      -> rush  ok   
+iggy       -> 004   FAIL start m7 rotation 0014 vs 0000; walk m7 rotation 0014 vs 0000
+iggy       -> 011   FAIL start m7 rotation 0014 vs 0000; walk m7 rotation 0014 vs 0000
+iggy       -> 101   FAIL start m7 rotation 0014 vs 0000; walk m7 rotation 0014 vs 0000
+iggy       -> 106   FAIL start m7 rotation 0014 vs 0000; walk m7 rotation 0014 vs 0000
+iggy       -> 109   FAIL start m7 rotation 0014 vs 0000; walk m7 rotation 0014 vs 0000
+iggy       -> 115   FAIL start m7 rotation 0014 vs 0000; walk m7 rotation 0014 vs 0000
+iggy       -> rush  ok   
+layer2     -> 004   ok   
+layer2     -> 011   ok   
+layer2     -> 101   ok   
+layer2     -> 106   ok   
+layer2     -> 109   ok   
+layer2     -> 115   ok   
+layer2     -> rush  ok   
+level      -> 004   ok   
+level      -> 011   ok   
+level      -> 101   ok   
+level      -> 106   ok   
+level      -> 109   ok   
+level      -> 115   ok   
+level      -> rush  ok   
+map        -> 004   ok   
+map        -> 011   ok   
+map        -> 101   ok   
+map        -> 106   ok   
+map        -> 109   ok   
+map        -> 115   ok   
+map        -> rush  ok   
+pipe_room  -> 004   FAIL start m7 rotation 0080 vs 0000; start scroll/secondary (0, 0, 1) vs (0, 0, 0); walk m7 rotation 0080 vs 0000; walk scroll/secondary (0, 0, 1) vs (0, 0, 0)
+pipe_room  -> 011   FAIL start mario 24,384 vs 23,313; start m7 rotation 0080 vs 0000; walk mario 146,384 vs 101,352; walk camera 40,192 vs 0,192; walk m7 rotation 0080 vs 0000
+pipe_room  -> 101   FAIL start m7 rotation 0080 vs 0000; start scroll/secondary (0, 0, 1) vs (0, 0, 0); walk m7 rotation 0080 vs 0000; walk scroll/secondary (0, 0, 1) vs (0, 0, 0)
+pipe_room  -> 106   FAIL start mario 24,385 vs 16,352; start m7 rotation 0080 vs 0000; walk state 9 vs 0; walk mario 28,873 vs 391,352; walk camera 0,192 vs 283,192; walk m7 rotation 0080 vs 0000
+pipe_room  -> 109   FAIL start mario 24,129 vs 128,1680; start camera 0,96 vs 0,1536; start m7 rotation 0080 vs 0000; walk mario 98,353 vs 482,1712; walk camera 0,229 vs 256,1536; walk m7 rotation 0080 vs 0000
+pipe_room  -> 115   FAIL start mario 24,385 vs 16,352; start m7 rotation 0080 vs 0000; walk state 9 vs 0; walk mario 28,873 vs 290,352; walk camera 0,192 vs 184,192; walk m7 rotation 0080 vs 0000
+pipe_room  -> rush  FAIL start state 9 vs 0; start mario 177,165 vs 80,6; start scroll/secondary (1, 0, 1) vs (1, 0, 0); walk state 9 vs 0; walk mario 177,614 vs 232,33; walk scroll/secondary (1, 0, 1) vs (1, 0, 0)
+reznor     -> 004   FAIL start m7 rotation 00CB vs 0000; walk m7 rotation 00CB vs 0000
+reznor     -> 011   FAIL start m7 rotation 00CB vs 0000; walk m7 rotation 00CB vs 0000
+reznor     -> 101   FAIL start m7 rotation 00CB vs 0000; walk m7 rotation 00CB vs 0000
+reznor     -> 106   FAIL start m7 rotation 00CB vs 0000; walk m7 rotation 00CB vs 0000
+reznor     -> 109   FAIL start m7 rotation 00CB vs 0000; walk m7 rotation 00CB vs 0000
+reznor     -> 115   FAIL start m7 rotation 00CB vs 0000; walk m7 rotation 00CB vs 0000
+reznor     -> rush  FAIL walk state 9 vs 0; walk mario 83,420 vs 232,33
+secondary  -> 004   ok   
+secondary  -> 011   ok   
+secondary  -> 101   ok   
+secondary  -> 106   ok   
+secondary  -> 109   ok   
+secondary  -> 115   ok   
+secondary  -> rush  ok   
+vertical   -> 004   ok   
+vertical   -> 011   ok   
+vertical   -> 101   ok   
+vertical   -> 106   ok   
+vertical   -> 109   ok   
+vertical   -> 115   ok   
+vertical   -> rush  ok   
+water      -> 004   ok   
+water      -> 011   ok   
+water      -> 101   ok   
+water      -> 106   ok   
+water      -> 109   ok   
+water      -> 115   ok   
+water      -> rush  ok   
+wings      -> 004   ok   
+wings      -> 011   FAIL start state 10 vs 0; walk state 10 vs 0
+wings      -> 101   ok   
+wings      -> 106   FAIL start state 10 vs 0; start mario 43,368 vs 16,352; walk state 10 vs 0; walk mario 275,368 vs 391,352; walk camera 135,192 vs 283,192
+wings      -> 109   FAIL start state 10 vs 0; start mario 155,1648 vs 128,1680; walk state 10 vs 0; walk mario 387,1648 vs 482,1712
+wings      -> 115   FAIL start state 10 vs 0; start mario 43,368 vs 16,352; walk state 10 vs 0; walk camera 134,192 vs 184,192
+wings      -> rush  ok   
+pairs 91, failed 32

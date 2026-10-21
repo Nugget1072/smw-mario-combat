@@ -1,0 +1,48 @@
+# Smoke test for a packaged build with a fresh save: boot, new game, intro message, map, Yoshi's Island 1,
+# then move, punch and jump.
+log smoke.csv
+wait 320
+hold START
+wait 4
+hold
+wait 90
+hold B
+wait 4
+hold
+wait 60
+hold B
+wait 4
+hold
+wait 600
+shot 00_intro
+hold B
+wait 4
+hold
+wait 400
+hold B
+wait 4
+hold
+wait 300
+shot 01_map
+hold LEFT
+wait 6
+hold
+wait 100
+hold B
+wait 4
+hold
+wait 170
+shot 02_yi1
+hold RIGHT
+wait 25
+hold Y
+wait 2
+hold
+wait 6
+shot 03_punch
+hold B
+wait 10
+shot 04_jump
+hold
+wait 40
+quit

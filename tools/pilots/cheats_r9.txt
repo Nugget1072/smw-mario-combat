@@ -1,0 +1,70 @@
+# Round 9 cheats. 1) Fire punch (27): in Yoshi's Island 1 each punch / kick also throws SMW's fireball (two at most on
+# screen, SMW's two fireball slots). 2) Life steal (26) with MC hit reactions (25): in Yoshi's House a Goomba hits Mario
+# (10 -> 7.5), then each punch that lands gives half a point back while the Goomba takes Mario Combat hits.
+loadstate 9
+wait 5
+cheat 27 1
+warp 105
+wait 150
+log fire.csv
+hold Y
+wait 2
+hold
+wait 6
+shot f00_fireball
+wait 20
+hold Y
+wait 2
+hold
+wait 12
+hold Y
+wait 2
+hold
+wait 4
+shot f01_two_fireballs
+hold RIGHT
+wait 60
+hold
+hold Y
+wait 2
+hold
+wait 30
+shot f02_more
+log off
+cheat 27 0
+loadstate 8
+wait 5
+cheat 25 1
+cheat 26 1
+log steal.csv
+spawn 0F 40 0
+wait 70
+shot s00_hit_by_goomba
+hold Y
+wait 2
+hold
+wait 5
+hold Y
+wait 2
+hold
+wait 5
+hold Y
+wait 2
+hold
+wait 5
+shot s01_combo
+wait 30
+attack 0F 30
+wait 4
+hold Y
+wait 2
+hold
+wait 5
+hold Y
+wait 2
+hold
+wait 30
+shot s02_life_back
+sprites
+log off
+quit

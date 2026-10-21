@@ -1,0 +1,55 @@
+# Nothing from a ROM, ever: the player supplies their own Super Mario World ROM.
+*.sfc
+*.smc
+*.SFC
+*.SMC
+smw_assets.dat
+*.bps
+
+# Saves, savestates and personal settings
+*.srm
+*.srm.bak
+*.sav
+smw.user.ini
+games/SuperMarioWorld/saves/
+
+# Build output
+*.o
+*.obj
+*.exe
+*.dll
+*.res
+games/SuperMarioWorld/smw
+__pycache__/
+*.pyc
+
+# Local development only (captures, TAS sessions, recordings, the player's folder, the original game)
+/work/
+/finished/
+/games/MarioCombat/
+/games/SuperMarioWorld/Rom/
+
+# Portable tools (downloaded locally, gigabytes): see README for what to install instead
+/tools/ffdec/
+/tools/gh/
+/tools/ghidra/
+/tools/ghidra-mcp/
+/tools/git/
+/tools/node/
+/tools/Python3.14.8/
+/tools/sdl2/
+/tools/snes9x/
+/tools/uv/
+/tools/uv-tools/
+/tools/w64devkit/
+
+# Personal / unrelated notes kept out of the repository
+/OUTSIDE_FOLDER_CHANGES.txt
+/ROM_REMIX_ONBOARDING.md
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vs/
+*.user

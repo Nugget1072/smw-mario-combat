@@ -1,0 +1,26 @@
+# Power-up colours (Yoshi's House): normal, fire, cape, star cycle, and a power-up pickup flash.
+loadstate 8
+wait 20
+shot u00_normal
+power 3
+wait 4
+shot u01_fire
+hold Y
+wait 6
+shot u02_fire_punch
+hold
+wait 20
+power 2
+wait 4
+shot u03_cape
+power 1
+poke 1490 ff
+wait 2
+shot u04_star_a
+wait 4
+shot u05_star_b
+wait 4
+shot u06_star_c
+wait 4
+shot u07_star_d
+quit

@@ -1,0 +1,27 @@
+# YI1 bonus room (sublevel 1CB) sideways exit pipe, as SMW Mario: it must lead back to YI1 past the cement U
+# (as the original ROM code / snes9x do), not to a glitch area.
+loadstate 9
+wait 5
+warp 1CB
+wait 150
+toggle
+wait 5
+glide 425 330
+wait 40
+log hp.csv
+shot h00_at_pipe
+hold RIGHT
+wait 30
+shot h01_in_pipe
+wait 30
+shot h02_in_pipe2
+hold
+wait 150
+shot h03_dest
+exits
+wait 60
+shot h04_dest2
+hold RIGHT
+wait 90
+shot h05_dest3
+quit

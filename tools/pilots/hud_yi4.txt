@@ -1,0 +1,12 @@
+# YI4 (level 102) around x 1250: a row of brown blocks drawn over the status bar? MC Mario, then SMW Mario.
+loadstate 9
+wait 5
+warp 102
+wait 120
+glide 1240 250
+wait 30
+shot h00_mc
+toggle
+wait 10
+shot h01_smw
+quit

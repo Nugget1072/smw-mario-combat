@@ -1,0 +1,10 @@
+#!/bin/sh
+# Minimal sdl2-config for the SDL2 mingw devel package in tools/sdl2 (used by the smw Makefile under w64devkit).
+P="$(cd "$(dirname "$0")/../sdl2/SDL2-2.32.10/x86_64-w64-mingw32" && pwd)"
+case "$1" in
+  --cflags) echo "-I$P/include/SDL2 -Dmain=SDL_main" ;;
+  --libs) echo "-L$P/lib -lmingw32 -lSDL2main -lSDL2 -mwindows" ;;
+  --static-libs) echo "-L$P/lib -lmingw32 -lSDL2main -lSDL2 -mwindows -lm -lkernel32 -luser32 -lgdi32 -lwinmm -limm32 -lole32 -loleaut32 -lversion -luuid -ladvapi32 -lsetupapi -lshell32 -ldinput8" ;;
+  --prefix) echo "$P" ;;
+  --version) echo "2.32.10" ;;
+esac

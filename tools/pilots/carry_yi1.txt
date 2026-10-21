@@ -1,0 +1,27 @@
+# Carrying (Yoshi's Island 1, yellow shell at x ~3344): hold Y (punch button; the press itself throws one punch), walk
+# into the shell -> pick it up, carry it around, release Y -> kick it.
+loadstate 9
+wait 5
+glide 3376 240
+wait 30
+log carry.csv
+shot c00_before
+hold Y
+wait 40
+hold LEFT Y
+wait 24
+shot c01_grab
+wait 10
+shot c02_carry_walk
+hold RIGHT Y
+wait 20
+shot c03_turn
+hold Y
+wait 20
+shot c04_carry_stand
+hold
+wait 4
+shot c05_kick
+wait 30
+shot c06_after
+quit

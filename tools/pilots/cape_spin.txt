@@ -1,0 +1,35 @@
+# Cape spin (Yoshi's House): MC Mario with the feather presses X (run / fire / grab) next to a Goomba and a Koopa.
+# SMW's spin hits them; MC Mario shows SMW's spinning sprite for the spin.
+loadstate 8
+wait 5
+clearsprites
+power 2
+glide 160 352
+wait 10
+spawn 0F 22 0
+spawn 04 -24 0
+wait 2
+sprites
+log cs.csv
+hold X
+wait 1
+hold
+wait 3
+shot s00_spin_a
+wait 4
+shot s01_spin_b
+wait 6
+shot s02_spin_c
+wait 20
+shot s03_after
+sprites
+hold B
+wait 8
+hold X
+wait 1
+hold
+wait 4
+shot s04_air_spin
+wait 30
+shot s05_landed
+quit

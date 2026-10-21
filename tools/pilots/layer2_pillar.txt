@@ -1,0 +1,41 @@
+# Valley of Bowser 2 (115): the rising / sinking pillars are layer 2. MC Mario's own wall and floor tests now include
+# layer 2 (as SMW's HandlePlayerLevelCollision does). Run 1: running and jumping at the pillar no longer pushes him
+# into it until SMW crushes him (blocked flags 0x1C, death with full life). Run 2: waiting for the pillar to sink, a
+# jump lands on top of it.
+loadstate 9
+wait 5
+cheat 3 1
+warp 115
+wait 91
+hold RIGHT X
+wait 60
+log pillar.csv
+hold RIGHT X
+wait 62
+hold RIGHT X B
+wait 30
+hold RIGHT X
+wait 40
+shot p00_no_crush
+status
+log off
+loadstate 9
+wait 5
+cheat 3 1
+warp 115
+wait 91
+hold RIGHT X
+wait 60
+log pillar2.csv
+hold RIGHT X
+wait 62
+hold RIGHT
+wait 50
+hold RIGHT B
+wait 30
+hold RIGHT
+wait 60
+shot p01_on_pillar
+status
+log off
+quit

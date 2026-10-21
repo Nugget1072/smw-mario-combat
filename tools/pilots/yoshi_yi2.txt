@@ -1,0 +1,42 @@
+# Yoshi riding (Yoshi's Island 2, reached with warp 06 from Yoshi's Island 1): mount, idle, walk, jump, Y (tongue),
+# dismount (A = spin jump off).
+loadstate 9
+wait 5
+warp 06
+wait 150
+yoshi
+wait 30
+log yoshi.csv
+shot y00_mounted
+hold RIGHT
+wait 20
+shot y01_walk
+wait 20
+shot y02_walk2
+hold RIGHT B
+wait 8
+shot y03_jump
+wait 12
+shot y04_jump2
+hold
+wait 30
+shot y05_landed
+hold Y
+wait 4
+shot y06_tongue
+hold
+wait 20
+hold LEFT
+wait 10
+shot y07_turn
+hold
+wait 20
+hold A
+wait 4
+shot y08_dismount
+hold
+wait 10
+shot y09_dismount2
+wait 40
+shot y10_after
+quit

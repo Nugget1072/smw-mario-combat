@@ -1,0 +1,13 @@
+# Note block bounce (Yoshi's House): a note block (map16 115) is written into the level data at 176,336 (collision
+# only, it is not drawn) and MC Mario drops onto it.
+loadstate 8
+wait 5
+clearsprites
+poke C95B 15
+poke 1C95B 01
+tileat 176 336
+glide 178 260
+log nb.csv
+wait 90
+shot n00_after_bounce
+quit

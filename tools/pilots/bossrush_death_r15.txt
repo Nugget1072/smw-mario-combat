@@ -1,0 +1,23 @@
+# Round 15: boss rush, a death in the second fight (Morton): the same fight starts again, lives as before, the clock
+# running on.
+loadstate 9
+wait 5
+kill
+wait 400
+bossrush
+wait 220
+poke 13C6 1
+wait 300
+whereami
+rushinfo
+kill
+wait 30
+shot d1_dying
+whereami
+wait 150
+shot d2_dying_late
+wait 100
+shot d3_retry
+whereami
+rushinfo
+quit

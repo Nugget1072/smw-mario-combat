@@ -1,0 +1,69 @@
+# Round 15: LEVEL SELECT > BOSS RUSH through the real menu, from the map. The page with each row selected and both
+# settings changed (and changed back), the run started with START BOSS RUSH: the first boss's notice and the run line,
+# a fight won (the boss's end flag, as its own code sets it) and the next notice, a death and its retry, then the menu
+# opened during the run.
+loadstate 9
+wait 5
+kill
+wait 400
+menu
+wait 2
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Down
+menukey Return
+# (round 20: Down past MARIO COMBAT, the page's first row)
+menukey Down
+wait 2
+shot b00_levels
+menukey Return
+wait 2
+shot b01_start
+menukey Down
+wait 2
+shot b02_bosses
+menukey Return
+wait 2
+shot b03_bosses_all
+menukey Return
+menukey Down
+wait 2
+shot b04_on_death
+menukey Return
+wait 2
+shot b05_end_run
+menukey Return
+menukey Down
+wait 2
+shot b06_back
+menukey Up
+menukey Up
+menukey Up
+menukey Return
+wait 30
+shot b07_loading
+wait 140
+shot b08_iggy
+wait 40
+rushinfo
+poke 13C6 1
+wait 30
+shot b09_iggy_down
+wait 230
+shot b10_morton
+kill
+wait 60
+shot b11_dying
+wait 200
+shot b12_retry
+rushinfo
+menu
+wait 2
+shot b13_menu_in_run
+menukey Escape
+wait 30
+rushinfo
+quit

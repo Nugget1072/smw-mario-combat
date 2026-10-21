@@ -1,0 +1,61 @@
+# Round 10 cheats. 1) Block buster (29) in Yoshi's Island 1: punches shatter the grey (cement) block tower at x 1904
+# (the bottom row, Mario's floor, stays). 2) Pit rescue (30): Mario walks off the log bridge of Butter Bridge 1 into the pit and is put back
+# on the ground he last stood on, as a hit (life 10 -> 7.5) instead of losing a life.
+loadstate 9
+wait 5
+cheat 29 1
+warp 105
+wait 120
+glide 1860 280
+wait 40
+tileat 1904 352
+tileat 1904 368
+shot b00_tower
+log bust.csv
+hold Y
+wait 2
+hold
+wait 14
+hold Y
+wait 2
+hold
+wait 14
+hold Y
+wait 2
+hold
+wait 14
+hold UP Y
+wait 2
+hold
+wait 30
+hold B Y
+wait 6
+hold
+wait 30
+hold DOWN Y
+wait 3
+hold
+wait 20
+shot b01_busted
+log off
+tileat 1904 320
+tileat 1904 336
+tileat 1904 352
+tileat 1904 368
+tileat 1904 384
+cheat 29 0
+cheat 30 1
+loadstate 9
+wait 5
+warp 00C
+wait 120
+log pit.csv
+hold RIGHT
+wait 160
+shot p00_rescued
+status
+wait 150
+shot p01_after
+status
+log off
+quit
